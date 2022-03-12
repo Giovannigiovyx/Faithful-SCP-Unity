@@ -32,18 +32,17 @@ ScriptedImporter:
       uid=\"2849065997\" type=\"0\" value=\"0.674\" />\n  <presetinput identifier=\"arrow_paint_roughness_level\"
       uid=\"2849283495\" type=\"0\" value=\"0.412\" />\n  <presetinput identifier=\"arrow_paint_height_offset\"
       uid=\"2849283528\" type=\"0\" value=\"0.02\" />\n  <presetinput identifier=\"arrow_Paint_Density\"
-      uid=\"2849283352\" type=\"0\" value=\"0.6\" />\n  <presetinput identifier=\"panel_1_Label_1\"
+      uid=\"2849283352\" type=\"0\" value=\"0.6\" />\n  <presetinput identifier=\"blastmark_count\"
+      uid=\"2849330895\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"panel_1_Label_1\"
       uid=\"2849292688\" type=\"4\" value=\"2\" />\n  <presetinput identifier=\"panel_2_position\"
       uid=\"2849259177\" type=\"1\" value=\"0,-0.5\" />\n  <presetinput identifier=\"scratches_amount\"
       uid=\"2849276392\" type=\"4\" value=\"8192\" />\n  <presetinput identifier=\"wall_scratch_sensitivity\"
-      uid=\"2849276625\" type=\"0\" value=\"0.431\" />\n  <presetinput identifier=\"Light_IsOn\"
-      uid=\"2849303629\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"Light_panel_emissive_Color\"
-      uid=\"2849304146\" type=\"3\" value=\"0.893779,0.964462,0.971698,1\" />\n 
-      <presetinput identifier=\"light_panel_baseColor_On\" uid=\"2849304534\" type=\"3\"
-      value=\"0.894118,0.964706,0.972549,1\" />\n  <presetinput identifier=\"light_panel_baseColor_Off\"
-      uid=\"2849304361\" type=\"3\" value=\"0.198113,0.198113,0.198113,1\" />\n 
-      <presetinput identifier=\"upper_light_panel_position\" uid=\"2849243721\" type=\"1\"
-      value=\"0,0\" />\n  <presetinput identifier=\"lower_light_panel_position\"
+      uid=\"2849276625\" type=\"0\" value=\"0.431\" />\n  <presetinput identifier=\"Light_panel_emissive_Color\"
+      uid=\"2849304146\" type=\"3\" value=\"1,0.937255,0.768628,1\" />\n  <presetinput
+      identifier=\"light_panel_baseColor_On\" uid=\"2849304534\" type=\"3\" value=\"1,0.938063,0.768868,1\"
+      />\n  <presetinput identifier=\"light_panel_baseColor_Off\" uid=\"2849304361\"
+      type=\"3\" value=\"0.198113,0.198113,0.198113,1\" />\n  <presetinput identifier=\"upper_light_panel_position\"
+      uid=\"2849243721\" type=\"1\" value=\"0,0\" />\n  <presetinput identifier=\"lower_light_panel_position\"
       uid=\"2849244697\" type=\"1\" value=\"0,-0.255\" />\n </sbspreset>\n"
     shaderName: HDRP/LitTessellation
     materialProperties:
@@ -372,7 +371,7 @@ ScriptedImporter:
       - name: _UVEmissive
         float: 0
       - name: _UseEmissiveIntensity
-        float: 1
+        float: 0
       - name: _UseShadowThreshold
         float: 0
       - name: _ZTestDepthEqualForOpaque
@@ -397,9 +396,9 @@ ScriptedImporter:
       - name: _EmissionColor
         color: {r: 1, g: 1, b: 1, a: 1}
       - name: _EmissiveColor
-        color: {r: 0, g: 0, b: 0, a: 10}
+        color: {r: 106.80627, g: 70.83495, b: 44.838478, a: 10}
       - name: _EmissiveColorLDR
-        color: {r: 0, g: 0, b: 0, a: 1}
+        color: {r: 1, g: 1, b: 1, a: 1}
       - name: _InvPrimScale
         color: {r: 1, g: 1, b: 0, a: 0}
       - name: _IridescenceThicknessRemap

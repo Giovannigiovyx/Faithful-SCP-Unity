@@ -631,13 +631,13 @@ MonoBehaviour:
   globalStrings: []
   mapFull: {fileID: 7018069562166520189}
   tile: {fileID: 11400000, guid: e1e405f7b0402934b9650020b2cce8d7, type: 2}
-  HDRPAsset: {fileID: 0}
-  shadowQuality: 0
+  HDRPAsset: {fileID: 11400000, guid: db4121eec82012a4493836280c5e065e, type: 2}
+  shadowQuality: 3
   deathmsg: 
   currentRoom: 
   particleController: {fileID: 7018069562246037061}
   npcController: {fileID: 7018069560671411313}
-  ambianceController: {fileID: 0}
+  ambianceController: {fileID: 7018069562509633044}
   mapCreate: {fileID: 7018069562321090947}
   roomAmbiance_obj: {fileID: 8012520537311945422, guid: 469bbbbe978c58e4584b8e2c4f5fe70b,
     type: 3}

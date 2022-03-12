@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: DecalAtlas
   m_Shader: {fileID: 4800000, guid: 1d64af84bdc970c4fae0c1e06dd95b73, type: 3}
-  m_ShaderKeywords: _COLORMAP _MASKMAP _MATERIAL_AFFECTS_ALBEDO _MATERIAL_AFFECTS_NORMAL
-    _NORMALMAP
+  m_ShaderKeywords: _COLORMAP _MASKMAP _MATERIAL_AFFECTS_ALBEDO _MATERIAL_AFFECTS_MASKMAP
+    _MATERIAL_AFFECTS_NORMAL _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -81,16 +81,16 @@ Material:
     - _AffectAO: 0
     - _AffectAlbedo: 1
     - _AffectEmission: 0
-    - _AffectMetal: 0
+    - _AffectMetal: 1
     - _AffectNormal: 1
-    - _AffectSmoothness: 0
+    - _AffectSmoothness: 1
     - _BumpScale: 1
     - _Cutoff: 0.659
     - _DecalBlend: 0.5
     - _DecalColorMask0: 15
     - _DecalColorMask1: 15
-    - _DecalColorMask2: 0
-    - _DecalColorMask3: 0
+    - _DecalColorMask2: 11
+    - _DecalColorMask3: 8
     - _DecalMaskMapBlueScale: 1
     - _DecalMeshBiasType: 0
     - _DecalMeshDepthBias: 0
