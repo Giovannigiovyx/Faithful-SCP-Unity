@@ -1,4 +1,4 @@
-SCP - Remake Unity 2020.3.XX LTS
+SCP - Remake Unity 2021.3.4f1
 
 ---------------------------------------
 Built on Unity HDRP
