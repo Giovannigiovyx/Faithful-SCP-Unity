@@ -1,15 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 using System.Linq;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class SCP_StartMenu : MonoBehaviour
 {
     Dictionary<int, Language> langs;
-    public Canvas mainMenu, playMenu, newMenu, currMenu, loadMenu, optionMenu;
+    public GameObject mainMenu, playMenu, newMenu, currMenu, loadMenu, optionMenu;
     public GameObject saveList;
     public GameObject saveSlot;
     public AudioSource player;
@@ -29,27 +27,27 @@ public class SCP_StartMenu : MonoBehaviour
             else if (instance != null)
                 Destroy(gameObject);
 
-        Localization.CheckLangs();
+            Localization.CheckLangs();
 
-        langs = Localization.GetLangs();
+            langs = Localization.GetLangs();
 
-        Debug.Log("Language was " + PlayerPrefs.GetInt("Lang", 0));
+            Debug.Log("Language was " + PlayerPrefs.GetInt("Lang", 0));
 
-        switch (PlayerPrefs.GetInt("Lang", 0))
-        {
-            case 0:
+            switch (PlayerPrefs.GetInt("Lang", 0))
+            {
+                case 0:
                 {
                     Localization.SetLanguage(-1);
                     break;
                 }
-            default:
+                default:
                 {
                     Localization.SetLanguage(langs[PlayerPrefs.GetInt("Lang", 0)].unitynumber);
                     break;
                 }
-        }
+            }
 
-        currMenu = mainMenu;
+            currMenu = mainMenu;
     }
 
 
@@ -65,19 +63,20 @@ public class SCP_StartMenu : MonoBehaviour
 
     public void OpenPlay()
     {
-        currMenu.enabled = false;
-        playMenu.enabled = true;
+        currMenu.SetActive(false);
+        playMenu.SetActive(true);
         currMenu = playMenu;
         
         player.PlayOneShot(click);
     }
     public void OpenNew()
     {
-        currMenu.enabled = false;
-        newMenu.enabled = true;
+        currMenu.SetActive(false);
+        newMenu.SetActive(true);
         currMenu = newMenu;
         seedString.text = seeds[Random.Range(0, seeds.Length)];
         GlobalValues.mapseed = seedString.text;
+        GlobalValues.mapname = namestring.text;
         player.PlayOneShot(click);
 
         if (string.IsNullOrWhiteSpace(namestring.text) || string.IsNullOrWhiteSpace(seedString.text))
@@ -97,8 +96,8 @@ public class SCP_StartMenu : MonoBehaviour
             newSlot.GetComponent<LoadFileButton>().Date = new FileInfo(file).CreationTime.ToString();
         }
 
-        currMenu.enabled = false;
-        loadMenu.enabled = true;
+        currMenu.SetActive(false);
+        loadMenu.SetActive(true);
         currMenu = loadMenu;
         player.PlayOneShot(click);
     }
@@ -117,24 +116,24 @@ public class SCP_StartMenu : MonoBehaviour
 
 
 
-        currMenu.enabled = false;
-        playMenu.enabled = true;
+        currMenu.SetActive(false);
+        playMenu.SetActive(true);
         currMenu = playMenu;
         player.PlayOneShot(click);
     }
 
     public void OpenMain()
     {
-        currMenu.enabled = false;
-        mainMenu.enabled = true;
+        currMenu.SetActive(false);
+        mainMenu.SetActive(true);
         currMenu = mainMenu;
         player.PlayOneShot(click);
     }
 
     public void OpenOption()
     {
-        currMenu.enabled = false;
-        optionMenu.enabled = true;
+        currMenu.SetActive(false);
+        optionMenu.SetActive(true);
         currMenu = optionMenu;
         player.PlayOneShot(click);
     }
@@ -206,7 +205,7 @@ public class SCP_StartMenu : MonoBehaviour
     {
         /*if (Input.GetKeyDown(KeyCode.F1))
         {
-            Debug.Log("Exportando Strings");
+            Debug.Log("Export Strings");
             Localization.ExportDefault();
         }
 
