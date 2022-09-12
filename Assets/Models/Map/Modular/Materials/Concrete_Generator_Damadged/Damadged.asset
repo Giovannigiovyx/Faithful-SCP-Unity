@@ -1,0 +1,1571 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
+  m_Name: Damadged
+  m_EditorClassIdentifier: 
+  AssetPath: Assets/Models/Map/Modular/Materials/Concrete_Generator.sbsar
+  OutputPath: Assets\Models\Map\Modular\Materials\Concrete_Generator_Damadged
+  RawData: {fileID: -244192453324840774, guid: 193494aa5f2a38946b7f81beceeb8b02, type: 3}
+  Name: Damadged
+  IsRoot: 0
+  FlagedForDelete: 0
+  GUID: ae34eda9-9ea9-47a0-80ef-072810c1c2eb
+  Index: 0
+  Input:
+  - rid: 7409753169395712000
+  - rid: 7409753169395712001
+  - rid: 7409753169395712002
+  - rid: 7409753169395712003
+  - rid: 7409753169395712004
+  - rid: 7409753169395712005
+  - rid: 7409753169395712006
+  - rid: 7409753169395712007
+  - rid: 7409753169395712008
+  - rid: 7409753169395712009
+  - rid: 7409753169395712010
+  - rid: 7409753169395712011
+  - rid: 7409753169395712012
+  - rid: 7409753169395712013
+  - rid: 7409753169395712014
+  - rid: 7409753169395712015
+  - rid: 7409753169395712016
+  - rid: 7409753169395712017
+  - rid: 7409753169395712018
+  - rid: 7409753169395712019
+  - rid: 7409753169395712020
+  - rid: 7409753169395712021
+  - rid: 7409753169395712022
+  - rid: 7409753169395712023
+  - rid: 7409753169395712024
+  - rid: 7409753169395712025
+  - rid: 7409753169395712026
+  - rid: 7409753169395712027
+  - rid: 7409753169395712028
+  - rid: 7409753169395712029
+  - rid: 7409753169395712030
+  - rid: 7409753169395712031
+  - rid: 7409753169395712032
+  - rid: 7409753169395712033
+  - rid: 7409753169395712034
+  - rid: 7409753169395712035
+  - rid: 7409753169395712036
+  - rid: 7409753169395712037
+  - rid: 7409753169395712038
+  - rid: 7409753169395712039
+  - rid: 7409753169395712040
+  - rid: 7409753169395712041
+  - rid: 7409753169395712042
+  - rid: 7409753169395712043
+  - rid: 7409753169395712044
+  - rid: 7409753169395712045
+  - rid: 7409753169395712046
+  - rid: 7409753169395712047
+  - rid: 7409753169395712048
+  - rid: 7409753169395712049
+  - rid: 7409753169395712050
+  - rid: 7409753169395712051
+  - rid: 7409753169395712052
+  - rid: 7409753169395712053
+  - rid: 7409753169395712054
+  - rid: 7409753169395712055
+  - rid: 7409753169395712056
+  - rid: 7409753169395712057
+  - rid: 7409753169395712058
+  - rid: 7409753169395712059
+  Output:
+  - Index: 0
+    VirtualOutputIndex: 8
+    GraphIndex: 0
+    Description:
+      Identifier: roughness
+      Label: roughness
+      Index: 0
+      Type: 8
+      Channel: roughness
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsStandardOutput: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 1
+    VirtualOutputIndex: 9
+    GraphIndex: 0
+    Description:
+      Identifier: metallic
+      Label: metallic
+      Index: 1
+      Type: 8
+      Channel: metallic
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsStandardOutput: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 2
+    VirtualOutputIndex: 10
+    GraphIndex: 0
+    Description:
+      Identifier: height
+      Label: height
+      Index: 2
+      Type: 8
+      Channel: height
+    OutputTexture: {fileID: 2800000, guid: 0d33696280102db47b0089296a52d7fc, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsStandardOutput: 1
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 3
+    VirtualOutputIndex: 11
+    GraphIndex: 0
+    Description:
+      Identifier: ao
+      Label: ao
+      Index: 3
+      Type: 8
+      Channel: ambientOcclusion
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsStandardOutput: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 4
+    VirtualOutputIndex: 12
+    GraphIndex: 0
+    Description:
+      Identifier: dmg_mask
+      Label: dmg_mask
+      Index: 4
+      Type: 8
+      Channel: Damage Mask
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsStandardOutput: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 5
+    VirtualOutputIndex: 13
+    GraphIndex: 0
+    Description:
+      Identifier: basecolor
+      Label: basecolor
+      Index: 5
+      Type: 8
+      Channel: baseColor
+    OutputTexture: {fileID: 2800000, guid: 8751e61417c50ba41a5bc1d9fda7a944, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsStandardOutput: 1
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 6
+    VirtualOutputIndex: 14
+    GraphIndex: 0
+    Description:
+      Identifier: normal
+      Label: normal
+      Index: 6
+      Type: 8
+      Channel: normal
+    OutputTexture: {fileID: 2800000, guid: cf4bdb34b21d086448a2e4fb06d33b6d, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsStandardOutput: 1
+    IsAlphaAssignable: 0
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 7
+    VirtualOutputIndex: 7
+    GraphIndex: 0
+    Description:
+      Identifier: mask
+      Label: mask
+      Index: 7
+      Type: 8
+      Channel: mask
+    OutputTexture: {fileID: 2800000, guid: 6b0f24a8f8890a04089786d32d6519ff, type: 3}
+    sRGB: 0
+    IsVirtual: 1
+    IsStandardOutput: 1
+    IsAlphaAssignable: 0
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 4
+  HasPhysicalSize: 0
+  PhysicalSize: {x: 0, y: 0, z: 0}
+  EnablePhysicalSize: 0
+  Thumbnail: 
+  HasThumbnail: 0
+  CurrentStatePreset: " <sbspreset pkgurl=\"pkg://Concrete_Generator\" label=\"\"
+    >\n  <presetinput identifier=\"$outputsize\" uid=\"567878824\" type=\"8\" value=\"10,10\"
+    />\n  <presetinput identifier=\"$randomseed\" uid=\"1990931194\" type=\"4\" value=\"3394\"
+    />\n  <presetinput identifier=\"Steel_Bars_Tiling\" uid=\"1251000840\" type=\"4\"
+    value=\"20\" />\n  <presetinput identifier=\"Steel_Bars_High\" uid=\"1252994144\"
+    type=\"0\" value=\"0.368\" />\n  <presetinput identifier=\"Steel_Bars_Warp\"
+    uid=\"1253622155\" type=\"0\" value=\"0.194\" />\n  <presetinput identifier=\"Bar_Scale\"
+    uid=\"1252138761\" type=\"0\" value=\"0.0055\" />\n  <presetinput identifier=\"Small_Damage_Int\"
+    uid=\"1252179171\" type=\"0\" value=\"0.067\" />\n  <presetinput identifier=\"Small_Damage_Amount\"
+    uid=\"1252163617\" type=\"0\" value=\"0.781\" />\n  <presetinput identifier=\"Structural_Damage\"
+    uid=\"1252488536\" type=\"0\" value=\"0.0539\" />\n  <presetinput identifier=\"Structural_Blocks_Edge_Damage\"
+    uid=\"1227019552\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Microstructural_Blocks\"
+    uid=\"1252222771\" type=\"0\" value=\"0.182\" />\n  <presetinput identifier=\"Damage_Cell_Size\"
+    uid=\"1252377799\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"Damage_Cell_Size_Random\"
+    uid=\"1252377138\" type=\"0\" value=\"0.39\" />\n  <presetinput identifier=\"Damage_Cell_Kickoff\"
+    uid=\"1252356975\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"Brick_Intensity\"
+    uid=\"1253453208\" type=\"0\" value=\"0.362\" />\n  <presetinput identifier=\"Base_Damage\"
+    uid=\"1253461886\" type=\"0\" value=\"0.955\" />\n  <presetinput identifier=\"Base_Damage_Cell_Scale\"
+    uid=\"1252194712\" type=\"4\" value=\"8\" />\n  <presetinput identifier=\"Crack_Intensity\"
+    uid=\"1253524599\" type=\"0\" value=\"0.004\" />\n  <presetinput identifier=\"Micro_Cracks\"
+    uid=\"1252778983\" type=\"0\" value=\"0.066\" />\n  <presetinput identifier=\"Erosion\"
+    uid=\"1253326581\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Blocks\"
+    uid=\"1252700881\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"Blocks_Bevel\"
+    uid=\"1251293741\" type=\"0\" value=\"0.708\" />\n  <presetinput identifier=\"Blocks_Tiling\"
+    uid=\"1251291148\" type=\"4\" value=\"5\" />\n  <presetinput identifier=\"Blocks_Edge_Damage\"
+    uid=\"1251061085\" type=\"0\" value=\"0.176\" />\n  <presetinput identifier=\"Blocks_Damage_3\"
+    uid=\"1252260750\" type=\"0\" value=\"0.345\" />\n  <presetinput identifier=\"Color_Intensity\"
+    uid=\"1252881055\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Color_Paint\"
+    uid=\"1252877427\" type=\"3\" value=\"0.773585,0.773585,0.773585,1\" />\n  <presetinput
+    identifier=\"Color_Position\" uid=\"1252735093\" type=\"0\" value=\"0\" />\n 
+    <presetinput identifier=\"Base_Damage_Cell_Size\" uid=\"1252158421\" type=\"0\"
+    value=\"3.52\" />\n  <presetinput identifier=\"Base_Damage_Size_Random\" uid=\"1252234029\"
+    type=\"0\" value=\"0.707\" />\n  <presetinput identifier=\"Base_Damage_Cell_Kickoff\"
+    uid=\"1252229930\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"Leaks_Intensity\"
+    uid=\"1252222736\" type=\"0\" value=\"0.132\" />\n </sbspreset>\n"
+  IsRuntimeOnly: 0
+  GenerateAllOutputs: 0
+  GenerateAllMipmaps: 1
+  OutputMaterial: {fileID: 2100000, guid: cd8045470452bea45966760fe1067e95, type: 2}
+  DefaultPreset: " <sbspreset pkgurl=\"pkg://Concrete_Generator\" label=\"\" >\n 
+    <presetinput identifier=\"$outputsize\" uid=\"567878824\" type=\"8\" value=\"10,10\"
+    />\n  <presetinput identifier=\"Steel_Bars_Tiling\" uid=\"1251000840\" type=\"4\"
+    value=\"20\" />\n  <presetinput identifier=\"Steel_Bars_High\" uid=\"1252994144\"
+    type=\"0\" value=\"0.368\" />\n  <presetinput identifier=\"Steel_Bars_Warp\"
+    uid=\"1253622155\" type=\"0\" value=\"0.194\" />\n  <presetinput identifier=\"Bar_Scale\"
+    uid=\"1252138761\" type=\"0\" value=\"0.0055\" />\n  <presetinput identifier=\"Small_Damage_Int\"
+    uid=\"1252179171\" type=\"0\" value=\"0.067\" />\n  <presetinput identifier=\"Small_Damage_Amount\"
+    uid=\"1252163617\" type=\"0\" value=\"0.781\" />\n  <presetinput identifier=\"Structural_Damage\"
+    uid=\"1252488536\" type=\"0\" value=\"0.0539\" />\n  <presetinput identifier=\"Microstructural_Blocks\"
+    uid=\"1252222771\" type=\"0\" value=\"0.139\" />\n  <presetinput identifier=\"Damage_Cell_Size\"
+    uid=\"1252377799\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"Damage_Cell_Size_Random\"
+    uid=\"1252377138\" type=\"0\" value=\"0.39\" />\n  <presetinput identifier=\"Damage_Cell_Kickoff\"
+    uid=\"1252356975\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"Base_Damage\"
+    uid=\"1253461886\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"Base_Damage_Cell_Scale\"
+    uid=\"1252194712\" type=\"4\" value=\"16\" />\n  <presetinput identifier=\"Crack_Intensity\"
+    uid=\"1253524599\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Micro_Cracks\"
+    uid=\"1252778983\" type=\"0\" value=\"0.015\" />\n  <presetinput identifier=\"Erosion\"
+    uid=\"1253326581\" type=\"0\" value=\"0.291\" />\n  <presetinput identifier=\"Color_Paint\"
+    uid=\"1252877427\" type=\"3\" value=\"0.54717,0.54717,0.54717,1\" />\n  <presetinput
+    identifier=\"Base_Damage_Cell_Kickoff\" uid=\"1252229930\" type=\"0\" value=\"1\"
+    />\n </sbspreset>\n"
+  MaterialShader: HDRP/Lit
+  RenderTextures: 0
+  OutputRemaped: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 7409753169395712000
+      type: {class: SubstanceInputInt2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 0
+        GraphID: 0
+        Description:
+          Identifier: $outputsize
+          Label: $outputsize
+          GuiGroup: 
+          GuiDescription: 
+          Type: 5
+          WidgetType: 0
+        Data: {x: 10, y: 10}
+        NumericalDescription:
+          DefaultValue: {x: 8, y: 8}
+          MinValue: {x: 0, y: 0}
+          MaxValue: {x: 1, y: 1}
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712001
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 1
+        GraphID: 0
+        Description:
+          Identifier: $randomseed
+          Label: $randomseed
+          GuiGroup: 
+          GuiDescription: 
+          Type: 4
+          WidgetType: 0
+        Data: 3394
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712002
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 2
+        GraphID: 0
+        Description:
+          Identifier: Neutral_Color
+          Label: Neutral_Color
+          GuiGroup: 
+          GuiDescription: 
+          Type: 4
+          WidgetType: 4
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 0
+          SliderStep: 0
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712003
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 3
+        GraphID: 0
+        Description:
+          Identifier: Normal_Intensity
+          Label: Normal_Intensity
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 6
+        NumericalDescription:
+          DefaultValue: 6
+          MinValue: 0
+          MaxValue: 10
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712004
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 4
+        GraphID: 0
+        Description:
+          Identifier: Steel_Bars_Tiling
+          Label: Steel_Bars_Tiling
+          GuiGroup: 
+          GuiDescription: 
+          Type: 4
+          WidgetType: 1
+        Data: 20
+        NumericalDescription:
+          DefaultValue: 16
+          MinValue: 1
+          MaxValue: 128
+          SliderStep: 1
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712005
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 5
+        GraphID: 0
+        Description:
+          Identifier: Steel_Bars_High
+          Label: Steel_Bars_High
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.368
+        NumericalDescription:
+          DefaultValue: 0.5
+          MinValue: 0
+          MaxValue: 0.5
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712006
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 6
+        GraphID: 0
+        Description:
+          Identifier: Steel_Bars_Warp
+          Label: Steel_Bars_Warp
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.194
+        NumericalDescription:
+          DefaultValue: 0.19
+          MinValue: 0
+          MaxValue: 0.6
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712007
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 7
+        GraphID: 0
+        Description:
+          Identifier: Bar_Scale
+          Label: Steel Bar Scale
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.0055
+        NumericalDescription:
+          DefaultValue: 0.006
+          MinValue: 0
+          MaxValue: 0.05
+          SliderStep: 0.001
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712008
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 8
+        GraphID: 0
+        Description:
+          Identifier: Small_Damage_Int
+          Label: Small_Damage_Int
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.067
+        NumericalDescription:
+          DefaultValue: 0.1
+          MinValue: 0
+          MaxValue: 0.4
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712009
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 9
+        GraphID: 0
+        Description:
+          Identifier: Small_Damage_Amount
+          Label: Small_Damage_Amount
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.781
+        NumericalDescription:
+          DefaultValue: 0.78
+          MinValue: 0.65
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712010
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 10
+        GraphID: 0
+        Description:
+          Identifier: Structural_Damage
+          Label: Structural_Damage
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.0539
+        NumericalDescription:
+          DefaultValue: 0.08
+          MinValue: 0
+          MaxValue: 0.2
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712011
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 11
+        GraphID: 0
+        Description:
+          Identifier: Structural_Blocks
+          Label: Structural_Blocks
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712012
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 12
+        GraphID: 0
+        Description:
+          Identifier: Structural_Blocks_Edge_Damage
+          Label: Structural_Blocks_Edge_Damage
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712013
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 13
+        GraphID: 0
+        Description:
+          Identifier: Structural_Block_Warp
+          Label: Structural_Block_Warp
+          GuiGroup: 
+          GuiDescription: 
+          Type: 4
+          WidgetType: 4
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 0
+          SliderStep: 0
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712014
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 14
+        GraphID: 0
+        Description:
+          Identifier: Microstructural_Blocks
+          Label: Microstructural_Blocks
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.182
+        NumericalDescription:
+          DefaultValue: 0.15
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712015
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 15
+        GraphID: 0
+        Description:
+          Identifier: Damage_Cell_Size
+          Label: Scale
+          GuiGroup: Damage Cells
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 4
+          MinValue: 1
+          MaxValue: 10
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712016
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 16
+        GraphID: 0
+        Description:
+          Identifier: Damage_Cell_Size_Random
+          Label: Scale Random
+          GuiGroup: Damage Cells
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.39
+        NumericalDescription:
+          DefaultValue: 0.64
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712017
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 17
+        GraphID: 0
+        Description:
+          Identifier: Damage_Cell_Kickoff
+          Label: Kickoff
+          GuiGroup: Damage Cells
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 0.65
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712018
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 18
+        GraphID: 0
+        Description:
+          Identifier: Damage_Cells_Tiling
+          Label: Tiling
+          GuiGroup: Damage Cells
+          GuiDescription: 
+          Type: 4
+          WidgetType: 1
+        Data: 12
+        NumericalDescription:
+          DefaultValue: 12
+          MinValue: 1
+          MaxValue: 64
+          SliderStep: 1
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712019
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 19
+        GraphID: 0
+        Description:
+          Identifier: Damage_Cell_Contrast
+          Label: Contrast
+          GuiGroup: Damage Cells
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712020
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 20
+        GraphID: 0
+        Description:
+          Identifier: Brick_Intensity
+          Label: Brick_Intensity
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.362
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712021
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 21
+        GraphID: 0
+        Description:
+          Identifier: Base_Damage
+          Label: Base_Damage
+          GuiGroup: Base Damage
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.955
+        NumericalDescription:
+          DefaultValue: 0.9
+          MinValue: 0.5
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712022
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 22
+        GraphID: 0
+        Description:
+          Identifier: Base_Damage_Cell_Scale
+          Label: Base Damage Cell Scale
+          GuiGroup: Base Damage
+          GuiDescription: 
+          Type: 4
+          WidgetType: 1
+        Data: 8
+        NumericalDescription:
+          DefaultValue: 9
+          MinValue: 1
+          MaxValue: 64
+          SliderStep: 1
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712023
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 23
+        GraphID: 0
+        Description:
+          Identifier: Crack_Intensity
+          Label: Crack_Intensity
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.004
+        NumericalDescription:
+          DefaultValue: 0.05
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712024
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 24
+        GraphID: 0
+        Description:
+          Identifier: Micro_Cracks
+          Label: Micro_Cracks
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.066
+        NumericalDescription:
+          DefaultValue: 0.05
+          MinValue: 0
+          MaxValue: 0.4
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712025
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 25
+        GraphID: 0
+        Description:
+          Identifier: Erosion
+          Label: Erosion
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0.3
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712026
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 26
+        GraphID: 0
+        Description:
+          Identifier: Damage_Cells_Depth
+          Label: Depth
+          GuiGroup: Damage Cells
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.5
+        NumericalDescription:
+          DefaultValue: 0.5
+          MinValue: 0.5
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712027
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 27
+        GraphID: 0
+        Description:
+          Identifier: Blocks
+          Label: Blocks
+          GuiGroup: 
+          GuiDescription: 
+          Type: 4
+          WidgetType: 4
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 0
+          SliderStep: 0
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712028
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 28
+        GraphID: 0
+        Description:
+          Identifier: Blocks_Bevel
+          Label: Blocks_Bevel
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.708
+        NumericalDescription:
+          DefaultValue: 0.69
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712029
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 29
+        GraphID: 0
+        Description:
+          Identifier: Blocks_Tiling
+          Label: Blocks_Tiling
+          GuiGroup: 
+          GuiDescription: 
+          Type: 4
+          WidgetType: 1
+        Data: 5
+        NumericalDescription:
+          DefaultValue: 6
+          MinValue: 1
+          MaxValue: 32
+          SliderStep: 1
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712030
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 30
+        GraphID: 0
+        Description:
+          Identifier: Blocks_Edge_Damage
+          Label: Blocks Edge Damage
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.176
+        NumericalDescription:
+          DefaultValue: 0.06
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712031
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 31
+        GraphID: 0
+        Description:
+          Identifier: Blocks_Damage2
+          Label: Blocks Edge Damage 2
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712032
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 32
+        GraphID: 0
+        Description:
+          Identifier: Blocks_Damage_3
+          Label: Blocks Edge Damage 3
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.345
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712033
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 33
+        GraphID: 0
+        Description:
+          Identifier: Blocks_Edge_Micro_Warp
+          Label: Blocks_Edge_Micro_Warp
+          GuiGroup: 
+          GuiDescription: 
+          Type: 4
+          WidgetType: 4
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 0
+          SliderStep: 0
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712034
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 34
+        GraphID: 0
+        Description:
+          Identifier: Blocks_Warp_Structure
+          Label: Blocks_Warp_Structure
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 200
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712035
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 35
+        GraphID: 0
+        Description:
+          Identifier: Color_Intensity
+          Label: Color_Intensity
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712036
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 36
+        GraphID: 0
+        Description:
+          Identifier: Color_Paint
+          Label: Color_Paint
+          GuiGroup: 
+          GuiDescription: 
+          Type: 3
+          WidgetType: 3
+        Data: {x: 0.7735849, y: 0.7735849, z: 0.7735849, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0, y: 0.313364, z: 0.5, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712037
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 37
+        GraphID: 0
+        Description:
+          Identifier: Color_Position
+          Label: Color_Position
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0.5
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712038
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 38
+        GraphID: 0
+        Description:
+          Identifier: Color_Contrast
+          Label: Color_Contrast
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712039
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 39
+        GraphID: 0
+        Description:
+          Identifier: Crack_Color_Mask
+          Label: Crack_Color_Mask
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712040
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 40
+        GraphID: 0
+        Description:
+          Identifier: Paint_Contrast
+          Label: Paint_Contrast
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 36.12
+        NumericalDescription:
+          DefaultValue: 36.12
+          MinValue: 0
+          MaxValue: 64
+          SliderStep: 0
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712041
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 41
+        GraphID: 0
+        Description:
+          Identifier: Paint_Roughness
+          Label: Paint_Roughness
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 3
+        Data: 0.497696
+        NumericalDescription:
+          DefaultValue: 0.497696
+          MinValue: 0
+          MaxValue: 0
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712042
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 42
+        GraphID: 0
+        Description:
+          Identifier: Paint_Damage_Masking
+          Label: Paint_Damage_Masking
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712043
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 43
+        GraphID: 0
+        Description:
+          Identifier: AO_Int
+          Label: AO_Int
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.3
+        NumericalDescription:
+          DefaultValue: 0.3
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712044
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 44
+        GraphID: 0
+        Description:
+          Identifier: Base_Damage_Cell_Size
+          Label: Base Damage Cell Size
+          GuiGroup: Base Damage
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 3.52
+        NumericalDescription:
+          DefaultValue: 5.71
+          MinValue: 0
+          MaxValue: 10
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712045
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 45
+        GraphID: 0
+        Description:
+          Identifier: Base_Damage_Size_Random
+          Label: Base Damage Size Random
+          GuiGroup: Base Damage
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.707
+        NumericalDescription:
+          DefaultValue: 0.74
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712046
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 46
+        GraphID: 0
+        Description:
+          Identifier: Base_Damage_Cell_Kickoff
+          Label: Base Damage Cell Kickoff
+          GuiGroup: Base Damage
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712047
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 47
+        GraphID: 0
+        Description:
+          Identifier: Base_Damage_Warp
+          Label: Base Damage Warp1
+          GuiGroup: Base Damage
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 40
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712048
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 48
+        GraphID: 0
+        Description:
+          Identifier: Base_Damage_Warp2
+          Label: Base_Damage_Warp2
+          GuiGroup: Base Damage
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 40
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712049
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 49
+        GraphID: 0
+        Description:
+          Identifier: Base_H
+          Label: Base_H
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.5
+        NumericalDescription:
+          DefaultValue: 0.5
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712050
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 50
+        GraphID: 0
+        Description:
+          Identifier: Base_S
+          Label: Base_S
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.5
+        NumericalDescription:
+          DefaultValue: 0.5
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712051
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 51
+        GraphID: 0
+        Description:
+          Identifier: Base_L
+          Label: Base_L
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.5
+        NumericalDescription:
+          DefaultValue: 0.5
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712052
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 52
+        GraphID: 0
+        Description:
+          Identifier: Leaks_Intensity
+          Label: Leaks_Intensity
+          GuiGroup: Leaks
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.132
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712053
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 53
+        GraphID: 0
+        Description:
+          Identifier: Leaks_Color
+          Label: Leaks_Color
+          GuiGroup: Leaks
+          GuiDescription: 
+          Type: 3
+          WidgetType: 3
+        Data: {x: 0.235632, y: 0.223516, z: 0.185438, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0.235632, y: 0.223516, z: 0.185438, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712054
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 54
+        GraphID: 0
+        Description:
+          Identifier: Leaks_Roughness
+          Label: Leaks_Roughness
+          GuiGroup: Leaks
+          GuiDescription: 
+          Type: 0
+          WidgetType: 3
+        Data: 0.716456
+        NumericalDescription:
+          DefaultValue: 0.716456
+          MinValue: 0
+          MaxValue: 0
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712055
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 55
+        GraphID: 0
+        Description:
+          Identifier: Leaks_Blur
+          Label: Leaks Blur
+          GuiGroup: Leaks
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 20
+        NumericalDescription:
+          DefaultValue: 20
+          MinValue: 0
+          MaxValue: 40
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712056
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 56
+        GraphID: 0
+        Description:
+          Identifier: Leaks_Radius
+          Label: Leaks_Radius
+          GuiGroup: Leaks
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 33.88
+        NumericalDescription:
+          DefaultValue: 33.88
+          MinValue: 0
+          MaxValue: 64
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712057
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 57
+        GraphID: 0
+        Description:
+          Identifier: Leaks_Balance
+          Label: Leaks_Balance
+          GuiGroup: Leaks
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.32
+        NumericalDescription:
+          DefaultValue: 0.32
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712058
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 58
+        GraphID: 0
+        Description:
+          Identifier: Leaks_Contrast
+          Label: Leaks_Contrast
+          GuiGroup: Leaks
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.5
+        NumericalDescription:
+          DefaultValue: 0.5
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 7409753169395712059
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 59
+        GraphID: 0
+        Description:
+          Identifier: Leaks_Invert
+          Label: Leaks_Invert
+          GuiGroup: Leaks
+          GuiDescription: 
+          Type: 4
+          WidgetType: 4
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 0
+          SliderStep: 0
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
