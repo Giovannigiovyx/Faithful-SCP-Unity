@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8665354964020766548
 Transform:
@@ -54,7 +54,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -194,7 +194,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4092d418545670745ba468de22b2e079,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 123
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4092d418545670745ba468de22b2e079, type: 3}
@@ -204,8 +204,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 736748590889870005}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &5898521143779645146
-BoxCollider:
+--- !u!64 &1211448761227956933
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -214,9 +214,10 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10, y: 0.0000009536743, z: 1.9999995}
-  m_Center: {x: -5, y: -0.00000047683716, z: -1}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4129757275163244650, guid: 4092d418545670745ba468de22b2e079, type: 3}
 --- !u!4 &987358752531268958 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4092d418545670745ba468de22b2e079,

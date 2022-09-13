@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4151549931472358712}
   - component: {fileID: 1023055162370556573}
   - component: {fileID: 3014711857000412759}
-  - component: {fileID: 8110889410846192271}
-  m_Layer: 0
+  - component: {fileID: -539102077807827888}
+  m_Layer: 10
   m_Name: wall_5x5_corner
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4151549931472358712
 Transform:
@@ -50,10 +50,10 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3663278101175293826}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8110889410846192271
-BoxCollider:
+--- !u!64 &-539102077807827888
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,6 +94,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 4.9999995, z: 1}
-  m_Center: {x: 0.49999988, y: 2.4999998, z: -0.5000001}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7670211680578305084, guid: 19d83544c896a7a4983ff539d0d7f251, type: 3}

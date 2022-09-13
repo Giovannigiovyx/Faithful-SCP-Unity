@@ -11,6 +11,7 @@ ScriptedImporter:
   _instancesCopy:
   - {fileID: 11400000, guid: fba2defa0b53eeb4c811c4ede1fdc7c4, type: 2}
   - {fileID: 11400000, guid: b7e4627bdbf359e469af35028f44fb9d, type: 2}
+  - {fileID: 11400000, guid: 1f376dffe4f123f49b086cf7f5a1cfd1, type: 2}
   _fileAsset: {fileID: 349431513902975818, guid: e3de80d09699fa540a4fe6866d5c4b1b,
     type: 3}
   _assetPath: Assets/Models/Map/Modular/Materials/Ceiling_Gypsum_001.sbsar

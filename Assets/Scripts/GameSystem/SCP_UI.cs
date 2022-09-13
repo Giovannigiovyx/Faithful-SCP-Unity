@@ -14,7 +14,7 @@ public class SCP_UI : MonoBehaviour
     public Canvas PauseM;
     public Transform CanvasPos;
     public GameObject canvas, SNav, notifprefab;
-    public Canvas Inventory, Death, Screen, Options;
+    public Canvas Death, Screen, Options, Inventory;
     public Image ScreenText;
     public Canvas HUD;
     public EventSystem menu;

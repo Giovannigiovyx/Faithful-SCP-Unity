@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 7813976055130147106}
   - component: {fileID: 6620021278113777287}
   - component: {fileID: 8952026924212761165}
-  - component: {fileID: 690457837870878708}
-  m_Layer: 0
+  - component: {fileID: 2217776544864569983}
+  m_Layer: 10
   m_Name: LargeWall_Window
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
-  m_StaticEditorFlags: 121
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7813976055130147106
 Transform:
@@ -50,10 +50,10 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7438540854299497368}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -85,8 +85,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &690457837870878708
-MeshCollider:
+--- !u!65 &2217776544864569983
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -95,7 +95,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6030449673012807936, guid: 8cd889982755e204b850188039c45245, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 5, y: 10.024368, z: 5.0000005}
+  m_Center: {x: -2.5, y: 4.987816, z: 2.4999998}
