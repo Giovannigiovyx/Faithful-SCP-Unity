@@ -633,13 +633,13 @@ MonoBehaviour:
     m_Value: 0
   color:
     m_OverrideState: 1
-    m_Value: {r: 0.105882354, g: 0.011764706, b: 0.011764706, a: 1}
+    m_Value: {r: 0.3207547, g: 0.17096831, b: 0.17096831, a: 1}
   tint:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   maxFogDistance:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 15
   mipFogMaxMip:
     m_OverrideState: 0
     m_Value: 0.5
@@ -651,10 +651,10 @@ MonoBehaviour:
     m_Value: 1000
   baseHeight:
     m_OverrideState: 1
-    m_Value: -10
+    m_Value: 0
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 50
+    m_Value: 80
   meanFreePath:
     m_OverrideState: 1
     m_Value: 45
@@ -669,7 +669,7 @@ MonoBehaviour:
     m_Value: 1
   depthExtent:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 15
   denoisingMode:
     m_OverrideState: 0
     m_Value: 2
@@ -724,13 +724,13 @@ MonoBehaviour:
     m_Value: 1.8
   compensation:
     m_OverrideState: 0
-    m_Value: 1
+    m_Value: 0.5
   limitMin:
     m_OverrideState: 1
     m_Value: -2.5
   limitMax:
     m_OverrideState: 1
-    m_Value: 13
+    m_Value: 15
   curveMap:
     m_OverrideState: 1
     m_Value:

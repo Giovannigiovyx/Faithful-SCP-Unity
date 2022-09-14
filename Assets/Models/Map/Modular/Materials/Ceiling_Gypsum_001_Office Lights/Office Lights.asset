@@ -214,7 +214,7 @@ MonoBehaviour:
     uid=\"77327153\" type=\"1\" value=\"0,0\" />\n  <presetinput identifier=\"Lights_Square_Trim_Roughness\"
     uid=\"77242261\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"Lights_Square_Glass_Roughness\"
     uid=\"77246787\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"Vent_ON_OFF_Height_Control_\"
-    uid=\"77296483\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"Vent_Position\"
+    uid=\"77296483\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Vent_Position\"
     uid=\"77301270\" type=\"1\" value=\"1.6,1.5\" />\n  <presetinput identifier=\"Vent_Soot_ON_OFF\"
     uid=\"77229054\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Vent_Metallic\"
     uid=\"77230508\" type=\"0\" value=\"0.6\" />\n  <presetinput identifier=\"Vent_Roughness\"
@@ -688,7 +688,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 1
+        Data: 0
         NumericalDescription:
           DefaultValue: 0.71
           MinValue: 0

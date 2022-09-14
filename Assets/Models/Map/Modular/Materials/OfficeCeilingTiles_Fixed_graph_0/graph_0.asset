@@ -174,7 +174,7 @@ MonoBehaviour:
   OutputMaterial: {fileID: 2100000, guid: c6b8f20bfdcd44247830b9745f325ad9, type: 2}
   DefaultPreset: " <sbspreset pkgurl=\"pkg://Substance_graph\" label=\"\" >\n  <presetinput
     identifier=\"$outputsize\" uid=\"3795302352\" type=\"8\" value=\"10,10\" />\n</sbspreset>\n"
-  MaterialShader: HDRP/LitTessellation
+  MaterialShader: HDRP/Lit
   RenderTextures: 0
   OutputRemaped: 0
   references:

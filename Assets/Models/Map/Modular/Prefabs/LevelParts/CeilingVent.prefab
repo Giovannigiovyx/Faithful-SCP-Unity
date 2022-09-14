@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8135817807486269289}
   - component: {fileID: 5136320901503727820}
   - component: {fileID: 6963435752979680262}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: CeilingVent
   m_TagString: Metal
   m_Icon: {fileID: 0}

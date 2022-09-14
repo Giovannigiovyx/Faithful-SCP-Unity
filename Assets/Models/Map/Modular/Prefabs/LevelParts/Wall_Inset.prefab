@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 967104301616007003}
   - component: {fileID: 3066722050493379473}
   - component: {fileID: 2028793637036894369}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Wall_Inset
   m_TagString: Concrete
   m_Icon: {fileID: 0}
