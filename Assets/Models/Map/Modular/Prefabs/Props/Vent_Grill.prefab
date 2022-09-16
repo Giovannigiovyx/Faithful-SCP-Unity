@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6299360349877411817}
   - component: {fileID: 6972708334773243980}
   - component: {fileID: 5125375653822096518}
+  - component: {fileID: 2225958355990527399}
   m_Layer: 0
   m_Name: Vent_Grill
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2225958355990527399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638308531947685203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13f42112a552354988a63573e49f5d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabPrototype: {fileID: 11400000, guid: e77c017dcbd1ab34ca112f59d170aad6, type: 2}

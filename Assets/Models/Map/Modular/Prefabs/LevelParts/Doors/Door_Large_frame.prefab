@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5759644295421176049}
   - component: {fileID: 7496992208764001339}
   - component: {fileID: 2812894339191220122}
+  - component: {fileID: 8009004577495307256}
   m_Layer: 10
   m_Name: Door_Large_frame
   m_TagString: Concrete
@@ -99,6 +100,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1966962136790952585, guid: 2ac3a0e4e3abebc4aac91d14403d085d, type: 3}
+--- !u!114 &8009004577495307256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8289533452560137710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13f42112a552354988a63573e49f5d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabPrototype: {fileID: 11400000, guid: f4775cf75fd66154ab9052c46d331d71, type: 2}
 --- !u!1001 &736748590889870005
 PrefabInstance:
   m_ObjectHideFlags: 0

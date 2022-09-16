@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5922205355870660835}
   - component: {fileID: 8487896808511953961}
   - component: {fileID: 2087408239455177638}
+  - component: {fileID: 7133726265499584766}
   m_Layer: 0
   m_Name: wall_5x5_White02
   m_TagString: Concrete
@@ -98,3 +99,16 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4579454407841743219, guid: fd104c5d48b17ef458f6bc37fb2ea4d7, type: 3}
+--- !u!114 &7133726265499584766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7983735748252237308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13f42112a552354988a63573e49f5d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabPrototype: {fileID: 11400000, guid: 5c75b273c153aa84481129133fc1bf85, type: 2}

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4298232200649259734}
   - component: {fileID: 2036352847553547804}
   - component: {fileID: 2447231295084367871}
+  - component: {fileID: 7962750700954322706}
   m_Layer: 10
   m_Name: Door_Small_Curved_Wall_OneSide
   m_TagString: Concrete
@@ -98,3 +99,16 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4436285535975782436, guid: 83dc3c486e1ede1418bd13078ef8e686, type: 3}
+--- !u!114 &7962750700954322706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523095199625736137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13f42112a552354988a63573e49f5d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabPrototype: {fileID: 11400000, guid: 9a2a133baf3efc84d8787e5769bc6539, type: 2}

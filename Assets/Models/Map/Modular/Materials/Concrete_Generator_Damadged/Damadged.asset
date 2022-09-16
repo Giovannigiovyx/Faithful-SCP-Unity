@@ -224,7 +224,7 @@ MonoBehaviour:
   Thumbnail: 
   HasThumbnail: 0
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://Concrete_Generator\" label=\"\"
-    >\n  <presetinput identifier=\"$outputsize\" uid=\"567878824\" type=\"8\" value=\"10,10\"
+    >\n  <presetinput identifier=\"$outputsize\" uid=\"567878824\" type=\"8\" value=\"11,11\"
     />\n  <presetinput identifier=\"$randomseed\" uid=\"1990931194\" type=\"4\" value=\"3394\"
     />\n  <presetinput identifier=\"Steel_Bars_Tiling\" uid=\"1251000840\" type=\"4\"
     value=\"20\" />\n  <presetinput identifier=\"Steel_Bars_High\" uid=\"1252994144\"
@@ -302,7 +302,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 5
           WidgetType: 0
-        Data: {x: 10, y: 10}
+        Data: {x: 11, y: 11}
         NumericalDescription:
           DefaultValue: {x: 8, y: 8}
           MinValue: {x: 0, y: 0}
