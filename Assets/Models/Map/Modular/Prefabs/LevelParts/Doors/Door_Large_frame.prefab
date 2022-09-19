@@ -34,7 +34,7 @@ Transform:
   m_Children:
   - {fileID: 987358752531268958}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 411
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5759644295421176049
 MeshFilter:
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8dc083198582f6f41a50b0e7cc99d561, type: 2}
+  - {fileID: 2100000, guid: ffb74f40f0f329c49ae9d04be2420121, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -118,6 +118,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 8665354964020766548}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4092d418545670745ba468de22b2e079,
@@ -211,6 +212,7 @@ PrefabInstance:
       value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4092d418545670745ba468de22b2e079, type: 3}
 --- !u!1 &502183387177394148 stripped
 GameObject:
