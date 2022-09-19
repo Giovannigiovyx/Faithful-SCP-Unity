@@ -277,7 +277,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 80
+  far clip plane: 60
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -291,7 +291,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 0
   m_AllowMSAA: 0
-  m_AllowDynamicResolution: 0
+  m_AllowDynamicResolution: 1
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -364,7 +364,7 @@ MonoBehaviour:
   flipYMode: 0
   xrRendering: 1
   fullscreenPassthrough: 0
-  allowDynamicResolution: 0
+  allowDynamicResolution: 1
   customRenderingSettings: 0
   invertFaceCulling: 0
   probeLayerMask:

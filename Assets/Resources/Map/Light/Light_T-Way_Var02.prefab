@@ -1,5 +1,53 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &60187336582734982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8061855132090275799}
+  - component: {fileID: 6682700625074585162}
+  m_Layer: 0
+  m_Name: NavMesh Modifier Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8061855132090275799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60187336582734982}
+  m_LocalRotation: {x: -0, y: 0.38268277, z: -0, w: 0.92387986}
+  m_LocalPosition: {x: -5.458845, y: 0, z: 5.398999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4244221648102886310}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+--- !u!114 &6682700625074585162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60187336582734982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Size: {x: 2.74449, y: 3, z: 5.5949607}
+  m_Center: {x: 0.62775505, y: 1, z: 0.015108347}
+  m_Area: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &3163801111580503891
 GameObject:
   m_ObjectHideFlags: 0
@@ -16,7 +64,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2433099289287230597
 Transform:
@@ -46,7 +94,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 7.957747
-  m_Range: 10
+  m_Range: 6
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -116,7 +164,7 @@ MonoBehaviour:
   m_VolumetricDimmer: 1
   m_LightUnit: 0
   m_FadeDistance: 10000
-  m_VolumetricFadeDistance: 10000
+  m_VolumetricFadeDistance: 10
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
   m_NonLightmappedOnly: 0
@@ -278,6 +326,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1295064477002084637}
+  - {fileID: 8061855132090275799}
   m_Father: {fileID: 5410622453198789966}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -309,7 +358,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.11666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: a3450d705853adf419b8c59f865dad5b, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 637c454d3387b0e4eba770daf94a431c, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &4244221648240878803
 GameObject:
@@ -327,7 +376,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4244221648240878800
 Transform:
@@ -427,7 +476,7 @@ MonoBehaviour:
   m_VolumetricDimmer: 1
   m_LightUnit: 0
   m_FadeDistance: 50
-  m_VolumetricFadeDistance: 50
+  m_VolumetricFadeDistance: 10
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
   m_NonLightmappedOnly: 0
@@ -585,7 +634,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4244221648357365864
 Transform:
@@ -685,7 +734,7 @@ MonoBehaviour:
   m_VolumetricDimmer: 1
   m_LightUnit: 0
   m_FadeDistance: 50
-  m_VolumetricFadeDistance: 50
+  m_VolumetricFadeDistance: 10
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
   m_NonLightmappedOnly: 0
@@ -802,7 +851,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4244221648756413653
 Transform:
@@ -902,7 +951,7 @@ MonoBehaviour:
   m_VolumetricDimmer: 1
   m_LightUnit: 0
   m_FadeDistance: 50
-  m_VolumetricFadeDistance: 50
+  m_VolumetricFadeDistance: 10
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
   m_NonLightmappedOnly: 0
@@ -1019,7 +1068,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4244221649260332340
 Transform:
@@ -1119,7 +1168,7 @@ MonoBehaviour:
   m_VolumetricDimmer: 1
   m_LightUnit: 0
   m_FadeDistance: 50
-  m_VolumetricFadeDistance: 50
+  m_VolumetricFadeDistance: 10
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
   m_NonLightmappedOnly: 0
@@ -1236,7 +1285,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4244221649338171835
 Transform:
@@ -1336,7 +1385,7 @@ MonoBehaviour:
   m_VolumetricDimmer: 1
   m_LightUnit: 0
   m_FadeDistance: 50
-  m_VolumetricFadeDistance: 50
+  m_VolumetricFadeDistance: 10
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
   m_NonLightmappedOnly: 0
@@ -1464,7 +1513,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4244221649464330149}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.5, z: 3.5}
+  m_LocalPosition: {x: 0, y: 2, z: 3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1619,7 +1668,7 @@ MonoBehaviour:
       frustum:
         mode: 0
         aspect: 1
-        farClipPlaneRaw: 100
+        farClipPlaneRaw: 20
         nearClipPlaneRaw: 0.3
         fieldOfView: 90
         projectionMatrix:
@@ -1640,7 +1689,7 @@ MonoBehaviour:
           e32: 0
           e33: 1
       culling:
-        useOcclusionCulling: 0
+        useOcclusionCulling: 1
         cullingMask:
           serializedVersion: 2
           m_Bits: 16495927
@@ -1935,7 +1984,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6782965169321889383
 Transform:
@@ -2035,7 +2084,7 @@ MonoBehaviour:
   m_VolumetricDimmer: 1
   m_LightUnit: 0
   m_FadeDistance: 50
-  m_VolumetricFadeDistance: 50
+  m_VolumetricFadeDistance: 10
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
   m_NonLightmappedOnly: 0
@@ -2152,7 +2201,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &30305341767053268
 Transform:
@@ -2182,7 +2231,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 7.957747
-  m_Range: 10
+  m_Range: 6
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -2252,7 +2301,7 @@ MonoBehaviour:
   m_VolumetricDimmer: 1
   m_LightUnit: 0
   m_FadeDistance: 10000
-  m_VolumetricFadeDistance: 10000
+  m_VolumetricFadeDistance: 10
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
   m_NonLightmappedOnly: 0
@@ -2388,7 +2437,7 @@ Transform:
   - {fileID: 4244221649464330170}
   - {fileID: 4244221647720657319}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5410622453198946671
 MonoBehaviour:
@@ -2441,7 +2490,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3963970315424981853
 Transform:
@@ -2541,7 +2590,7 @@ MonoBehaviour:
   m_VolumetricDimmer: 1
   m_LightUnit: 0
   m_FadeDistance: 50
-  m_VolumetricFadeDistance: 50
+  m_VolumetricFadeDistance: 10
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
   m_NonLightmappedOnly: 0
@@ -2729,7 +2778,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5656281158384528615
 Transform:
@@ -2739,7 +2788,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9171161848937000836}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.8500001, z: 8}
+  m_LocalPosition: {x: 0, y: 2.8500001, z: 7.9989996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2759,7 +2808,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 7.957747
-  m_Range: 10
+  m_Range: 4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -2829,7 +2878,7 @@ MonoBehaviour:
   m_VolumetricDimmer: 1
   m_LightUnit: 0
   m_FadeDistance: 10000
-  m_VolumetricFadeDistance: 10000
+  m_VolumetricFadeDistance: 10
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
   m_NonLightmappedOnly: 0
