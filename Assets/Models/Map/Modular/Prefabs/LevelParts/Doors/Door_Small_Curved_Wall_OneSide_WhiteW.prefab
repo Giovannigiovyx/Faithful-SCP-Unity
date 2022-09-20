@@ -11,12 +11,13 @@ GameObject:
   - component: {fileID: 6913222415320513131}
   - component: {fileID: 6969440146417399844}
   - component: {fileID: 1312951325247999387}
-  m_Layer: 0
+  - component: {fileID: 7924942928176077897}
+  m_Layer: 10
   m_Name: Door_Small_Curved
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6913222415320513131
 Transform:
@@ -83,6 +84,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7924942928176077897
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4070886181428964703}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4436285535975782436, guid: 83dc3c486e1ede1418bd13078ef8e686, type: 3}
 --- !u!1 &7003761749283074956
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,12 +107,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7672318027077790006}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Door_Small_Curved_Wall_OneSide_WhiteW
-  m_TagString: Untagged
+  m_TagString: Concrete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7672318027077790006
 Transform:
@@ -114,7 +129,7 @@ Transform:
   - {fileID: 6913222415320513131}
   - {fileID: 6933505238082191245}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8291937875408883685
 GameObject:
@@ -127,12 +142,13 @@ GameObject:
   - component: {fileID: 6933505238082191245}
   - component: {fileID: 3057204819251692059}
   - component: {fileID: 7388073405886705}
-  m_Layer: 0
+  - component: {fileID: 5285246297761364911}
+  m_Layer: 10
   m_Name: Step
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6933505238082191245
 Transform:
@@ -199,3 +215,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5285246297761364911
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8291937875408883685}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.04632, y: 0.50000036, z: 0.007899595}
+  m_Center: {x: 0.000000059604645, y: 0.119791776, z: 0.003949782}

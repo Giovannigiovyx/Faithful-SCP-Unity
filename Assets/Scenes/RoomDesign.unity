@@ -915,6 +915,26 @@ MonoBehaviour:
     _visibilityToggleIndent: 0
     _indentContent: 0
     _surroundWithBox: 1
+--- !u!114 &123281575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6d04e599fddc1a42acf83f8e8cd8530, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _nameFilter: 
+  _view:
+    _isVisible: 1
+    _toggleVisibilityBeforeRender: 0
+    _visibilityToggleLabel: 
+    _visibilityToggleIndent: 0
+    _indentContent: 0
+    _surroundWithBox: 0
 --- !u!114 &126438032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1679,6 +1699,26 @@ MonoBehaviour:
     - LevelParts
   _hasSelectionChanged: 0
   _prefabTagScrollPosition: {x: 0, y: 0}
+--- !u!114 &362932617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb7dddb8030b07e45ab418e26eaafa46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _nameFilter: {fileID: 123281575}
+  _view:
+    _isVisible: 1
+    _toggleVisibilityBeforeRender: 0
+    _visibilityToggleLabel: 
+    _visibilityToggleIndent: 0
+    _indentContent: 0
+    _surroundWithBox: 1
 --- !u!114 &370783521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3023,7 +3063,7 @@ MonoBehaviour:
         type: 3}
       _initialWorldRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
       _initialWorldScale: {x: 0.8, y: 0.8, z: 0.8}
-      _instantiationSettings: {fileID: 0}
+      _instantiationSettings: {fileID: 1813366644}
       _activationSettings: {fileID: 1467898298}
       _tagAssociations: {fileID: 828324730}
       _name: MetalPlate
@@ -3184,7 +3224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adee50bc62833041bf9b4a301c55e78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _worldRotation: {x: 0.000000015454312, y: 0.7071068, z: -0.000000015454312, w: 0.7071068}
+  _worldRotation: {x: -0.000000015454312, y: 0.7071068, z: -0.000000015454312, w: -0.7071068}
   _worldScale: {x: 0.8, y: 0.8, z: 0.8}
   _view:
     _isVisible: 1
@@ -3459,7 +3499,7 @@ MonoBehaviour:
     - {x: 0, y: 0, z: 1}
     - {x: -0, y: -0, z: -1}
     _transformMatrix:
-      _translation: {x: 0, y: 3.5500002, z: 0}
+      _translation: {x: 0, y: 8, z: 0}
       _rotation: {x: 0, y: 0, z: 0, w: 1}
       _scale: {x: 1, y: 1, z: 1}
     _renderSettings: {fileID: 1148854249}
@@ -3682,7 +3722,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _associatedTags:
   - {fileID: 1281821116}
-  _prefabTagFilter: {fileID: 0}
+  _prefabTagFilter: {fileID: 362932617}
   _view:
     _isVisible: 1
     _toggleVisibilityBeforeRender: 1
@@ -3697,7 +3737,7 @@ MonoBehaviour:
       _visibilityToggleIndent: 0
       _indentContent: 0
       _surroundWithBox: 0
-      _viewData: {fileID: 0}
+      _viewData: {fileID: 1162448788}
 --- !u!114 &845676070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4005,12 +4045,12 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _CamFarPlaneDist: 20000
+    - _CamFarPlaneDist: 16926.93
     - _CellSizeX: 1
     - _CellSizeZ: 1
     m_Colors:
-    - _CamWorldPos: {r: -0.024900436, g: 0.36423874, b: 7.54519, a: 0}
-    - _CellOffset: {r: 0, g: 3.5500002, b: 0, a: 0}
+    - _CamWorldPos: {r: -0.67133236, g: 3.5205202, b: -3.1924787, a: 0}
+    - _CellOffset: {r: 0, g: 8, b: 0, a: 0}
     - _LineColor: {r: 0, g: 0, b: 0, a: 1}
     - _PlaneColor: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
@@ -4361,7 +4401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adee50bc62833041bf9b4a301c55e78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _worldRotation: {x: -0, y: -0.7071068, z: -0, w: -0.7071068}
+  _worldRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   _worldScale: {x: 0.8, y: 0.8, z: 0.8}
   _view:
     _isVisible: 1
@@ -4826,6 +4866,23 @@ MonoBehaviour:
     _visibilityToggleIndent: 0
     _indentContent: 0
     _surroundWithBox: 0
+--- !u!114 &1162448788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54a49fa16d59f94b8e69c83aa4f51b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _namesOfSelectedTags:
+    _serializedList:
+    - Floors
+  _hasSelectionChanged: 0
+  _prefabTagScrollPosition: {x: 0, y: 0}
 --- !u!114 &1169147219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4859,7 +4916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adee50bc62833041bf9b4a301c55e78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _worldRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  _worldRotation: {x: -0, y: -0, z: -0, w: 1}
   _worldScale: {x: 0.8, y: 0.8, z: 0.8}
   _view:
     _isVisible: 1
@@ -5681,7 +5738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adee50bc62833041bf9b4a301c55e78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _worldRotation: {x: -0, y: -0, z: -0, w: -1}
+  _worldRotation: {x: -0, y: -1, z: -0, w: 0}
   _worldScale: {x: 0.8, y: 0.8, z: 0.8}
   _view:
     _isVisible: 1
@@ -6570,10 +6627,10 @@ MonoBehaviour:
         - {x: 0, y: 0, z: 1}
         - {x: -0, y: -0, z: -1}
         _transformMatrix:
-          _translation: {x: -3.5, y: 3.5500002, z: 0.5}
+          _translation: {x: 8.5, y: 8, z: -4.5}
           _rotation: {x: 0, y: 0, z: 0, w: 1}
           _scale: {x: 1, y: 1, z: 1}
-    _mouseCursorPickPoint: {x: -3.048472, y: 3.5500002, z: 0.81500053}
+    _mouseCursorPickPoint: {x: 8.544731, y: 8, z: -4.966049}
     _type: 1
     _surfaceObject: {fileID: 0}
   _wasInitialized: 1
@@ -7000,7 +7057,7 @@ MonoBehaviour:
         _visibilityToggleIndent: 0
         _indentContent: 0
         _surroundWithBox: 1
-    _indexOfMarkedEntity: 1
+    _indexOfMarkedEntity: 6
   _prefabFilter: {fileID: 1869920605}
   _pathFolderNames:
   - Assets
@@ -7857,7 +7914,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &1771294169
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7929,12 +7986,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771294168}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalPosition: {x: 0, y: -0.05, z: 0}
   m_LocalScale: {x: 20, y: 0.1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1774284450
 MonoBehaviour:
@@ -8032,6 +8089,25 @@ MonoBehaviour:
     _visibilityToggleLabel: Object Intersection
     _visibilityToggleIndent: 1
     _indentContent: 1
+    _surroundWithBox: 0
+--- !u!114 &1813366644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77d29ee4f4417784faa4dc20e5b669a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _view:
+    _isVisible: 1
+    _toggleVisibilityBeforeRender: 0
+    _visibilityToggleLabel: 
+    _visibilityToggleIndent: 0
+    _indentContent: 0
     _surroundWithBox: 0
 --- !u!114 &1815225024
 MonoBehaviour:
@@ -8288,7 +8364,7 @@ MonoBehaviour:
         _visibilityToggleIndent: 0
         _indentContent: 0
         _surroundWithBox: 1
-    _indexOfMarkedEntity: 5
+    _indexOfMarkedEntity: 6
   _prefabFilter: {fileID: 1371871565}
   _pathFolderNames:
   - Assets
@@ -8966,7 +9042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adee50bc62833041bf9b4a301c55e78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _worldRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  _worldRotation: {x: -0, y: 0.7071068, z: -0.7071068, w: 0}
   _worldScale: {x: 0.8, y: 0.80000025, z: 0.80000025}
   _view:
     _isVisible: 1
@@ -9448,23 +9524,23 @@ MonoBehaviour:
     _pivotPointCollection:
       _indexOfActivePoint: 0
       _pivotPoints:
-      - {x: -5.0000005, y: 3.5500004, z: -1}
-      - {x: -7.000001, y: 3.5500004, z: 1}
-      - {x: -7.000001, y: 3.5500004, z: -3}
-      - {x: -2.9999998, y: 3.5500004, z: -3}
-      - {x: -2.9999998, y: 3.5500004, z: 1}
+      - {x: 10.5, y: 8, z: -7.000001}
+      - {x: 8.499998, y: 8, z: -9.000003}
+      - {x: 12.500001, y: 8, z: -9.000003}
+      - {x: 12.500001, y: 8, z: -4.999999}
+      - {x: 8.499998, y: 8, z: -4.999999}
     _unprojectedPivotPoints:
-    - {x: -5.0000005, y: 3.5500002, z: -1}
-    - {x: -7.000001, y: 3.5500002, z: 1}
-    - {x: -7.000001, y: 3.5500002, z: -3}
-    - {x: -2.9999998, y: 3.5500002, z: -3}
-    - {x: -2.9999998, y: 3.5500002, z: 1}
-    _area: 16.000004
+    - {x: 10.5, y: 8, z: -7.000001}
+    - {x: 8.499998, y: 7.9999995, z: -9.000003}
+    - {x: 12.500001, y: 7.9999995, z: -9.000003}
+    - {x: 12.500001, y: 8, z: -4.999999}
+    - {x: 8.499998, y: 8, z: -4.999999}
+    _area: 16.000025
   _guidePivotPointsRenderSettings: {fileID: 1063860756}
   _objectVertexSnapSessionRenderSettings: {fileID: 752448476}
   _settings: {fileID: 1433323191}
   _persistentObjectPlacementGuideData:
-    _lastUsedWorldPosition: {x: -3, y: 3.5500002, z: 1}
+    _lastUsedWorldPosition: {x: 8.5, y: 8, z: -5}
   _pathObjectPlacement:
     _objectPlacementPath:
       _settings: {fileID: 1695425336}
@@ -9511,8 +9587,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _allWindows:
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 0}
   _prefabManagementWindow: {fileID: 0}
   _objectPlacementSettingsWindow: {fileID: 0}
@@ -10032,7 +10106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adee50bc62833041bf9b4a301c55e78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _worldRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  _worldRotation: {x: -0, y: -0.7071068, z: -0, w: -0.7071068}
   _worldScale: {x: 0.8, y: 0.8, z: 0.8}
   _view:
     _isVisible: 1
