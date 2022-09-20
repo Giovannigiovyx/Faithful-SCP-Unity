@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3723903453325111031}
   - component: {fileID: 1461700911727106621}
   - component: {fileID: -7224151430540881479}
-  - component: {fileID: 7788307273651364172}
   m_Layer: 0
   m_Name: Wall_Window
   m_TagString: Concrete
@@ -100,16 +99,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1098974823657639531, guid: f99029efee8cb7b45b9d2efc92945fa9, type: 3}
---- !u!114 &7788307273651364172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101690087499135976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f13f42112a552354988a63573e49f5d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabPrototype: {fileID: 11400000, guid: fac1c46394624a74ebbc87591a8dbf15, type: 2}

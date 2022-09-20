@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1037342471253240126}
-  - component: {fileID: 2105676971515971470}
   m_Layer: 0
   m_Name: Wall_Inset_Top
   m_TagString: Concrete
@@ -32,21 +31,8 @@ Transform:
   - {fileID: 319257622290564053}
   - {fileID: 6979414344939610020}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2105676971515971470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 373431359848969092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f13f42112a552354988a63573e49f5d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabPrototype: {fileID: 11400000, guid: af07092f531fadb4d8b130e378c7400f, type: 2}
 --- !u!1 &2626312219281532394
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6011247169978651541}
   - component: {fileID: 8397183857127237471}
   - component: {fileID: 5476181712531430848}
-  - component: {fileID: 7116526178094349851}
   m_Layer: 0
   m_Name: Half_Wall_45_WhiteWall
   m_TagString: Concrete
@@ -99,16 +98,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1576188533078339428, guid: 370395dd60101a047ac3633cee4628a4, type: 3}
---- !u!114 &7116526178094349851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8036733228160714378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f13f42112a552354988a63573e49f5d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabPrototype: {fileID: 11400000, guid: d982a07c163b5114eb82b4f08976b11c, type: 2}

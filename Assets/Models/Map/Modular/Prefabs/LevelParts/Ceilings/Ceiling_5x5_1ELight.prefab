@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7527569184724379974}
   - component: {fileID: 5734132374409354636}
   - component: {fileID: 7566425876792833013}
-  - component: {fileID: 3636359659016021902}
   m_Layer: 0
   m_Name: Ceiling_5x5_1ELight
   m_TagString: Concrete
@@ -99,16 +98,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4579454407841743219, guid: fd104c5d48b17ef458f6bc37fb2ea4d7, type: 3}
---- !u!114 &3636359659016021902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6094293282980052057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f13f42112a552354988a63573e49f5d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabPrototype: {fileID: 11400000, guid: 6361421016da6a845b1d8b82bc075e6b, type: 2}

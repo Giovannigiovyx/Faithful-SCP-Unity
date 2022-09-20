@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3508574581397784633}
   - component: {fileID: 1680971549982522611}
   - component: {fileID: -1244230532895701763}
-  - component: {fileID: 5409681653464760706}
   m_Layer: 0
   m_Name: Door_Frame_S_02
   m_TagString: Metal
@@ -100,24 +99,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.7463198, y: 3.1999998, z: 0.36000073}
   m_Center: {x: -2.5000005, y: 1.5999999, z: -0.52533823}
---- !u!114 &5409681653464760706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 888615160448638246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f13f42112a552354988a63573e49f5d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabPrototype: {fileID: 11400000, guid: 21c8c904d01e98e44a055a75985d3fea, type: 2}
 --- !u!1001 &291202403343815252
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 513179921219127196}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c50ccab4a17d4c74b82dd57bab05e95f,
@@ -206,6 +193,7 @@ PrefabInstance:
       value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c50ccab4a17d4c74b82dd57bab05e95f, type: 3}
 --- !u!4 &252261461709108671 stripped
 Transform:
@@ -237,6 +225,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 513179921219127196}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c50ccab4a17d4c74b82dd57bab05e95f,
@@ -325,6 +314,7 @@ PrefabInstance:
       value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c50ccab4a17d4c74b82dd57bab05e95f, type: 3}
 --- !u!1 &3622601897991168650 stripped
 GameObject:

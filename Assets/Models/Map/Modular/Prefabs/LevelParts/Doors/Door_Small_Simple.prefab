@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7429246335777792428}
   - component: {fileID: 4682911728084227430}
   - component: {fileID: 4659061301369488929}
-  - component: {fileID: 9166774564966754502}
   m_Layer: 10
   m_Name: Door_Small_Simple
   m_TagString: Concrete
@@ -100,24 +99,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5143904804305437943, guid: b08f35eff5769914399cf0473f37c2de, type: 3}
---- !u!114 &9166774564966754502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6628725908546466995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f13f42112a552354988a63573e49f5d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabPrototype: {fileID: 11400000, guid: 32f4fecb834af124595dd01de82b1d0a, type: 2}
 --- !u!1001 &5085232811159907752
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 5815879655037038089}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ced2a2b702028884883ff85cc5af6a0f,
@@ -211,6 +198,7 @@ PrefabInstance:
       value: 123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ced2a2b702028884883ff85cc5af6a0f, type: 3}
 --- !u!4 &4690737820474903107 stripped
 Transform:

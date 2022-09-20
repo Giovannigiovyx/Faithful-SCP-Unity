@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 400793746731556623}
   - component: {fileID: 2480094178586995653}
   - component: {fileID: 1038076228324011767}
-  - component: {fileID: 7337563992164620180}
   m_Layer: 0
   m_Name: Ceiling_5x5_PlainOffice
   m_TagString: Concrete
@@ -99,16 +98,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4579454407841743219, guid: fd104c5d48b17ef458f6bc37fb2ea4d7, type: 3}
---- !u!114 &7337563992164620180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4137661214758963728}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f13f42112a552354988a63573e49f5d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabPrototype: {fileID: 11400000, guid: 120064df08b8efa4b8f84ba93f4389f5, type: 2}
