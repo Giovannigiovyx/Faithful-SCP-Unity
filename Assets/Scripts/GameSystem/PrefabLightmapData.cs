@@ -102,11 +102,11 @@ public class PrefabLightmapData : MonoBehaviour
 			instance.m_RendererInfo = rendererInfos.ToArray();
 			instance.m_Lightmaps = lightmaps.ToArray();
 
-			var targetPrefab = UnityEditor.PrefabUtility.GetPrefabParent(gameObject) as GameObject;
+			var targetPrefab = UnityEditor.PrefabUtility.GetCorrespondingObjectFromSource(gameObject) as GameObject;
 			if (targetPrefab != null)
 			{
 				//UnityEditor.Prefab
-				UnityEditor.PrefabUtility.ReplacePrefab(gameObject, targetPrefab);
+				UnityEditor.PrefabUtility.SaveAsPrefabAsset(gameObject, targetPrefab.name);
 			}
 		}
 	}

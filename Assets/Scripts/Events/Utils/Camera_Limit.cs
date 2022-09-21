@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Camera_Limit : MonoBehaviour
 {
-    Camera renderer;
+    private new Camera renderer;
     // Start is called before the first frame update
     private void Awake()
     {

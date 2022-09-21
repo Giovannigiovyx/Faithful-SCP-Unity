@@ -38,7 +38,6 @@ public sealed class HorrorBlurRenderer : PostProcessEffectRenderer<HorrorBlur>
         if (extraBlur)
         {
             RenderTexture blurbuffer = RenderTexture.GetTemporary(context.width / 4, context.height / 4, 0);
-            accumText.MarkRestoreExpected();
             Graphics.Blit(accumText, blurbuffer);
             Graphics.Blit(blurbuffer, accumText);
             RenderTexture.ReleaseTemporary(blurbuffer);
@@ -48,8 +47,7 @@ public sealed class HorrorBlurRenderer : PostProcessEffectRenderer<HorrorBlur>
 
         var sheet = context.propertySheets.Get(Shader.Find("Hidden/HorrorBlur"));
         sheet.properties.SetFloat("_AccumOrig", 1.0F - blurAmount);
-
-        accumText.MarkRestoreExpected();
+        sheet.properties.SetTexture("_AccumTex", accumText);
 
         context.command.BlitFullscreenTriangle(context.source, accumText, sheet, 0);
         context.command.BlitFullscreenTriangle(accumText, context.destination);

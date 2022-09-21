@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5438650539129648712}
   - component: {fileID: 7826412347129315970}
   - component: {fileID: 255719776804323922}
-  - component: {fileID: 8131717035291688876}
   m_Layer: 10
   m_Name: L_Wall_Round
   m_TagString: Concrete
@@ -33,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5438650539129648712
 MeshFilter:
@@ -99,16 +98,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 223193736841672310, guid: 8851b89911780c24ba7cc678233159c6, type: 3}
---- !u!114 &8131717035291688876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8619323302989554519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f13f42112a552354988a63573e49f5d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabPrototype: {fileID: 11400000, guid: 537f05af7c7bb5f428e371ac149f3c2d, type: 2}

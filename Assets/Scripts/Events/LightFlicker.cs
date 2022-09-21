@@ -11,13 +11,15 @@ public class LightFlicker : MonoBehaviour
     public float amplitude = 1.0f; // amplitude of the wave
     public float phase = 0.0f; // start point inside on wave cycle
     public float frequency = 0.5f; // cycle frequency per second
-    public Light light;
+    private new Light light;
     public bool shake = true;
     public Vector3 shakeMult = new Vector3(0.1f,0,0);
 
     // Keep a copy of the original color
     private Color originalColor;
     private Vector3 originalPos;
+
+    public Light Light { get => light; set => light = value; }
 
     // Store the original color
     void Start() {

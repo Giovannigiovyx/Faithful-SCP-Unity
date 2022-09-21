@@ -7,12 +7,14 @@ public class EV_Storage939 : Event_Parent
     public BoxTrigger trigger1;
     public Object_LeverV lever1, lever2;
     public Object_Door door;
-    public GameObject audio;
+    private new GameObject audio;
     public Transform scp1, scp2, scp3;
     public Transform[] path1, path2, path3;
     public AudioClip[] hello1, hello2, hello3, heard1, heard2, heard3, found1, found2, found3, attack1, attack2, attack3;
 
     bool active_lev1, active_lev2, up_ele1=true, up_ele2=true;
+
+    public GameObject Audio { get => audio; set => audio = value; }
 
     public override void EventLoad()
     {

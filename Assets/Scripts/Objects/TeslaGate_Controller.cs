@@ -6,7 +6,7 @@ public class TeslaGate_Controller : Event_Parent
 {
     // Start is called before the first frame update
     public AudioClip idle, charge, shock, start;
-    public AudioSource audio;
+    public new AudioSource audio;
     public GameObject Shock;
     public Material elec;
     bool ActiveTimer, shocked, endshock, started;
