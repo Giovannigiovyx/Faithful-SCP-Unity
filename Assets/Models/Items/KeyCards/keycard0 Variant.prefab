@@ -8,6 +8,12 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5178661895559278292, guid: fbc5c92d68c24014d8c5f156925011ca,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 8182714360376642021, guid: fbc5c92d68c24014d8c5f156925011ca,
+        type: 3}
     - target: {fileID: -1504981713932161579, guid: fbc5c92d68c24014d8c5f156925011ca,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -17,9 +23,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: keycard0 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: fbc5c92d68c24014d8c5f156925011ca, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: fbc5c92d68c24014d8c5f156925011ca, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: fbc5c92d68c24014d8c5f156925011ca, type: 3}
       propertyPath: m_LocalPosition.x

@@ -25,9 +25,10 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: glass1sided
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _DISABLE_DECALS
-  - _DOUBLESIDED_ON
   - _MASKMAP
   - _NORMALMAP_TANGENT_SPACE
   - _REFRACTION_THIN
@@ -44,6 +45,7 @@ Material:
   - TransparentDepthPostpass
   - RayTracingPrepass
   - TransparentBackface
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -191,8 +193,8 @@ Material:
     - _BlendMode: 0
     - _BumpScale: 1
     - _CoatMask: 0
-    - _CullMode: 0
-    - _CullModeForward: 0
+    - _CullMode: 2
+    - _CullModeForward: 2
     - _Cutoff: 0.148
     - _DepthOffsetEnable: 0
     - _DetailAlbedoScale: 1
@@ -204,7 +206,7 @@ Material:
     - _DisplacementLockObjectScale: 1
     - _DisplacementLockTilingScale: 1
     - _DisplacementMode: 0
-    - _DoubleSidedEnable: 1
+    - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 2
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 10
