@@ -166,12 +166,13 @@ MonoBehaviour:
   Thumbnail: 
   HasThumbnail: 0
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://CeramicTile\" label=\"\" >\n  <presetinput
-    identifier=\"$outputsize\" uid=\"4242698762\" type=\"8\" value=\"11,11\" />\n 
+    identifier=\"$outputsize\" uid=\"4242698762\" type=\"8\" value=\"10,10\" />\n 
     <presetinput identifier=\"Color_Tiles_2\" uid=\"2414717125\" type=\"3\" value=\"0.754717,0.479209,0.160199,1\"
     />\n  <presetinput identifier=\"Rage_Damaged_Tiles\" uid=\"2412989802\" type=\"0\"
     value=\"0\" />\n  <presetinput identifier=\"Damag_Tiles\" uid=\"2412931950\"
     type=\"4\" value=\"0\" />\n  <presetinput identifier=\"Random_Damag_Mask\" uid=\"2414404075\"
-    type=\"0\" value=\"0\" />\n </sbspreset>\n"
+    type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Gloss_Contrast\" uid=\"2414518219\"
+    type=\"0\" value=\"-0.15\" />\n </sbspreset>\n"
   IsRuntimeOnly: 0
   GenerateAllOutputs: 0
   GenerateAllMipmaps: 1
@@ -196,7 +197,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 5
           WidgetType: 0
-        Data: {x: 11, y: 11}
+        Data: {x: 10, y: 10}
         NumericalDescription:
           DefaultValue: {x: 8, y: 8}
           MinValue: {x: 0, y: 0}
@@ -558,7 +559,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0
+        Data: -0.15
         NumericalDescription:
           DefaultValue: 0
           MinValue: -1

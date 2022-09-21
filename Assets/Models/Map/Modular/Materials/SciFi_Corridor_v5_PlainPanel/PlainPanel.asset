@@ -203,7 +203,7 @@ MonoBehaviour:
   Thumbnail: 
   HasThumbnail: 0
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://SciFi_Corridor\" label=\"\" >\n 
-    <presetinput identifier=\"$outputsize\" uid=\"3671984478\" type=\"8\" value=\"11,11\"
+    <presetinput identifier=\"$outputsize\" uid=\"3671984478\" type=\"8\" value=\"10,10\"
     />\n  <presetinput identifier=\"show_vent\" uid=\"2849296721\" type=\"4\" value=\"0\"
     />\n  <presetinput identifier=\"Show_Arrow\" uid=\"2849279184\" type=\"4\" value=\"0\"
     />\n  <presetinput identifier=\"show_blastmarks\" uid=\"2849300089\" type=\"4\"
@@ -240,7 +240,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 5
           WidgetType: 0
-        Data: {x: 11, y: 11}
+        Data: {x: 10, y: 10}
         NumericalDescription:
           DefaultValue: {x: 8, y: 8}
           MinValue: {x: 0, y: 0}

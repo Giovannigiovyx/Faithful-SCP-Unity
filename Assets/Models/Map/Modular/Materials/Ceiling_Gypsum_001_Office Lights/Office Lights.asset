@@ -200,7 +200,7 @@ MonoBehaviour:
   Thumbnail: 
   HasThumbnail: 0
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://Ceiling_Gypsum_001\" label=\"\"
-    >\n  <presetinput identifier=\"$outputsize\" uid=\"1907078469\" type=\"8\" value=\"11,11\"
+    >\n  <presetinput identifier=\"$outputsize\" uid=\"1907078469\" type=\"8\" value=\"10,10\"
     />\n  <presetinput identifier=\"Tiles_Texture_1_or_2\" uid=\"77225035\" type=\"0\"
     value=\"1\" />\n  <presetinput identifier=\"Tiles_Color\" uid=\"77228645\" type=\"3\"
     value=\"0.831373,0.831373,0.831373,1\" />\n  <presetinput identifier=\"Grid_Color\"
@@ -246,7 +246,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 5
           WidgetType: 0
-        Data: {x: 11, y: 11}
+        Data: {x: 10, y: 10}
         NumericalDescription:
           DefaultValue: {x: 8, y: 8}
           MinValue: {x: 0, y: 0}

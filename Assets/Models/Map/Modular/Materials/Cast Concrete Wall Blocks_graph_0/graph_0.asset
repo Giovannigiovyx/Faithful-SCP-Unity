@@ -232,7 +232,7 @@ MonoBehaviour:
   Thumbnail: 
   HasThumbnail: 0
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://cast_concrete_wall_blocks\" label=\"\"
-    >\n  <presetinput identifier=\"$outputsize\" uid=\"867412572\" type=\"8\" value=\"11,11\"
+    >\n  <presetinput identifier=\"$outputsize\" uid=\"867412572\" type=\"8\" value=\"10,10\"
     />\n  <presetinput identifier=\"tilt\" uid=\"1186027141\" type=\"0\" value=\"0.1\"
     />\n  <presetinput identifier=\"elevation\" uid=\"1500820468\" type=\"0\" value=\"0.2\"
     />\n  <presetinput identifier=\"dirt_color\" uid=\"1186831074\" type=\"2\" value=\"0.471698,0.432114,0.371574\"
@@ -266,7 +266,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 5
           WidgetType: 0
-        Data: {x: 11, y: 11}
+        Data: {x: 10, y: 10}
         NumericalDescription:
           DefaultValue: {x: 8, y: 8}
           MinValue: {x: 0, y: 0}

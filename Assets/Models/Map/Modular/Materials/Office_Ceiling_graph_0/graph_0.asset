@@ -187,7 +187,7 @@ MonoBehaviour:
   Thumbnail: 
   HasThumbnail: 0
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://Office_Ceiling\" label=\"\" >\n 
-    <presetinput identifier=\"$outputsize\" uid=\"558988318\" type=\"8\" value=\"11,11\"
+    <presetinput identifier=\"$outputsize\" uid=\"558988318\" type=\"8\" value=\"10,10\"
     />\n  <presetinput identifier=\"Ceiling_System_Selection\" uid=\"1329165281\"
     type=\"4\" value=\"1\" />\n  <presetinput identifier=\"Missing_Ceiling_Amount\"
     uid=\"1329148961\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Missing_Ceiling_Random\"
@@ -220,7 +220,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 5
           WidgetType: 0
-        Data: {x: 11, y: 11}
+        Data: {x: 10, y: 10}
         NumericalDescription:
           DefaultValue: {x: 8, y: 8}
           MinValue: {x: 0, y: 0}

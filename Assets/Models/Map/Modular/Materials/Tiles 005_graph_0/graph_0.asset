@@ -217,7 +217,7 @@ MonoBehaviour:
   Thumbnail: 
   HasThumbnail: 0
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://tiles_005\" label=\"\" >\n  <presetinput
-    identifier=\"$outputsize\" uid=\"4166514427\" type=\"8\" value=\"11,11\" />\n 
+    identifier=\"$outputsize\" uid=\"4166514427\" type=\"8\" value=\"10,10\" />\n 
     <presetinput identifier=\"tiles_number\" uid=\"2189648445\" type=\"4\" value=\"10\"
     />\n </sbspreset>\n"
   IsRuntimeOnly: 0
@@ -244,7 +244,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 5
           WidgetType: 0
-        Data: {x: 11, y: 11}
+        Data: {x: 10, y: 10}
         NumericalDescription:
           DefaultValue: {x: 8, y: 8}
           MinValue: {x: 0, y: 0}

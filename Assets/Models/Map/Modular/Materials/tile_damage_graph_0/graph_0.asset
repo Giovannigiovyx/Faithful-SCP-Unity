@@ -140,7 +140,15 @@ MonoBehaviour:
   Thumbnail: 
   HasThumbnail: 0
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://tile_damage\" label=\"\" >\n  <presetinput
-    identifier=\"$outputsize\" uid=\"2661388447\" type=\"8\" value=\"10,10\" />\n</sbspreset>\n"
+    identifier=\"$outputsize\" uid=\"2661388447\" type=\"8\" value=\"10,10\" />\n 
+    <presetinput identifier=\"x_amount\" uid=\"3988180831\" type=\"4\" value=\"6\"
+    />\n  <presetinput identifier=\"y_amount\" uid=\"3988180818\" type=\"4\" value=\"6\"
+    />\n  <presetinput identifier=\"Mask_Concrete_Random\" uid=\"3988197597\" type=\"0\"
+    value=\"0.554\" />\n  <presetinput identifier=\"Mask_DeleteTile_Random\" uid=\"3988197610\"
+    type=\"0\" value=\"0\" />\n  <presetinput identifier=\"glosstestcolor\" uid=\"3988197515\"
+    type=\"0\" value=\"0.3\" />\n  <presetinput identifier=\"Crack_Tiles\" uid=\"3988610289\"
+    type=\"0\" value=\"0.68\" />\n  <presetinput identifier=\"Scale_Damage\" uid=\"3987459868\"
+    type=\"0\" value=\"0\" />\n </sbspreset>\n"
   IsRuntimeOnly: 0
   GenerateAllOutputs: 0
   GenerateAllMipmaps: 1
@@ -208,7 +216,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 4
           WidgetType: 1
-        Data: 10
+        Data: 6
         NumericalDescription:
           DefaultValue: 10
           MinValue: 1
@@ -231,7 +239,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 4
           WidgetType: 1
-        Data: 10
+        Data: 6
         NumericalDescription:
           DefaultValue: 10
           MinValue: 1
@@ -254,7 +262,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.29
+        Data: 0.554
         NumericalDescription:
           DefaultValue: 0.29
           MinValue: 0
@@ -275,7 +283,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.4
+        Data: 0
         NumericalDescription:
           DefaultValue: 0.4
           MinValue: 0
@@ -296,7 +304,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 3
-        Data: 0.4
+        Data: 0.3
         NumericalDescription:
           DefaultValue: 0.4
           MinValue: 0
@@ -317,7 +325,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 1
+        Data: 0.68
         NumericalDescription:
           DefaultValue: 1
           MinValue: 0
@@ -338,7 +346,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.62
+        Data: 0
         NumericalDescription:
           DefaultValue: 0.62
           MinValue: 0

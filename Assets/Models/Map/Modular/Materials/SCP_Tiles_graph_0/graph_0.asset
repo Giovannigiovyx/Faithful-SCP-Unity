@@ -395,7 +395,7 @@ MonoBehaviour:
   Thumbnail: 
   HasThumbnail: 0
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://SCP_Tiles\" label=\"\" >\n  <presetinput
-    identifier=\"$outputsize\" uid=\"656884459\" type=\"8\" value=\"11,11\" />\n 
+    identifier=\"$outputsize\" uid=\"656884459\" type=\"8\" value=\"10,10\" />\n 
     <presetinput identifier=\"moss_global_spread_4\" uid=\"1263196302\" type=\"0\"
     value=\"0.046\" />\n  <presetinput identifier=\"quantity_5\" uid=\"1263196300\"
     type=\"0\" value=\"0.233\" />\n  <presetinput identifier=\"foot_amount_7\" uid=\"1263196289\"
@@ -424,7 +424,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 5
           WidgetType: 0
-        Data: {x: 11, y: 11}
+        Data: {x: 10, y: 10}
         NumericalDescription:
           DefaultValue: {x: 8, y: 8}
           MinValue: {x: 0, y: 0}

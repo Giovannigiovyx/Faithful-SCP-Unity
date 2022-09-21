@@ -1,0 +1,2480 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
+  m_Name: graph_0
+  m_EditorClassIdentifier: 
+  AssetPath: Assets/Models/Map/Modular/Materials/Soi_BrokenTiles.sbsar
+  OutputPath: Assets/Models/Map/Modular/Materials/Soi_BrokenTiles_graph_0
+  RawData: {fileID: -244192453324840774, guid: c6c3b44e53e84634cac5a3463ddbfd8f, type: 3}
+  Name: graph_0
+  IsRoot: 1
+  FlagedForDelete: 0
+  GUID: 72c5a172-a500-468e-981f-c339d816f282
+  Index: 0
+  Input:
+  - rid: 1000
+  - rid: 1001
+  - rid: 1002
+  - rid: 1003
+  - rid: 1004
+  - rid: 1005
+  - rid: 1006
+  - rid: 1007
+  - rid: 1008
+  - rid: 1009
+  - rid: 1010
+  - rid: 1011
+  - rid: 1012
+  - rid: 1013
+  - rid: 1014
+  - rid: 1015
+  - rid: 1016
+  - rid: 1017
+  - rid: 1018
+  - rid: 1019
+  - rid: 1020
+  - rid: 1021
+  - rid: 1022
+  - rid: 1023
+  - rid: 1024
+  - rid: 1025
+  - rid: 1026
+  - rid: 1027
+  - rid: 1028
+  - rid: 1029
+  - rid: 1030
+  - rid: 1031
+  - rid: 1032
+  - rid: 1033
+  - rid: 1034
+  - rid: 1035
+  - rid: 1036
+  - rid: 1037
+  - rid: 1038
+  - rid: 1039
+  - rid: 1040
+  - rid: 1041
+  - rid: 1042
+  - rid: 1043
+  - rid: 1044
+  - rid: 1045
+  - rid: 1046
+  - rid: 1047
+  - rid: 1048
+  - rid: 1049
+  - rid: 1050
+  - rid: 1051
+  - rid: 1052
+  - rid: 1053
+  - rid: 1054
+  - rid: 1055
+  - rid: 1056
+  - rid: 1057
+  - rid: 1058
+  - rid: 1059
+  - rid: 1060
+  - rid: 1061
+  - rid: 1062
+  - rid: 1063
+  - rid: 1064
+  - rid: 1065
+  - rid: 1066
+  - rid: 1067
+  - rid: 1068
+  - rid: 1069
+  - rid: 1070
+  - rid: 1071
+  - rid: 1072
+  - rid: 1073
+  - rid: 1074
+  - rid: 1075
+  - rid: 1076
+  - rid: 1077
+  - rid: 1078
+  - rid: 1079
+  - rid: 1080
+  - rid: 1081
+  - rid: 1082
+  - rid: 1083
+  - rid: 1084
+  - rid: 1085
+  - rid: 1086
+  - rid: 1087
+  - rid: 1088
+  - rid: 1089
+  - rid: 1090
+  - rid: 1091
+  - rid: 1092
+  - rid: 1093
+  - rid: 1094
+  - rid: 1095
+  - rid: 1096
+  Output:
+  - Index: 0
+    VirtualOutputIndex: 14
+    GraphIndex: 0
+    Description:
+      Identifier: BC
+      Label: BC
+      Index: 0
+      Type: 8
+      Channel: baseColor
+    OutputTexture: {fileID: 2800000, guid: bc9d74479d1cf5442b1a70a6ea51c3cd, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsStandardOutput: 1
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 1
+    VirtualOutputIndex: 15
+    GraphIndex: 0
+    Description:
+      Identifier: N
+      Label: N
+      Index: 1
+      Type: 8
+      Channel: normal
+    OutputTexture: {fileID: 2800000, guid: 9623b50be08a2b24687747f14625239c, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsStandardOutput: 1
+    IsAlphaAssignable: 0
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 2
+    VirtualOutputIndex: 16
+    GraphIndex: 0
+    Description:
+      Identifier: NOpenGL
+      Label: NOpenGL
+      Index: 2
+      Type: 8
+      Channel: unkown
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsStandardOutput: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 3
+    VirtualOutputIndex: 17
+    GraphIndex: 0
+    Description:
+      Identifier: R
+      Label: R
+      Index: 3
+      Type: 8
+      Channel: roughness
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsStandardOutput: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 4
+    VirtualOutputIndex: 18
+    GraphIndex: 0
+    Description:
+      Identifier: M
+      Label: M
+      Index: 4
+      Type: 8
+      Channel: diffuse
+    OutputTexture: {fileID: 0}
+    sRGB: 1
+    IsVirtual: 0
+    IsStandardOutput: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 5
+    VirtualOutputIndex: 19
+    GraphIndex: 0
+    Description:
+      Identifier: AO
+      Label: AO
+      Index: 5
+      Type: 8
+      Channel: ambientOcclusion
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsStandardOutput: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 6
+    VirtualOutputIndex: 20
+    GraphIndex: 0
+    Description:
+      Identifier: H
+      Label: H
+      Index: 6
+      Type: 8
+      Channel: height
+    OutputTexture: {fileID: 2800000, guid: 48e84eeb253d84343828c08ee7bf223f, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsStandardOutput: 1
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 7
+    VirtualOutputIndex: 21
+    GraphIndex: 0
+    Description:
+      Identifier: OMR
+      Label: OMR
+      Index: 7
+      Type: 8
+      Channel: unkown
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsStandardOutput: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 8
+    VirtualOutputIndex: 22
+    GraphIndex: 0
+    Description:
+      Identifier: OMRH
+      Label: OMRH
+      Index: 8
+      Type: 8
+      Channel: unkown
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsStandardOutput: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 9
+    VirtualOutputIndex: 23
+    GraphIndex: 0
+    Description:
+      Identifier: MR
+      Label: MR
+      Index: 9
+      Type: 8
+      Channel: unkown
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsStandardOutput: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 10
+    VirtualOutputIndex: 24
+    GraphIndex: 0
+    Description:
+      Identifier: D
+      Label: D
+      Index: 10
+      Type: 8
+      Channel: baseColor
+    OutputTexture: {fileID: 2800000, guid: d2b6c6dd7f349864094c2e38707a5c2f, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsStandardOutput: 1
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 11
+    VirtualOutputIndex: 25
+    GraphIndex: 0
+    Description:
+      Identifier: S
+      Label: S
+      Index: 11
+      Type: 8
+      Channel: baseColor
+    OutputTexture: {fileID: 2800000, guid: d799d085072f1b74fb1ad7216c67b9a2, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsStandardOutput: 1
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 12
+    VirtualOutputIndex: 26
+    GraphIndex: 0
+    Description:
+      Identifier: G
+      Label: G
+      Index: 12
+      Type: 8
+      Channel: baseColor
+    OutputTexture: {fileID: 2800000, guid: 949a8ca670c4ebd47b196c484ec962d6, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsStandardOutput: 1
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+  - Index: 13
+    VirtualOutputIndex: 13
+    GraphIndex: 0
+    Description:
+      Identifier: mask
+      Label: mask
+      Index: 13
+      Type: 8
+      Channel: mask
+    OutputTexture: {fileID: 2800000, guid: 65ecda8349960a54e87872cd749b3448, type: 3}
+    sRGB: 0
+    IsVirtual: 1
+    IsStandardOutput: 1
+    IsAlphaAssignable: 0
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 4
+  HasPhysicalSize: 0
+  PhysicalSize: {x: 0, y: 0, z: 0}
+  EnablePhysicalSize: 0
+  Thumbnail: 
+  HasThumbnail: 0
+  CurrentStatePreset: " <sbspreset pkgurl=\"pkg://BrokenTiles\" label=\"\" >\n  <presetinput
+    identifier=\"$outputsize\" uid=\"673609843\" type=\"8\" value=\"10,10\" />\n 
+    <presetinput identifier=\"Tiles_X\" uid=\"1608586814\" type=\"4\" value=\"6\"
+    />\n  <presetinput identifier=\"Tiles_Y\" uid=\"1608576510\" type=\"4\" value=\"6\"
+    />\n  <presetinput identifier=\"Tile_Slope\" uid=\"1608722715\" type=\"0\" value=\"0.091\"
+    />\n  <presetinput identifier=\"Tile_MissingTiles\" uid=\"1608703225\" type=\"0\"
+    value=\"0\" />\n  <presetinput identifier=\"Crack_Scale\" uid=\"1608690174\"
+    type=\"4\" value=\"6\" />\n  <presetinput identifier=\"Crack_Deformation\" uid=\"1608663725\"
+    type=\"0\" value=\"0.128\" />\n  <presetinput identifier=\"Crack_EdgeChip\" uid=\"1608875686\"
+    type=\"0\" value=\"1.37\" />\n  <presetinput identifier=\"Crack_ChipDepth\" uid=\"1608835840\"
+    type=\"0\" value=\"0.698\" />\n  <presetinput identifier=\"Broken_Amount\" uid=\"1608992456\"
+    type=\"0\" value=\"0.48\" />\n  <presetinput identifier=\"Broken_Smoothness\"
+    uid=\"1608999926\" type=\"0\" value=\"1.43\" />\n  <presetinput identifier=\"Broken_EdgeChipping\"
+    uid=\"1609007060\" type=\"4\" value=\"10\" />\n  <presetinput identifier=\"Broken_ChipDepth\"
+    uid=\"1608980579\" type=\"0\" value=\"0.508\" />\n  <presetinput identifier=\"Tiles_BrokenNumbert\"
+    uid=\"1608988037\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Tiles_CracksNumber\"
+    uid=\"1608961867\" type=\"0\" value=\"0.047\" />\n  <presetinput identifier=\"Crack_Depth\"
+    uid=\"1608969137\" type=\"0\" value=\"0.473\" />\n  <presetinput identifier=\"Damage_PocksAmount\"
+    uid=\"1608934601\" type=\"0\" value=\"0.279\" />\n  <presetinput identifier=\"Damage_PocksDepth\"
+    uid=\"1608927894\" type=\"0\" value=\"0.047\" />\n  <presetinput identifier=\"Damage_SurfaceAmount\"
+    uid=\"1608909303\" type=\"0\" value=\"0.318\" />\n  <presetinput identifier=\"Damage_SurfaceMask\"
+    uid=\"1608915643\" type=\"0\" value=\"0.56\" />\n  <presetinput identifier=\"Damage_SurfaceCoverage\"
+    uid=\"1608922229\" type=\"4\" value=\"31\" />\n  <presetinput identifier=\"Damage_SurfaceDepth\"
+    uid=\"1609170555\" type=\"0\" value=\"0.23\" />\n  <presetinput identifier=\"Damage_EdgeAmount\"
+    uid=\"1609145236\" type=\"0\" value=\"2.78\" />\n  <presetinput identifier=\"Damage_EdgeMask\"
+    uid=\"1609075086\" type=\"0\" value=\"0.307\" />\n  <presetinput identifier=\"Damage_EdgeDepth\"
+    uid=\"1609088233\" type=\"0\" value=\"0.476\" />\n  <presetinput identifier=\"Damage_EdgeNoise\"
+    uid=\"1609061918\" type=\"0\" value=\"0.163\" />\n  <presetinput identifier=\"Grout_PockDepth\"
+    uid=\"1609227799\" type=\"0\" value=\"0.149\" />\n  <presetinput identifier=\"Grout_BitsAmount\"
+    uid=\"1609234511\" type=\"0\" value=\"0.202\" />\n  <presetinput identifier=\"Bottom_ChipAmount\"
+    uid=\"1609402339\" type=\"0\" value=\"0.038\" />\n  <presetinput identifier=\"Color_TileBaseColor\"
+    uid=\"1607576904\" type=\"3\" value=\"0.735849,0.735849,0.735849,1\" />\n  <presetinput
+    identifier=\"Color_TileSecondary\" uid=\"1608458501\" type=\"3\" value=\"0.745283,0.745283,0.745283,1\"
+    />\n  <presetinput identifier=\"Color_TileSplashIntensity\" uid=\"1607577404\"
+    type=\"0\" value=\"0.075\" />\n  <presetinput identifier=\"Color_TileSurfaceNoise\"
+    uid=\"1607551313\" type=\"0\" value=\"0.175\" />\n  <presetinput identifier=\"Color_TileSideBrurnIntensity\"
+    uid=\"1607557854\" type=\"0\" value=\"0.224\" />\n  <presetinput identifier=\"Color_TileSideBurnCoverage\"
+    uid=\"1607535144\" type=\"0\" value=\"0.322\" />\n  <presetinput identifier=\"Color_WaterDamageIntensity\"
+    uid=\"1607638024\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Rough_GrimeOverlay\"
+    uid=\"1607717278\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"Rough_WaterDamage\"
+    uid=\"1607724526\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Rough_TileVariation\"
+    uid=\"1607699781\" type=\"0\" value=\"0.248\" />\n  <presetinput identifier=\"Rough_RoughSpots\"
+    uid=\"1607706768\" type=\"0\" value=\"0.015\" />\n  <presetinput identifier=\"Rough_DirtIntensity\"
+    uid=\"1607681293\" type=\"0\" value=\"0.121\" />\n  <presetinput identifier=\"Rough_Grout\"
+    uid=\"1607663847\" type=\"0\" value=\"0.842\" />\n  <presetinput identifier=\"Normal_Intensity\"
+    uid=\"1607650029\" type=\"0\" value=\"3\" />\n </sbspreset>\n"
+  IsRuntimeOnly: 0
+  GenerateAllOutputs: 0
+  GenerateAllMipmaps: 1
+  OutputMaterial: {fileID: 2100000, guid: c6236289808a90742a909680f50db593, type: 2}
+  DefaultPreset: " <sbspreset pkgurl=\"pkg://BrokenTiles\" label=\"\" >\n  <presetinput
+    identifier=\"$outputsize\" uid=\"673609843\" type=\"8\" value=\"10,10\" />\n</sbspreset>\n"
+  MaterialShader: HDRP/Lit
+  RenderTextures: 0
+  OutputRemaped: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 1000
+      type: {class: SubstanceInputInt2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 0
+        GraphID: 0
+        Description:
+          Identifier: $outputsize
+          Label: $outputsize
+          GuiGroup: 
+          GuiDescription: 
+          Type: 5
+          WidgetType: 0
+        Data: {x: 10, y: 10}
+        NumericalDescription:
+          DefaultValue: {x: 8, y: 8}
+          MinValue: {x: 0, y: 0}
+          MaxValue: {x: 1, y: 1}
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1001
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 1
+        GraphID: 0
+        Description:
+          Identifier: $randomseed
+          Label: $randomseed
+          GuiGroup: 
+          GuiDescription: 
+          Type: 4
+          WidgetType: 0
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1002
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 2
+        GraphID: 0
+        Description:
+          Identifier: Tiles_X
+          Label: X Tiles
+          GuiGroup: Tiles
+          GuiDescription: 
+          Type: 4
+          WidgetType: 1
+        Data: 6
+        NumericalDescription:
+          DefaultValue: 8
+          MinValue: 1
+          MaxValue: 64
+          SliderStep: 1
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1003
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 3
+        GraphID: 0
+        Description:
+          Identifier: Tiles_Y
+          Label: Y Tiles
+          GuiGroup: Tiles
+          GuiDescription: 
+          Type: 4
+          WidgetType: 1
+        Data: 6
+        NumericalDescription:
+          DefaultValue: 8
+          MinValue: 1
+          MaxValue: 64
+          SliderStep: 1
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1004
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 4
+        GraphID: 0
+        Description:
+          Identifier: Tile_EdgeRoundness
+          Label: Edge Roundness
+          GuiGroup: Tiles
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.1
+        NumericalDescription:
+          DefaultValue: 0.1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1005
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 5
+        GraphID: 0
+        Description:
+          Identifier: Tile_Slope
+          Label: Slope
+          GuiGroup: Tiles
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.091
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1006
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 6
+        GraphID: 0
+        Description:
+          Identifier: Tile_Texture
+          Label: Surface Texture
+          GuiGroup: Tiles
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1007
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 7
+        GraphID: 0
+        Description:
+          Identifier: Tile_MissingTiles
+          Label: Missing Tiles
+          GuiGroup: Tiles
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0.2
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1008
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 8
+        GraphID: 0
+        Description:
+          Identifier: Crack_Scale
+          Label: Scale
+          GuiGroup: Cracks
+          GuiDescription: 
+          Type: 4
+          WidgetType: 1
+        Data: 6
+        NumericalDescription:
+          DefaultValue: 5
+          MinValue: 0
+          MaxValue: 128
+          SliderStep: 1
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1009
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 9
+        GraphID: 0
+        Description:
+          Identifier: Crack_Deformation
+          Label: Deformation
+          GuiGroup: Cracks
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.128
+        NumericalDescription:
+          DefaultValue: 10
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1010
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 10
+        GraphID: 0
+        Description:
+          Identifier: Crack_EdgeChip
+          Label: Edge Chip
+          GuiGroup: Cracks
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 1.37
+        NumericalDescription:
+          DefaultValue: 0.04
+          MinValue: 0
+          MaxValue: 16
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1011
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 11
+        GraphID: 0
+        Description:
+          Identifier: Crack_ChipDepth
+          Label: Chip Depth
+          GuiGroup: Cracks
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.698
+        NumericalDescription:
+          DefaultValue: 0.36
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1012
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 12
+        GraphID: 0
+        Description:
+          Identifier: Broken_Amount
+          Label: Amount
+          GuiGroup: Broken
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.48
+        NumericalDescription:
+          DefaultValue: 0.4
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1013
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 13
+        GraphID: 0
+        Description:
+          Identifier: Broken_Smoothness
+          Label: Smoothness
+          GuiGroup: Broken
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 1.43
+        NumericalDescription:
+          DefaultValue: 0.25
+          MinValue: 0
+          MaxValue: 16
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1014
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 14
+        GraphID: 0
+        Description:
+          Identifier: Broken_EdgeChipping
+          Label: Edge Chipping
+          GuiGroup: Broken
+          GuiDescription: 
+          Type: 4
+          WidgetType: 1
+        Data: 10
+        NumericalDescription:
+          DefaultValue: 32
+          MinValue: 0
+          MaxValue: 32
+          SliderStep: 1
+          SliderClamp: 1
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1015
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 15
+        GraphID: 0
+        Description:
+          Identifier: Broken_ChipDepth
+          Label: Chip Depth
+          GuiGroup: Broken
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.508
+        NumericalDescription:
+          DefaultValue: 0.25
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1016
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 16
+        GraphID: 0
+        Description:
+          Identifier: Tiles_BrokenNumbert
+          Label: Number of Broken Tiles
+          GuiGroup: Tiles
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0.15
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1017
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 17
+        GraphID: 0
+        Description:
+          Identifier: Tiles_CracksNumber
+          Label: Number of Cracked Tiles
+          GuiGroup: Tiles
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.047
+        NumericalDescription:
+          DefaultValue: 0.25
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1018
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 18
+        GraphID: 0
+        Description:
+          Identifier: Crack_Depth
+          Label: Depth
+          GuiGroup: Cracks
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.473
+        NumericalDescription:
+          DefaultValue: 0.5
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1019
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 19
+        GraphID: 0
+        Description:
+          Identifier: Damage_PocksAmount
+          Label: Pock Amount
+          GuiGroup: Damage
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.279
+        NumericalDescription:
+          DefaultValue: 0.4
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1020
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 20
+        GraphID: 0
+        Description:
+          Identifier: Damage_PocksDepth
+          Label: Pock Depth
+          GuiGroup: Damage
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.047
+        NumericalDescription:
+          DefaultValue: 0.02
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1021
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 21
+        GraphID: 0
+        Description:
+          Identifier: Damage_SurfaceAmount
+          Label: Surface Damage Amount
+          GuiGroup: Damage
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.318
+        NumericalDescription:
+          DefaultValue: 0.5
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1022
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 22
+        GraphID: 0
+        Description:
+          Identifier: Damage_SurfaceMask
+          Label: Surface Damage Mask
+          GuiGroup: Damage
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.56
+        NumericalDescription:
+          DefaultValue: 0.37
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1023
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 23
+        GraphID: 0
+        Description:
+          Identifier: Damage_SurfaceCoverage
+          Label: Surface Damage Coverage
+          GuiGroup: Damage
+          GuiDescription: 
+          Type: 4
+          WidgetType: 1
+        Data: 31
+        NumericalDescription:
+          DefaultValue: 14
+          MinValue: 0
+          MaxValue: 64
+          SliderStep: 1
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1024
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 24
+        GraphID: 0
+        Description:
+          Identifier: Damage_SurfaceDepth
+          Label: Surface Damage Depth
+          GuiGroup: Damage
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.23
+        NumericalDescription:
+          DefaultValue: 0.51
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1025
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 25
+        GraphID: 0
+        Description:
+          Identifier: Damage_EdgeAmount
+          Label: Edge Damage Amount
+          GuiGroup: Damage
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 2.78
+        NumericalDescription:
+          DefaultValue: 0.32
+          MinValue: 0
+          MaxValue: 16
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1026
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 26
+        GraphID: 0
+        Description:
+          Identifier: Damage_EdgeMask
+          Label: Edge Damage Mask
+          GuiGroup: Damage
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.307
+        NumericalDescription:
+          DefaultValue: 0.75
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1027
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 27
+        GraphID: 0
+        Description:
+          Identifier: Damage_EdgeMaskPower
+          Label: Edge Damage Mask Power
+          GuiGroup: Damage
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1028
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 28
+        GraphID: 0
+        Description:
+          Identifier: Damage_EdgeDepth
+          Label: Edge Damage Depth
+          GuiGroup: Damage
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.476
+        NumericalDescription:
+          DefaultValue: 0.1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1029
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 29
+        GraphID: 0
+        Description:
+          Identifier: Damage_EdgeNoise
+          Label: Edge Damage Noise
+          GuiGroup: Damage
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.163
+        NumericalDescription:
+          DefaultValue: 0.1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1030
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 30
+        GraphID: 0
+        Description:
+          Identifier: Tile_EdgeSize
+          Label: Edge Width
+          GuiGroup: Tiles
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 1.25
+        NumericalDescription:
+          DefaultValue: 1.25
+          MinValue: 1
+          MaxValue: 16
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1031
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 31
+        GraphID: 0
+        Description:
+          Identifier: Grout_Noise
+          Label: Noise
+          GuiGroup: Grout
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.25
+        NumericalDescription:
+          DefaultValue: 0.25
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1032
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 32
+        GraphID: 0
+        Description:
+          Identifier: Grout_PocksAmount
+          Label: Pock Amount
+          GuiGroup: Grout
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.4
+        NumericalDescription:
+          DefaultValue: 0.4
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1033
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 33
+        GraphID: 0
+        Description:
+          Identifier: Grout_PockDepth
+          Label: Pock Depth
+          GuiGroup: Grout
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.149
+        NumericalDescription:
+          DefaultValue: 0.1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1034
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 34
+        GraphID: 0
+        Description:
+          Identifier: Grout_BitsAmount
+          Label: Bit Amount
+          GuiGroup: Grout
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.202
+        NumericalDescription:
+          DefaultValue: 0.22
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1035
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 35
+        GraphID: 0
+        Description:
+          Identifier: Grout_BitsDepth
+          Label: Bit Depth
+          GuiGroup: Grout
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.25
+        NumericalDescription:
+          DefaultValue: 0.25
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1036
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 36
+        GraphID: 0
+        Description:
+          Identifier: Bottom_GroutWidth
+          Label: Grout Width
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 2
+        NumericalDescription:
+          DefaultValue: 2
+          MinValue: 1
+          MaxValue: 16
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1037
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 37
+        GraphID: 0
+        Description:
+          Identifier: Bottom_GroutNoise
+          Label: Grout Noise
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.04
+        NumericalDescription:
+          DefaultValue: 0.04
+          MinValue: 0
+          MaxValue: 16
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1038
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 38
+        GraphID: 0
+        Description:
+          Identifier: Bottom_GroutPower
+          Label: Grout Power
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.2
+        NumericalDescription:
+          DefaultValue: 0.2
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1039
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 39
+        GraphID: 0
+        Description:
+          Identifier: Bottom_ChipAmount
+          Label: Chip Amount
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.038
+        NumericalDescription:
+          DefaultValue: 0.13
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1040
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 40
+        GraphID: 0
+        Description:
+          Identifier: Bottom_ChipNoise
+          Label: Chip Noise
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.08
+        NumericalDescription:
+          DefaultValue: 0.08
+          MinValue: 0
+          MaxValue: 16
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1041
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 41
+        GraphID: 0
+        Description:
+          Identifier: Bottom_ChipDeform
+          Label: Chip Deform
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.45
+        NumericalDescription:
+          DefaultValue: 0.45
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1042
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 42
+        GraphID: 0
+        Description:
+          Identifier: Bottom_GlobsAmount
+          Label: Globs Amount
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.5
+        NumericalDescription:
+          DefaultValue: 0.5
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1043
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 43
+        GraphID: 0
+        Description:
+          Identifier: Bottom_GlobsScale
+          Label: Globs Scale
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 4
+          WidgetType: 1
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 6
+          SliderStep: 1
+          SliderClamp: 1
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1044
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 44
+        GraphID: 0
+        Description:
+          Identifier: Bottom_GlobsOutset
+          Label: Globs Outset
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.05
+        NumericalDescription:
+          DefaultValue: 0.05
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1045
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 45
+        GraphID: 0
+        Description:
+          Identifier: Bottom_NetX
+          Label: Net X Tile
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 4
+          WidgetType: 1
+        Data: 10
+        NumericalDescription:
+          DefaultValue: 10
+          MinValue: 1
+          MaxValue: 64
+          SliderStep: 1
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1046
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 46
+        GraphID: 0
+        Description:
+          Identifier: Bottom_NetY
+          Label: Net Y Tile
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 4
+          WidgetType: 1
+        Data: 10
+        NumericalDescription:
+          DefaultValue: 10
+          MinValue: 1
+          MaxValue: 64
+          SliderStep: 1
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1047
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 47
+        GraphID: 0
+        Description:
+          Identifier: Bottom_NetNoise
+          Label: Net Noise
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1048
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 48
+        GraphID: 0
+        Description:
+          Identifier: Bottom_NetInset
+          Label: Net Inset
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.05
+        NumericalDescription:
+          DefaultValue: 0.05
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1049
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 49
+        GraphID: 0
+        Description:
+          Identifier: Bottom_ChipInset
+          Label: Chip Inset
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.025
+        NumericalDescription:
+          DefaultValue: 0.025
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1050
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 50
+        GraphID: 0
+        Description:
+          Identifier: Bottom_CracksScale
+          Label: Crack Scale
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 4
+          WidgetType: 1
+        Data: 16
+        NumericalDescription:
+          DefaultValue: 16
+          MinValue: 0
+          MaxValue: 64
+          SliderStep: 1
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1051
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 51
+        GraphID: 0
+        Description:
+          Identifier: Bottom_CracksNoise
+          Label: Crack Noise
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.12
+        NumericalDescription:
+          DefaultValue: 0.12
+          MinValue: 0
+          MaxValue: 16
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1052
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 52
+        GraphID: 0
+        Description:
+          Identifier: Bottom_CracksMask
+          Label: Crack Mask
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.38
+        NumericalDescription:
+          DefaultValue: 0.38
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1053
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 53
+        GraphID: 0
+        Description:
+          Identifier: Bottom_CracksDepth
+          Label: Crack Depth
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1054
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 54
+        GraphID: 0
+        Description:
+          Identifier: Bottom_BitsAmount
+          Label: Bit Amount
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.25
+        NumericalDescription:
+          DefaultValue: 0.25
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1055
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 55
+        GraphID: 0
+        Description:
+          Identifier: Bottom_BitsDepth
+          Label: Bit Depth
+          GuiGroup: Bottom
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.1
+        NumericalDescription:
+          DefaultValue: 0.1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1056
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 56
+        GraphID: 0
+        Description:
+          Identifier: Color_CheckerPattern
+          Label: Tile Checker Pattern
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 4
+          WidgetType: 4
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1057
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 57
+        GraphID: 0
+        Description:
+          Identifier: Color_TileBaseColor
+          Label: Tile Base Color
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 3
+          WidgetType: 3
+        Data: {x: 0.735849, y: 0.735849, z: 0.735849, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0.689655, y: 0.689655, z: 0.689655, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 1, y: 1, z: 1, w: 1}
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1058
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 58
+        GraphID: 0
+        Description:
+          Identifier: Color_TileSecondary
+          Label: Tile Secondary Color
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 3
+          WidgetType: 3
+        Data: {x: 0.745283, y: 0.745283, z: 0.745283, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0.293103, y: 0.291829, z: 0.291829, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 1, y: 1, z: 1, w: 1}
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1059
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 59
+        GraphID: 0
+        Description:
+          Identifier: Color_TileSplashIntensity
+          Label: Tile Splash Intensity
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.075
+        NumericalDescription:
+          DefaultValue: 0.1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1060
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 60
+        GraphID: 0
+        Description:
+          Identifier: Color_TileSurfaceNoise
+          Label: Tile Surface Noise
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.175
+        NumericalDescription:
+          DefaultValue: 0.25
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1061
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 61
+        GraphID: 0
+        Description:
+          Identifier: Color_TileSideBrurnIntensity
+          Label: Tile Side Burn Intensity
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.224
+        NumericalDescription:
+          DefaultValue: 0.25
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1062
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 62
+        GraphID: 0
+        Description:
+          Identifier: Color_TileSideBurnCoverage
+          Label: Tile Side Burn Coverage
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.322
+        NumericalDescription:
+          DefaultValue: -0.03
+          MinValue: -1
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1063
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 63
+        GraphID: 0
+        Description:
+          Identifier: Color_TileSideBurnColor
+          Label: Tile Side Burn Color
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 3
+          WidgetType: 3
+        Data: {x: 0.293103, y: 0.118296, z: 0.0114693, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0.293103, y: 0.118296, z: 0.0114693, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 1, y: 1, z: 1, w: 1}
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1064
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 64
+        GraphID: 0
+        Description:
+          Identifier: Color_TileWaterDamageIntensity
+          Label: Tile Water Damage Intensity
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.5
+        NumericalDescription:
+          DefaultValue: 0.5
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1065
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 65
+        GraphID: 0
+        Description:
+          Identifier: Color_WaterDamageDirection
+          Label: Tile Water Damage Direction
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 2
+        Data: 0.75
+        NumericalDescription:
+          DefaultValue: 0.75
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1066
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 66
+        GraphID: 0
+        Description:
+          Identifier: Color_WaterDamageIntensity
+          Label: Tile Water Damage Power
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 5
+          MinValue: 0
+          MaxValue: 50
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1067
+      type: {class: SubstanceInputFloat3, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 67
+        GraphID: 0
+        Description:
+          Identifier: Color_TileChipColor
+          Label: Tile Chip Color
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 2
+          WidgetType: 3
+        Data: {x: 0.568965, y: 0.507502, z: 0.484858}
+        NumericalDescription:
+          DefaultValue: {x: 0.568965, y: 0.507502, z: 0.484858}
+          MinValue: {x: 0, y: 0, z: 0}
+          MaxValue: {x: 1, y: 1, z: 1}
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1068
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 68
+        GraphID: 0
+        Description:
+          Identifier: Color_TileChipNoisiness
+          Label: Tile Chip Noisiness
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.1
+        NumericalDescription:
+          DefaultValue: 0.1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1069
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 69
+        GraphID: 0
+        Description:
+          Identifier: Color_TileChipDamage
+          Label: Tile Chip Damage
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.5
+        NumericalDescription:
+          DefaultValue: 0.5
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1070
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 70
+        GraphID: 0
+        Description:
+          Identifier: Color_TileChip
+          Label: Tile Chip
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 3
+          WidgetType: 3
+        Data: {x: 0.189655, y: 0.111177, z: 0, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0.189655, y: 0.111177, z: 0, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 1, y: 1, z: 1, w: 1}
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1071
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 71
+        GraphID: 0
+        Description:
+          Identifier: Color_TileGrime
+          Label: Tile Grime
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.25
+        NumericalDescription:
+          DefaultValue: 0.25
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1072
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 72
+        GraphID: 0
+        Description:
+          Identifier: Color_TileGrimeColor
+          Label: Tile Grime Color
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 3
+          WidgetType: 3
+        Data: {x: 0.103448, y: 0.0531975, z: 0.00629685, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0.103448, y: 0.0531975, z: 0.00629685, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 1, y: 1, z: 1, w: 1}
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1073
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 73
+        GraphID: 0
+        Description:
+          Identifier: Color_TileColorVariation
+          Label: Tile Color Variation
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.05
+        NumericalDescription:
+          DefaultValue: 0.05
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1074
+      type: {class: SubstanceInputFloat3, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 74
+        GraphID: 0
+        Description:
+          Identifier: Color_BottomGroutColor
+          Label: Bottom Grout Color
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 2
+          WidgetType: 3
+        Data: {x: 0.564706, y: 0.564706, z: 0.556863}
+        NumericalDescription:
+          DefaultValue: {x: 0.564706, y: 0.564706, z: 0.556863}
+          MinValue: {x: 0, y: 0, z: 0}
+          MaxValue: {x: 1, y: 1, z: 1}
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1075
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 75
+        GraphID: 0
+        Description:
+          Identifier: Color_BottomColorVariation
+          Label: Bottom Color Variation
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.5
+        NumericalDescription:
+          DefaultValue: 0.5
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1076
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 76
+        GraphID: 0
+        Description:
+          Identifier: Color_BottomChipAmount
+          Label: Bottom Chip Amount
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.25
+        NumericalDescription:
+          DefaultValue: 0.25
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1077
+      type: {class: SubstanceInputFloat3, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 77
+        GraphID: 0
+        Description:
+          Identifier: Color_BottomChipColor
+          Label: Bottom Chip Color
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 2
+          WidgetType: 3
+        Data: {x: 0.290196, y: 0.270588, z: 0.270588}
+        NumericalDescription:
+          DefaultValue: {x: 0.290196, y: 0.270588, z: 0.270588}
+          MinValue: {x: 0, y: 0, z: 0}
+          MaxValue: {x: 1, y: 1, z: 1}
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1078
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 78
+        GraphID: 0
+        Description:
+          Identifier: Color_BottomGlobAmount
+          Label: Bottom Glob Intensity
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.1
+        NumericalDescription:
+          DefaultValue: 0.1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1079
+      type: {class: SubstanceInputFloat3, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 79
+        GraphID: 0
+        Description:
+          Identifier: Color_BottomGlobsColor
+          Label: Bottom Glob Color
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 2
+          WidgetType: 3
+        Data: {x: 0.423529, y: 0.411765, z: 0.352941}
+        NumericalDescription:
+          DefaultValue: {x: 0.423529, y: 0.411765, z: 0.352941}
+          MinValue: {x: 0, y: 0, z: 0}
+          MaxValue: {x: 1, y: 1, z: 1}
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1080
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 80
+        GraphID: 0
+        Description:
+          Identifier: Color_BottomCracksAmount
+          Label: Bottom Crack Amount
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.5
+        NumericalDescription:
+          DefaultValue: 0.5
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1081
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 81
+        GraphID: 0
+        Description:
+          Identifier: Color_BottomDirtAmount
+          Label: Bottom Dirt Intensity
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1082
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 82
+        GraphID: 0
+        Description:
+          Identifier: Color_BottomDirtColor
+          Label: Bottom Dirt Color
+          GuiGroup: Color
+          GuiDescription: 
+          Type: 3
+          WidgetType: 3
+        Data: {x: 0.356322, y: 0.332282, z: 0.278861, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0.356322, y: 0.332282, z: 0.278861, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 1, y: 1, z: 1, w: 1}
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1083
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 83
+        GraphID: 0
+        Description:
+          Identifier: Rough_TileBase
+          Label: Tile Base Roughness
+          GuiGroup: Roughness
+          GuiDescription: 
+          Type: 0
+          WidgetType: 3
+        Data: 0.188235
+        NumericalDescription:
+          DefaultValue: 0.188235
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1084
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 84
+        GraphID: 0
+        Description:
+          Identifier: Rough_Chip
+          Label: Tile Chip Roughness
+          GuiGroup: Roughness
+          GuiDescription: 
+          Type: 0
+          WidgetType: 3
+        Data: 0.758621
+        NumericalDescription:
+          DefaultValue: 0.758621
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1085
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 85
+        GraphID: 0
+        Description:
+          Identifier: Rough_GrimeOverlay
+          Label: Tile Grime Overlay
+          GuiGroup: Roughness
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.5
+        NumericalDescription:
+          DefaultValue: 0.05
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1086
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 86
+        GraphID: 0
+        Description:
+          Identifier: Rough_WaterDamage
+          Label: Tile Water Damage
+          GuiGroup: Roughness
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0.05
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1087
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 87
+        GraphID: 0
+        Description:
+          Identifier: Rough_TileVariation
+          Label: Tile Variation
+          GuiGroup: Roughness
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.248
+        NumericalDescription:
+          DefaultValue: 0.25
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1088
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 88
+        GraphID: 0
+        Description:
+          Identifier: Rough_RoughSpots
+          Label: Tile Rough Spot
+          GuiGroup: Roughness
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.015
+        NumericalDescription:
+          DefaultValue: 0.05
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1089
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 89
+        GraphID: 0
+        Description:
+          Identifier: Rough_DirtIntensity
+          Label: Tile Dirt Intensity
+          GuiGroup: Roughness
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.121
+        NumericalDescription:
+          DefaultValue: 0.2
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1090
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 90
+        GraphID: 0
+        Description:
+          Identifier: Rough_SideBurn
+          Label: Tile Side Burn
+          GuiGroup: Roughness
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1091
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 91
+        GraphID: 0
+        Description:
+          Identifier: Rough_Grout
+          Label: Grout Rougness
+          GuiGroup: Roughness
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.842
+        NumericalDescription:
+          DefaultValue: 0.75
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1092
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 92
+        GraphID: 0
+        Description:
+          Identifier: AO_Power
+          Label: AO Power
+          GuiGroup: Other
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 5
+        NumericalDescription:
+          DefaultValue: 5
+          MinValue: 0
+          MaxValue: 1000
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1093
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 93
+        GraphID: 0
+        Description:
+          Identifier: Normal_Intensity
+          Label: Normal Intensity
+          GuiGroup: Other
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 3
+        NumericalDescription:
+          DefaultValue: 8
+          MinValue: 0
+          MaxValue: 3
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1094
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 94
+        GraphID: 0
+        Description:
+          Identifier: Normal_TileDirection
+          Label: Normal Tile Direction
+          GuiGroup: Other
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.04
+        NumericalDescription:
+          DefaultValue: 0.04
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1095
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 95
+        GraphID: 0
+        Description:
+          Identifier: Sharpen
+          Label: Sharpness
+          GuiGroup: Other
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.25
+        NumericalDescription:
+          DefaultValue: 0.25
+          MinValue: 0
+          MaxValue: 3
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1096
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 96
+        GraphID: 0
+        Description:
+          Identifier: Rough_NormalToRoughness
+          Label: Normal To Roughness
+          GuiGroup: Roughness
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.5
+        NumericalDescription:
+          DefaultValue: 0.5
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 1
+          EnumValueCount: 0
+          EnumValues: []

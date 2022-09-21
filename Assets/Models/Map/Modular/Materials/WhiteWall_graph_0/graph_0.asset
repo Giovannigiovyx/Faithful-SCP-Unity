@@ -390,7 +390,7 @@ MonoBehaviour:
   Thumbnail: 
   HasThumbnail: 0
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://WhiteWall\" label=\"\" >\n  <presetinput
-    identifier=\"$outputsize\" uid=\"1457538008\" type=\"8\" value=\"11,11\" />\n 
+    identifier=\"$outputsize\" uid=\"1457538008\" type=\"8\" value=\"10,10\" />\n 
     <presetinput identifier=\"dirtiness_3\" uid=\"982291613\" type=\"0\" value=\"1\"
     />\n </sbspreset>\n"
   IsRuntimeOnly: 0
@@ -417,7 +417,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 5
           WidgetType: 0
-        Data: {x: 11, y: 11}
+        Data: {x: 10, y: 10}
         NumericalDescription:
           DefaultValue: {x: 8, y: 8}
           MinValue: {x: 0, y: 0}
