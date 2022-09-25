@@ -127,7 +127,7 @@ MonoBehaviour:
       DLSSUseOptimalSettings: 1
       DLSSSharpness: 0.5
       maxPercentage: 100
-      minPercentage: 100
+      minPercentage: 30
       dynResType: 1
       upsampleFilter: 1
       forceResolution: 0

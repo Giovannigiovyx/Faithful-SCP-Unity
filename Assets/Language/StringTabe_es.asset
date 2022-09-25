@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringTabe_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: c344f2ac126317347bc535f4bb7d19ee, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 7409753433525452908
+  m_TableData:
+  - m_Id: 3575352586240
+    m_Localized: Tocar
+    m_Metadata:
+      m_Items:
+      - rid: 7409753433525452908
+  - m_Id: 3272771301376
+    m_Localized: Multijugadora
+    m_Metadata:
+      m_Items:
+      - rid: 7409753433525452908
+  - m_Id: 3435891978240
+    m_Localized: Opciones
+    m_Metadata:
+      m_Items:
+      - rid: 7409753433525452908
+  - m_Id: 3341541109760
+    m_Localized: Salida
+    m_Metadata:
+      m_Items:
+      - rid: 7409753433525452908
+  - m_Id: 6018706632704
+    m_Localized: "atr\xE1s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6244657983488
+    m_Localized: "Pr\xF3logo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6396688920576
+    m_Localized: Nuevo juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6563710300160
+    m_Localized: Cargar juego
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 7409753433525452908
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00f09e734003000000f01efb1f03000000f05e030a03000000f05e00fa020000

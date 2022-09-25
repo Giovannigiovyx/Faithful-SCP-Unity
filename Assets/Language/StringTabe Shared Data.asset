@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: StringTabe Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: StringTabe
+  m_TableCollectionNameGuidString: c344f2ac126317347bc535f4bb7d19ee
+  m_Entries:
+  - m_Id: 3272771301376
+    m_Key: MainMenu/MainMenuController/Menu/MainMenu/Multiplayer/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3341541109760
+    m_Key: MainMenu/MainMenuController/Menu/MainMenu/Exit/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3435891978240
+    m_Key: MainMenu/MainMenuController/Menu/MainMenu/Options/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3575352586240
+    m_Key: MainMenu/MainMenuController/Menu/MainMenu/Play/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6018706632704
+    m_Key: MainMenu/MainMenuController/Menu/PlayMenu/Panel/Back/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6244657983488
+    m_Key: MainMenu/MainMenuController/Menu/PlayMenu/Panel/Chapters/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6396688920576
+    m_Key: MainMenu/MainMenuController/Menu/PlayMenu/Panel/NewGame/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6563710300160
+    m_Key: MainMenu/MainMenuController/Menu/PlayMenu/Panel/LoadGame/Text
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7409753433525452861
+  references:
+    version: 2
+    RefIds:
+    - rid: 7409753433525452861
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1663957339204

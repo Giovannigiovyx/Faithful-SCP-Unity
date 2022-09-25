@@ -207,7 +207,7 @@ Material:
     - _CullMode: 2
     - _CullModeForward: 2
     - _Cutoff: 0.5
-    - _DecalBlend: 0.5
+    - _DecalBlend: 0.6
     - _DecalColorMask0: 15
     - _DecalColorMask1: 15
     - _DecalColorMask2: 15
@@ -280,7 +280,7 @@ Material:
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
     - _Smoothness: 0.678
-    - _SmoothnessRemapMax: 0.4466895
+    - _SmoothnessRemapMax: 0
     - _SmoothnessRemapMin: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularAAScreenSpaceVariance: 0.1

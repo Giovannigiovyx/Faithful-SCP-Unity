@@ -277,7 +277,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 60
+  far clip plane: 50
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -333,14 +333,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c1ce4fb46143f46bc5cb5224c934f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clearColorMode: 1
+  clearColorMode: 0
   backgroundColorHDR: {r: 0, g: 0, b: 0, a: 0}
   clearDepth: 1
   volumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
   volumeAnchorOverride: {fileID: 0}
-  antialiasing: 2
+  antialiasing: 1
   SMAAQuality: 2
   dithering: 0
   stopNaNs: 0

@@ -46,7 +46,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 79.57747
-  m_Range: 8.93
+  m_Range: 6
   m_SpotAngle: 67.20885
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -840,7 +840,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 79.57747
-  m_Range: 8.93
+  m_Range: 6
   m_SpotAngle: 67.20885
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -1089,7 +1089,7 @@ Transform:
   - {fileID: 6774735061230848359}
   - {fileID: 2267197544104852896}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4907299063495549517
 MonoBehaviour:
@@ -1153,7 +1153,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 79.57747
-  m_Range: 8.93
+  m_Range: 6
   m_SpotAngle: 67.20885
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -1370,7 +1370,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 79.57747
-  m_Range: 8.93
+  m_Range: 6
   m_SpotAngle: 67.20885
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -1623,7 +1623,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 79.57747
-  m_Range: 8.93
+  m_Range: 6
   m_SpotAngle: 67.20885
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10

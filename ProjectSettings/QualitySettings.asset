@@ -92,7 +92,7 @@ QualitySettings:
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.161708, y: 0.32603297, z: 0.63608825}
     shadowmaskMode: 1
-    skinWeights: 2
+    skinWeights: 4
     textureQuality: 0
     anisotropicTextures: 1
     antiAliasing: 0
@@ -105,7 +105,7 @@ QualitySettings:
     maximumLODLevel: 0
     streamingMipmapsActive: 1
     streamingMipmapsAddAllCameras: 1
-    streamingMipmapsMemoryBudget: 1024
+    streamingMipmapsMemoryBudget: 2048
     streamingMipmapsRenderersPerFrame: 256
     streamingMipmapsMaxLevelReduction: 3
     streamingMipmapsMaxFileIORequests: 1024

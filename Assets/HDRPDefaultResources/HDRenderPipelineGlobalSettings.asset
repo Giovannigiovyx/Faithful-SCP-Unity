@@ -101,5 +101,19 @@ MonoBehaviour:
     serializedHasVolumes: []
     serializedProfiles: []
     serializedBakeSettings: []
-    serializedBakingSets: []
+    serializedBakingSets:
+    - name: Default
+      sceneGUIDs: []
+      settings:
+        dilationSettings:
+          enableDilation: 1
+          dilationDistance: 1
+          dilationValidityThreshold: 0.25
+          dilationIterations: 1
+          squaredDistWeighting: 1
+        virtualOffsetSettings:
+          useVirtualOffset: 1
+          outOfGeoOffset: 0.01
+          searchMultiplier: 0.2
+      profile: {fileID: 11400000, guid: 22a01bd60c374ec4d8047fe064d09d1c, type: 2}
   m_Version: 3
