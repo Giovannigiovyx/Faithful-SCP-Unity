@@ -289,8 +289,7 @@ public class npc173_new : Roam_NPC
 
         if (Physics.Raycast(nextMove + (Vector3.up * 0.6f), Vector3.down, out colHit, 2, groundMask))
         {
-            transform.position = colHit.point;
-            transform.rotation = nextRotation;
+            transform.SetPositionAndRotation(colHit.point, nextRotation);
         }
         else
         {
@@ -393,9 +392,8 @@ public class npc173_new : Roam_NPC
             {
                 data.isActive = beActive;
 
-                NavMeshHit here;
                 Debug.Log("173 Trying to spawn");
-                if (NavMesh.SamplePosition(warppoint, out here, 0.5f, NavMesh.AllAreas))
+                if (NavMesh.SamplePosition(warppoint, out NavMeshHit here, 0.5f, NavMesh.AllAreas))
                 {
                     transform.position = warppoint;
 

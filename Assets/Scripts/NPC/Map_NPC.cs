@@ -25,8 +25,7 @@ public class Map_NPC : MonoBehaviour
     public virtual void setData(NPC_Data state)
     {
         data = state;
-        transform.position = state.Pos.toVector3();
-        transform.rotation = Quaternion.Euler(state.Rotation.toVector3());
+        transform.SetPositionAndRotation(state.Pos.toVector3(), Quaternion.Euler(state.Rotation.toVector3()));
     }
 
     public virtual NPC_Data getData()

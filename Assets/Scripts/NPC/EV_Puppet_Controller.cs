@@ -11,7 +11,7 @@ public class EV_Puppet_Controller : MonoBehaviour
     Quaternion fromAngle, toAngle, currAngle, movAngle, toMovAngle;
     float fallSpeed, currentLerpTime = 1f, perc, intMoveX=0, intMoveY=0, refMoveSpeedX=0, refMoveSpeedY=0;
     int currentNode = 0, currSeq = 0;
-    bool isPath, hasSubs, isRotate, isLook, isSequence = false, isPursuit = false, hasDoor = false, isPushing = false, active = true, isMoving = false, stopRota=false;
+    bool isPath, hasSubs, isRotate, isLook, isSequence = false, isPursuit = false, hasDoor = false, isPushing = false, active = true, isMoving = false, stopRota = false;
     Transform[] ActualPath;
     Transform rotaAt, lookAt, Location;
     int pathNodes, audSeq;
