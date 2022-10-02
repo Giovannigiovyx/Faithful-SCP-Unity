@@ -95,7 +95,7 @@ public class Object_Door : MonoBehaviour
         float tempdis = Vector3.Distance(Door01.transform.position, Pos1 - (Door01.transform.right * DoorEndPos));
         if (tempdis >= 0.02)
         {
-            Door01.transform.position -= Door01.transform.right * OpenSpeed * Time.deltaTime;
+            Door01.transform.position -= OpenSpeed * Time.deltaTime * Door01.transform.right;
             if (tempdis > LastPos1)
             {
                 Door01.transform.position = Pos1 - (Door01.transform.right * DoorEndPos);
@@ -122,7 +122,7 @@ public class Object_Door : MonoBehaviour
         tempdis = Vector3.Distance(Door02.transform.position, Pos2 - (Door02.transform.right * DoorEndPos));
         if (tempdis >= 0.02)
         {
-            Door02.transform.position -= Door02.transform.right * OpenSpeed * Time.deltaTime;
+            Door02.transform.position -= OpenSpeed * Time.deltaTime * Door02.transform.right;
         }
 
 
@@ -135,7 +135,7 @@ public class Object_Door : MonoBehaviour
         float tempdis = Vector3.Distance(Door01.transform.position, Pos1);
         if (tempdis >= 0.00002)
         {
-            Door01.transform.position -= Door01.transform.right * -OpenSpeed * Time.deltaTime;
+            Door01.transform.position -= -OpenSpeed * Time.deltaTime * Door01.transform.right;
             if (tempdis > LastPos1)
             {
                 Door01.transform.position = Pos1;
@@ -166,7 +166,7 @@ public class Object_Door : MonoBehaviour
 
         tempdis = Vector3.Distance(Door02.transform.position, Pos2);
         if (tempdis >= 0.02)
-            Door02.transform.position -= Door02.transform.right * -OpenSpeed * Time.deltaTime;
+            Door02.transform.position -= -OpenSpeed * Time.deltaTime * Door02.transform.right;
     }
 
     public void DoorSwitch()

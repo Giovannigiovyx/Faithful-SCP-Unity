@@ -18,7 +18,7 @@ public class ParticleData
 public class ParticleController : MonoBehaviour
 {
     public ParticleData[] particles;
-    private List<ParticleData> currentParticles = new List<ParticleData>();
+    private List<ParticleData> currentParticles = new();
     // Update is called once per frame
     void Update()
     {

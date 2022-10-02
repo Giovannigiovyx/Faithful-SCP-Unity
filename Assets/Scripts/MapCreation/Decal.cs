@@ -65,10 +65,4 @@ public class Decal : MonoBehaviour
         render.material = DecalAtlas;
         render.material = DecalAtlas;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

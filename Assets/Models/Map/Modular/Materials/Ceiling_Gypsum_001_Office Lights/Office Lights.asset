@@ -210,7 +210,7 @@ MonoBehaviour:
     value=\"1,1,1,1\" />\n  <presetinput identifier=\"Smoke_Detector_Light_Color\"
     uid=\"77229003\" type=\"3\" value=\"1,1,1,1\" />\n  <presetinput identifier=\"Smoke_Detector_Roughness\"
     uid=\"77238586\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"Lights_Square_1_Position\"
-    uid=\"77321632\" type=\"1\" value=\"0,0\" />\n  <presetinput identifier=\"Lights_Square_2_Position\"
+    uid=\"77321632\" type=\"1\" value=\"-0.4,0\" />\n  <presetinput identifier=\"Lights_Square_2_Position\"
     uid=\"77327153\" type=\"1\" value=\"0,0\" />\n  <presetinput identifier=\"Lights_Square_Trim_Roughness\"
     uid=\"77242261\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"Lights_Square_Glass_Roughness\"
     uid=\"77246787\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"Vent_ON_OFF_Height_Control_\"
@@ -220,7 +220,9 @@ MonoBehaviour:
     uid=\"77230508\" type=\"0\" value=\"0.6\" />\n  <presetinput identifier=\"Vent_Roughness\"
     uid=\"77243618\" type=\"0\" value=\"0.5\" />\n  <presetinput identifier=\"Spot_Light_ON_OFF\"
     uid=\"77570288\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Spot_Lights_-_1_or_2\"
-    uid=\"77290339\" type=\"0\" value=\"0\" />\n </sbspreset>\n"
+    uid=\"77290339\" type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Spot_Light_1_Position\"
+    uid=\"77295144\" type=\"1\" value=\"0,0\" />\n  <presetinput identifier=\"Spot_Light_2_Position\"
+    uid=\"77299137\" type=\"1\" value=\"0,0\" />\n </sbspreset>\n"
   IsRuntimeOnly: 0
   GenerateAllOutputs: 0
   GenerateAllMipmaps: 1
@@ -541,7 +543,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 1
           WidgetType: 1
-        Data: {x: 0, y: 0}
+        Data: {x: -0.4, y: 0}
         NumericalDescription:
           DefaultValue: {x: -0.1415, y: 0.2017}
           MinValue: {x: -0.5, y: -0.5}
@@ -856,7 +858,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 1
           WidgetType: 1
-        Data: {x: -0.3813, y: 0.0233}
+        Data: {x: 0, y: 0}
         NumericalDescription:
           DefaultValue: {x: -0.3813, y: 0.0233}
           MinValue: {x: -0.5, y: -0.5}
@@ -877,7 +879,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 1
           WidgetType: 1
-        Data: {x: -0.3533, y: 0.7181}
+        Data: {x: 0, y: 0}
         NumericalDescription:
           DefaultValue: {x: -0.3533, y: 0.7181}
           MinValue: {x: -0.5, y: -0.5}

@@ -856,7 +856,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5590673925901755898}
   - component: {fileID: 8963419760732433931}
-  - component: {fileID: 6603753778815952427}
   - component: {fileID: 6038676021665673529}
   m_Layer: 0
   m_Name: Reflection Probe
@@ -913,19 +912,6 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
---- !u!114 &6603753778815952427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8837433188554485959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecff7081915771c499a1aebc0ba57a2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  angle: -2
 --- !u!114 &6038676021665673529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,7 +937,7 @@ MonoBehaviour:
       multiplier: 2
       weight: 1
       lightLayer: 1
-      fadeDistance: 10000
+      fadeDistance: 20
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0

@@ -294,7 +294,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5366287316290877820}
   - component: {fileID: 7552608905780515392}
-  - component: {fileID: 4721274098595069138}
   - component: {fileID: 160893971872643676}
   m_Layer: 0
   m_Name: Reflection Probe
@@ -351,19 +350,6 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
---- !u!114 &4721274098595069138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4415486960675044759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecff7081915771c499a1aebc0ba57a2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  angle: -2
 --- !u!114 &160893971872643676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -389,7 +375,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 10000
+      fadeDistance: 20
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -1021,7 +1007,7 @@ Transform:
   - {fileID: 8607673933111105252}
   - {fileID: 1162014264406606795}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6316923799969577146
 MonoBehaviour:
@@ -1068,7 +1054,6 @@ GameObject:
   m_Component:
   - component: {fileID: 948390042989286051}
   - component: {fileID: 4724762100345908252}
-  - component: {fileID: 2948695386020671648}
   - component: {fileID: 5065794118424382815}
   m_Layer: 0
   m_Name: Reflection Probe (1)
@@ -1125,19 +1110,6 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
---- !u!114 &2948695386020671648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6104106869681885663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecff7081915771c499a1aebc0ba57a2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  angle: -2
 --- !u!114 &5065794118424382815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1163,7 +1135,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 10000
+      fadeDistance: 20
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0

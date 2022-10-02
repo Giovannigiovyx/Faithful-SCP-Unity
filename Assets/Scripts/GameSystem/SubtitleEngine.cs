@@ -45,15 +45,15 @@ public class SubtitleEngine : MonoBehaviour
     public Text [] line = new Text [3];
     public Image[] bg = new Image[3];
     public RectTransform[] bgsize = new RectTransform[3];
-    List<time_data> pending = new List<time_data>();
-    List<delay_data> delayed = new List<delay_data>();
+    List<time_data> pending = new();
+    List<delay_data> delayed = new();
     string [] current = new string [3];
 
     [Header("FlavorText")]
     public Text[] ft_line = new Text[3];
     public Image[] ft_bg = new Image[3];
     public RectTransform[] ft_bgsize = new RectTransform[3];
-    List<string> ft_pending = new List<string>();
+    List<string> ft_pending = new();
     string[] ft_current = new string[3];
 
     // Start is called before the first frame update
@@ -71,12 +71,6 @@ public class SubtitleEngine : MonoBehaviour
         else if (instance != null)
             Destroy(gameObject);
         boxcol = bg[0].color;
-    }
-
-    void Start()
-    {
-
-
     }
 
     public void playSub(string table, string id)
@@ -145,12 +139,12 @@ public class SubtitleEngine : MonoBehaviour
                     sub.duration = (sub.duration / 2) < 2 ? 2 : (sub.duration / 2);
                     midSub.duration = sub.duration;
                     midSub.noFormat = true;
-                    midSub.subtitle = buildSubtitle.Substring(firstspace + 1);
+                    midSub.subtitle = buildSubtitle[(firstspace + 1)..];
 
                     if (!string.IsNullOrEmpty(midSub.subtitle))
                         delayed.Add(new delay_data(midSub, sub.duration));
 
-                    buildSubtitle = buildSubtitle.Substring(0, firstspace);
+                    buildSubtitle = buildSubtitle[..firstspace];
                 }
             }
             pending.Add(new time_data(buildSubtitle, sub.duration));

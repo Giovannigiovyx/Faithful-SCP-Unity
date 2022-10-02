@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [System.Serializable]
@@ -65,7 +66,7 @@ public class ItemController : MonoBehaviour
         items = new Dictionary<string, Item>();
         Object[] templatesArray;
         templatesArray = Resources.LoadAll("Items/", typeof(Item));
-        foreach (Item template in templatesArray)
+        foreach (Item template in templatesArray.Cast<Item>())
         {
             //Debug.Log("Template name: " + template.name);
             if (!items.ContainsKey(template.name))
@@ -111,7 +112,7 @@ public class ItemController : MonoBehaviour
                 Debug.Log(item.itemFileName);
                 SCP_UI.instance.ItemSFX(items[item.itemFileName].SFX);
 
-                if (items[item.itemFileName] is Equipable_Wear && ((Equipable_Wear)items[item.itemFileName]).autoEquip)
+                if (items[item.itemFileName] is Equipable_Wear wear && wear.autoEquip)
                 {
                     ChangeInv(inv);
                     currInv = inv;

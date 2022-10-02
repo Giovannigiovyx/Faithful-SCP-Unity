@@ -36,9 +36,11 @@ public class EfectTable
 
     public EfectTable CopyData()
     {
-        EfectTable copied = new EfectTable();
-        copied.affected = this.affected;
-        copied.effect = new EfectsData(this.effect.permanent, this.effect.time, this.effect.max, this.effect.min, this.effect.value, this.effect.multiplier);
+        EfectTable copied = new()
+        {
+            affected = this.affected,
+            effect = new EfectsData(this.effect.permanent, this.effect.time, this.effect.max, this.effect.min, this.effect.value, this.effect.multiplier)
+        };
         return copied;
     }
 }
@@ -96,12 +98,12 @@ public class Player_Control : MonoBehaviour
     [System.NonSerialized]
     public gameItem[] equipment = new gameItem[4];
     [System.NonSerialized]
-    public List<EfectTable> tempEffects = new List<EfectTable>();
+    public List<EfectTable> tempEffects = new();
 
-    public List<EfectTable> headEffects = new List<EfectTable>();
-    public List<EfectTable> bodyEffects = new List<EfectTable>();
-    public List<EfectTable> anyEffects = new List<EfectTable>();
-    public List<EfectTable> handEffects = new List<EfectTable>();
+    public List<EfectTable> headEffects = new();
+    public List<EfectTable> bodyEffects = new();
+    public List<EfectTable> anyEffects = new();
+    public List<EfectTable> handEffects = new();
 
     int headSlot = 0;
     int bodySlot = 0;
@@ -364,8 +366,7 @@ public class Player_Control : MonoBehaviour
     {
         if(lastBob < stepMiddle && InternalTimer > stepMiddle)
         {
-            RaycastHit hit;
-            if (Physics.Raycast(transform.position, Vector3.down, out hit, 2, Ground, QueryTriggerInteraction.Ignore))
+            if (Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, 2, Ground, QueryTriggerInteraction.Ignore))
             {
                 switch (hit.collider.gameObject.tag)
                 {
@@ -686,8 +687,7 @@ public class Player_Control : MonoBehaviour
 
     void ACT_Buttons()
     {
-        handPos.transform.position = CameraObj.transform.position + (CameraObj.transform.forward * handLength);
-        handPos.transform.rotation = CameraObj.transform.rotation;
+        handPos.transform.SetPositionAndRotation(CameraObj.transform.position + (CameraObj.transform.forward * handLength), CameraObj.transform.rotation);
 
         if (!objectLock)
         {
@@ -1078,10 +1078,10 @@ public class Player_Control : MonoBehaviour
 
     public void SetEffect(Item item)
     {
-        if (item is Equipable_Wear)
+        if (item is Equipable_Wear wear)
         {
             ref List<EfectTable> currEffect = ref headEffects;
-            switch (((Equipable_Wear)item).part)
+            switch (wear.part)
             {
                 case bodyPart.Any:
                     {
@@ -1173,9 +1173,9 @@ public class Player_Control : MonoBehaviour
         processEffects(ref handEffects);
         processEffects(ref bodyEffects);
 
-        if (equipment[(int)bodyPart.Hand] != null && ItemController.instance.items[equipment[(int)bodyPart.Hand].itemFileName] is Equipable_Elec && equipment[(int)bodyPart.Hand].valFloat >= 0)
+        if (equipment[(int)bodyPart.Hand] != null && ItemController.instance.items[equipment[(int)bodyPart.Hand].itemFileName] is Equipable_Elec elec && equipment[(int)bodyPart.Hand].valFloat >= 0)
         {
-            (equipment[(int)bodyPart.Hand]).valFloat -= ((Equipable_Elec)ItemController.instance.items[equipment[(int)bodyPart.Hand].itemFileName]).SpendFactor * Time.deltaTime;
+            (equipment[(int)bodyPart.Hand]).valFloat -= elec.SpendFactor * Time.deltaTime;
         }
 
         for (int i = 0; i < tempEffects.Count; i++)

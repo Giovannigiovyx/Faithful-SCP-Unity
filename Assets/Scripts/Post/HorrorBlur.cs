@@ -6,9 +6,9 @@ using UnityEngine.Rendering.PostProcessing;
 public sealed class HorrorBlur : PostProcessEffectSettings
 {
     [Range(0f, 0.92f), Tooltip("Accumulation Quantity")]
-    public FloatParameter blurAmount = new FloatParameter { value = 0f };
+    public FloatParameter blurAmount = new() { value = 0f };
     [Tooltip("Perform extra blur")]
-    public BoolParameter extraBlur = new BoolParameter { value = false };
+    public BoolParameter extraBlur = new() { value = false };
 }
 
 public sealed class HorrorBlurRenderer : PostProcessEffectRenderer<HorrorBlur>
@@ -22,8 +22,10 @@ public sealed class HorrorBlurRenderer : PostProcessEffectRenderer<HorrorBlur>
         if (accumText == null || !accumText.IsCreated())
         {
             //Debug.Log("Creating render texture");
-            accumText = new RenderTexture(context.width, context.height, 0);
-            accumText.hideFlags = HideFlags.HideAndDontSave;
+            accumText = new RenderTexture(context.width, context.height, 0)
+            {
+                hideFlags = HideFlags.HideAndDontSave
+            };
             accumText.Create();
             context.command.BlitFullscreenTriangle(context.source, accumText);
         }

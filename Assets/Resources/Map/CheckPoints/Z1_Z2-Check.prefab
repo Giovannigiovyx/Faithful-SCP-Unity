@@ -64,7 +64,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.11666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 94a2f70f41cc817459f4e475c39fcdc8, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: c9e3fed6f71d15b4990b7252470b2bef, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &2279560189884689955
 GameObject:
@@ -363,7 +363,7 @@ MonoBehaviour:
   m_AgentTypeID: 0
   m_StartPoint: {x: 0, y: 0, z: -0.5}
   m_EndPoint: {x: 0, y: 0, z: 0.5}
-  m_Width: 0
+  m_Width: 1.4
   m_CostModifier: -1
   m_Bidirectional: 1
   m_AutoUpdatePosition: 0
@@ -491,7 +491,7 @@ MonoBehaviour:
   m_AgentTypeID: 0
   m_StartPoint: {x: 0, y: 0, z: -0.5}
   m_EndPoint: {x: 0, y: 0, z: 0.5}
-  m_Width: 0
+  m_Width: 1.4
   m_CostModifier: -1
   m_Bidirectional: 1
   m_AutoUpdatePosition: 0
@@ -616,7 +616,6 @@ GameObject:
   - component: {fileID: 2543288723974015216}
   - component: {fileID: 5056662707512690}
   - component: {fileID: 8318681796496905005}
-  - component: {fileID: 7589786365032273189}
   m_Layer: 15
   m_Name: ButtonActivate
   m_TagString: Untagged
@@ -632,7 +631,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3838483716835423352}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.039001524, y: 1.4, z: 0.03572911}
+  m_LocalPosition: {x: 0, y: 2.1000001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -647,10 +646,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3838483716835423352}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 4}
+  m_Size: {x: 10, y: 4, z: 4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8318681796496905005
 MonoBehaviour:
@@ -665,22 +664,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Contains: {fileID: 6424125176368613845}
---- !u!54 &7589786365032273189
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3838483716835423352}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &3905011132780230509
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,8 +925,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 547959859582570853}
-  - component: {fileID: 5963805047058485983}
-  - component: {fileID: 7576784328773569996}
   m_Layer: 10
   m_Name: Room
   m_TagString: Untagged
@@ -959,7 +940,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5537846659116831177}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.2609985, y: 0.000000024214387, z: 0.42872906}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1039,94 +1020,6 @@ Transform:
   m_Father: {fileID: 704617264600272897}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5963805047058485983
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5537846659116831177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2c28772ec13a3f4d9acba5c5525e400, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _transform: {fileID: 547959859582570853}
-  _showGUIHints: 1
-  _octave3DScene: {}
-  _prefabPreviewGenerator:
-    _renderCamera: {fileID: 0}
-    _previewLights:
-    - {fileID: 0}
-  _editorWindowPool: {fileID: 7576784328773569996}
-  _prefabCategoryDatabase: {fileID: 0}
-  _objectLayerDatabase: {fileID: 0}
-  _prefabTagDatabase: {fileID: 0}
-  _objectPlacementPathHeightPatternDatabase: {fileID: 0}
-  _objectPlacementPathTileConnectionConfigurationDatabase: {fileID: 0}
-  _decorPaintObjectPlacementBrushDatabase: {fileID: 0}
-  _placementObjectGroupDatabase: {fileID: 0}
-  _objectPlacement: {fileID: 0}
-  _objectSnapping: {fileID: 0}
-  _objectEraser: {fileID: 0}
-  _objectSelection: {fileID: 0}
-  _prefabsToCategoryDropEventHandler:
-    _prefabsDropSettings: {fileID: 0}
-    _prefabFoldersDropSettings: {fileID: 0}
-  _prefabsToPathTileConnectionDropEventHandler:
-    _dropSettings: {fileID: 0}
-  _inspector: {fileID: 0}
-  _meshCombineSettings: {fileID: 0}
-  _shaderPool:
-    _gridShader: {fileID: 4800000, guid: 06932e1e9899b5e429681a49da9c80cd, type: 3}
-  _materialPool:
-    _xzGridMaterial: {fileID: 0}
---- !u!114 &7576784328773569996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5537846659116831177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd15cbbeb80414648bab7c15830b8255, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _allWindows:
-  - {fileID: 0}
-  _prefabManagementWindow: {fileID: 0}
-  _objectPlacementSettingsWindow: {fileID: 0}
-  _prefabsToCategoryDropSettingsWindow: {fileID: 0}
-  _prefabTagsWindow: {fileID: 0}
-  _objectLayersWindow: {fileID: 0}
-  _selectionGrabSettingsWindow: {fileID: 0}
-  _octave3DConfigSaveWindow: {fileID: 0}
-  _octave3DConfigLoadWindow: {fileID: 0}
-  _decorPaintBrushViewLookAndFeelWindow: {fileID: 0}
-  _activePrefabCategoryView:
-    _isVisible: 1
-    _toggleVisibilityBeforeRender: 1
-    _visibilityToggleLabel: Active Prefab Category View
-    _visibilityToggleIndent: 0
-    _indentContent: 0
-    _surroundWithBox: 1
-    _viewData: {fileID: 0}
-    _prefabScrollView:
-      _isVisible: 1
-      _toggleVisibilityBeforeRender: 0
-      _visibilityToggleLabel: 
-      _visibilityToggleIndent: 0
-      _indentContent: 0
-      _surroundWithBox: 0
-      _viewData: {fileID: 0}
-  _activePrefabView:
-    _isVisible: 1
-    _toggleVisibilityBeforeRender: 1
-    _visibilityToggleLabel: Active Prefab View
-    _visibilityToggleIndent: 0
-    _indentContent: 0
-    _surroundWithBox: 1
 --- !u!1 &5587949645954686661
 GameObject:
   m_ObjectHideFlags: 0
@@ -1833,7 +1726,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6221821720422910400}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.1390016, y: 0.025000013, z: 0.23572904}
+  m_LocalPosition: {x: -2.1390016, y: 0, z: 0.03572911}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2060,7 +1953,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6370319712481924284}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.6609986, y: 0.025000006, z: 0.23572904}
+  m_LocalPosition: {x: 2.6609986, y: 0, z: 0.03572914}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3224,7 +3117,7 @@ Transform:
   - {fileID: 3043685666629588223}
   - {fileID: 7771388467178307592}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9165989592171284734
 MonoBehaviour:

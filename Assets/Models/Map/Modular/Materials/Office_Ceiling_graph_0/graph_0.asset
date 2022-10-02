@@ -194,8 +194,7 @@ MonoBehaviour:
     uid=\"1330007769\" type=\"4\" value=\"0\" />\n  <presetinput identifier=\"Broken_Ceiling_Amount\"
     uid=\"1330019678\" type=\"0\" value=\"0.146\" />\n  <presetinput identifier=\"Broken_Ceiling_Opacity\"
     uid=\"1330037925\" type=\"0\" value=\"0.105\" />\n  <presetinput identifier=\"Water_Puddle_Size\"
-    uid=\"1329174014\" type=\"4\" value=\"1\" />\n  <presetinput identifier=\"Emissive_Bulb_Random\"
-    uid=\"1329104402\" type=\"0\" value=\"0.077\" />\n </sbspreset>\n"
+    uid=\"1329174014\" type=\"4\" value=\"1\" />\n </sbspreset>\n"
   IsRuntimeOnly: 0
   GenerateAllOutputs: 0
   GenerateAllMipmaps: 1
@@ -578,7 +577,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.077
+        Data: 0
         NumericalDescription:
           DefaultValue: 0
           MinValue: 0

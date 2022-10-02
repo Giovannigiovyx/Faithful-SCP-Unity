@@ -21,7 +21,7 @@ public class NPC_Controller : MonoBehaviour
     public SimpleNPC[] simpList = new SimpleNPC[1];
     [HideInInspector]
     [System.NonSerialized]
-    public List<Map_NPC> NPCS = new List<Map_NPC>();
+    public List<Map_NPC> NPCS = new();
 
     GameObject parent;
 
@@ -56,12 +56,6 @@ public class NPC_Controller : MonoBehaviour
     void Awake()
     {
         parent = new GameObject("npcParent");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void DeleteNPC()

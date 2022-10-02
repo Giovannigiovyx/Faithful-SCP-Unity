@@ -6,13 +6,13 @@ using UnityEngine.Rendering.PostProcessing;
 public sealed class NightVision : PostProcessEffectSettings
 {
     [Tooltip("The main color of the NV effect")]
-    public ColorParameter m_NVColor = new ColorParameter { value =  new Color(0f, 1f, 0.1724138f, 0f) };
+    public ColorParameter m_NVColor = new() { value =  new Color(0f, 1f, 0.1724138f, 0f) };
     [Tooltip("The color that the NV effect will 'bleach' towards (white = default)")]
-    public ColorParameter m_TargetBleachColor = new ColorParameter { value = new Color(1f, 1f, 1f, 0f) };
+    public ColorParameter m_TargetBleachColor = new() { value = new Color(1f, 1f, 1f, 0f) };
     [Range(0f, 0.1f), Tooltip("How much base lighting does the NV effect pick up")]
-    public FloatParameter m_baseLightingContribution = new FloatParameter { value = 0.025f };
+    public FloatParameter m_baseLightingContribution = new() { value = 0.025f };
     [Range(0f, 128f), Tooltip("The higher this value, the more bright areas will get 'bleached out'")]
-    public FloatParameter m_LightSensitivityMultiplier = new FloatParameter { value = 100f };
+    public FloatParameter m_LightSensitivityMultiplier = new() { value = 100f };
 
     public override bool IsEnabledAndSupported(PostProcessRenderContext context)
     {

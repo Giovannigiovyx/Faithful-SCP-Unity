@@ -6,7 +6,7 @@ public class TeslaGate_Controller : Event_Parent
 {
     // Start is called before the first frame update
     public AudioClip idle, charge, shock, start;
-    public new AudioSource audio;
+    public AudioSource audio;
     public GameObject Shock;
     public Material elec;
     bool ActiveTimer, shocked, endshock, started;
@@ -71,7 +71,7 @@ public class TeslaGate_Controller : Event_Parent
 
     void OnTriggerStay(Collider other)
     {
-        if (isStarted && ActiveTimer == false && other.tag == "Player")
+        if (isStarted && ActiveTimer == false && other.CompareTag("Player"))
         {
             ActiveTimer = true;
             Timer = 0;

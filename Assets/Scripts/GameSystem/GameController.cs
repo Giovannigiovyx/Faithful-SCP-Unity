@@ -83,7 +83,7 @@ public class GameController : MonoBehaviour
     [HideInInspector]
     public Player_Control playercache;
     public GameObject itemSpawner;
-    public UnityEvent startGame=new UnityEvent();
+    public UnityEvent startGame=new();
 
 
     [HideInInspector]
@@ -150,10 +150,10 @@ public class GameController : MonoBehaviour
 
     bool StartupDone = false;
 
-    public List<int> globalInts = new List<int>();
-    public List<bool> globalBools = new List<bool>();
-    public List<float> globalFloats = new List<float>();
-    public List<string> globalStrings = new List<string>();
+    public List<int> globalInts = new();
+    public List<bool> globalBools = new();
+    public List<float> globalFloats = new();
+    public List<string> globalStrings = new();
 
     /// <summary>
     /// SpecialItemsData
@@ -203,8 +203,10 @@ public class GameController : MonoBehaviour
         eventParent = new GameObject("eventParent");
 
 
-        doorParent = new GameObject();
-        doorParent.name = "doorParent";
+        doorParent = new GameObject
+        {
+            name = "doorParent"
+        };
 
         persParent = new GameObject("persParent");
 
@@ -233,8 +235,10 @@ public class GameController : MonoBehaviour
             {
                 Debug.Log("i = " + i);
                 SaveSystem.instance.playData.worldsCreateds[i] = false;
-                SaveSystem.instance.playData.worlds[i] = new WorldData();
-                SaveSystem.instance.playData.worlds[i].worldItems = new ItemList[100];
+                SaveSystem.instance.playData.worlds[i] = new WorldData
+                {
+                    worldItems = new ItemList[100]
+                };
             }
         }
 
@@ -804,10 +808,12 @@ public class GameController : MonoBehaviour
         {
             if (itemData[i] == null || itemData[i].item == null)
             {
-                itemData[i] = new ItemList();
-                itemData[i].X = pos.x;
-                itemData[i].Y = pos.y;
-                itemData[i].Z = pos.z;
+                itemData[i] = new ItemList
+                {
+                    X = pos.x,
+                    Y = pos.y,
+                    Z = pos.z
+                };
                 Debug.Log("Nuevoitem en: "+i);
 
                 itemData[i].item = item;
@@ -1072,7 +1078,7 @@ public class GameController : MonoBehaviour
 
                     GlobalValues.worldState = SaveSystem.instance.playData;
 
-                    SeriVector temp = new SeriVector(0, 0, 0);
+                    SeriVector temp = new(0, 0, 0);
 
 
                     LoadingSystem.instance.FadeOut(1.5f, new Vector3Int(0, 0, 0));
@@ -1829,22 +1835,22 @@ public class GameController : MonoBehaviour
 
     public void CL_spawn106()
     {
-        Vector3 here = new Vector3(xPlayer * roomsize, 0, yPlayer * roomsize);
+        Vector3 here = new(xPlayer * roomsize, 0, yPlayer * roomsize);
         npcController.mainList[(int)npc.scp106].Spawn(true, here);
     }
     public void CL_spawn049()
     {
-        Vector3 here = new Vector3(xPlayer * roomsize, 0, yPlayer * roomsize);
+        Vector3 here = new(xPlayer * roomsize, 0, yPlayer * roomsize);
         npcController.mainList[(int)npc.scp049].Spawn(true, here);
     }
     public void CL_spawn096()
     {
-        Vector3 here = new Vector3(xPlayer * roomsize, 0, yPlayer * roomsize);
+        Vector3 here = new(xPlayer * roomsize, 0, yPlayer * roomsize);
         npcController.mainList[(int)npc.scp096].Spawn(true, here);
     }
     public void CL_spawn173()
     {
-        Vector3 here = new Vector3(xPlayer * roomsize, 0, yPlayer * roomsize);
+        Vector3 here = new(xPlayer * roomsize, 0, yPlayer * roomsize);
         npcController.mainList[(int)npc.scp173].Event_Spawn(true, here);
     }
     public void CL_spawn513()

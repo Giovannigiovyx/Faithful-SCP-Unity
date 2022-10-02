@@ -16,10 +16,6 @@ public class Object_LeverV : Object_Interact
 
     float changing = 0;
     bool start, change, cooldown;
-    // Start is called before the first frame update
-    void Update()
-    {
-    }
 
     public void HandleUpdate(float value)
     {

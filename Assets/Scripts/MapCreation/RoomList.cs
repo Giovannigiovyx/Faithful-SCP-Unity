@@ -23,11 +23,11 @@ public class RoomList : ScriptableObject
 {
     public int Zone;
     //This is our list we want to use to represent our class as an array.
-    public List<RoomChance> twoWay_List = new List<RoomChance>(1);
-    public List<RoomChance> cornerWay_List = new List<RoomChance>(1);
-    public List<RoomChance> tWay_List = new List<RoomChance>(1);
-    public List<RoomChance> endWay_List = new List<RoomChance>(1);
-    public List<RoomChance> fourWay_List = new List<RoomChance>(1);
+    public List<RoomChance> twoWay_List = new(1);
+    public List<RoomChance> cornerWay_List = new(1);
+    public List<RoomChance> tWay_List = new(1);
+    public List<RoomChance> endWay_List = new(1);
+    public List<RoomChance> fourWay_List = new(1);
 
 
     public void AddNew(RoomType choiceList)

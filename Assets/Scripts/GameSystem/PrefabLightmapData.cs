@@ -26,7 +26,7 @@ public class PrefabLightmapData : MonoBehaviour
 		var lightmaps = LightmapSettings.lightmaps;
         int[] offsetsindexes = new int[m_Lightmaps.Length];
         int counttotal = lightmaps.Length;        
-        List<LightmapData> combinedLightmaps = new List<LightmapData>();
+        List<LightmapData> combinedLightmaps = new();
         
         for (int i = 0; i < m_Lightmaps.Length; i++)
         {
@@ -45,9 +45,11 @@ public class PrefabLightmapData : MonoBehaviour
             if (!exists)
             {
                 offsetsindexes[i] = counttotal;
-                var newlightmapdata = new LightmapData();
-                newlightmapdata.lightmapColor = m_Lightmaps[i];
-                combinedLightmaps.Add(newlightmapdata);
+				var newlightmapdata = new LightmapData
+				{
+					lightmapColor = m_Lightmaps[i]
+				};
+				combinedLightmaps.Add(newlightmapdata);
 
                 counttotal += 1;
 
@@ -118,9 +120,11 @@ public class PrefabLightmapData : MonoBehaviour
 		{
 			if (renderer.lightmapIndex != -1)
 			{
-				RendererInfo info = new RendererInfo();
-				info.renderer = renderer;
-				info.lightmapOffsetScale = renderer.lightmapScaleOffset;
+				RendererInfo info = new()
+				{
+					renderer = renderer,
+					lightmapOffsetScale = renderer.lightmapScaleOffset
+				};
 
 				Texture2D lightmap = LightmapSettings.lightmaps[renderer.lightmapIndex].lightmapColor;
 

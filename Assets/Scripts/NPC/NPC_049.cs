@@ -211,8 +211,7 @@ public class NPC_049 : Roam_NPC
                         }
                     }
 
-                    RaycastHit hit;
-                    if (Physics.Raycast(transform.position + Vector3.up, transform.forward, out hit, 0.5f, doors))
+                    if (Physics.Raycast(transform.position + Vector3.up, transform.forward, out RaycastHit hit, 0.5f, doors))
                     {
                         if (!hit.transform.gameObject.GetComponent<Object_Door>().GetState())
                         {
@@ -267,8 +266,7 @@ public class NPC_049 : Roam_NPC
                         Timer = Random.Range(5, 10);
                     }
 
-                    RaycastHit hit;
-                    if (Physics.Raycast(transform.position + Vector3.up, transform.forward, out hit, 0.5f, doors))
+                    if (Physics.Raycast(transform.position + Vector3.up, transform.forward, out RaycastHit hit, 0.5f, doors))
                     {
                         if (!hit.transform.gameObject.GetComponent<Object_Door>().GetState())
                         {
@@ -316,8 +314,7 @@ public class NPC_049 : Roam_NPC
                         Timer = Random.Range(5, 10);
                     }
 
-                    RaycastHit hit;
-                    if (Physics.Raycast(transform.position + Vector3.up, transform.forward, out hit, 0.5f, doors))
+                    if (Physics.Raycast(transform.position + Vector3.up, transform.forward, out RaycastHit hit, 0.5f, doors))
                     {
                         if (!hit.transform.gameObject.GetComponent<Object_Door>().GetState())
                         {
@@ -364,8 +361,7 @@ public class NPC_049 : Roam_NPC
                     animator.SetBool("reach", distanceFromPlayer < 5 && state != scp049State.kill);
 
 
-                    RaycastHit hit;
-                    if (Physics.Raycast(transform.position + Vector3.up, transform.forward, out hit, 0.5f, doors))
+                    if (Physics.Raycast(transform.position + Vector3.up, transform.forward, out RaycastHit hit, 0.5f, doors))
                     {
                         if (!hit.transform.gameObject.GetComponent<Object_Door>().GetState())
                         {
@@ -606,8 +602,7 @@ public class NPC_049 : Roam_NPC
                             state = scp049State.idle;
                         }
                     }
-                    RaycastHit hit;
-                    if (Physics.Raycast(transform.position + Vector3.up, transform.forward, out hit, 4f, doors))
+                    if (Physics.Raycast(transform.position + Vector3.up, transform.forward, out RaycastHit hit, 4f, doors))
                     {
                         hit.transform.gameObject.GetComponent<Object_Door>().ForceOpen(5);
                     }

@@ -110,7 +110,7 @@ public class SaveSystem : MonoBehaviour
 {
     public const int worldQ = 3;
 
-    public SaveData playData = new SaveData();
+    public SaveData playData = new();
     public static SaveSystem instance = null;
 
 
@@ -140,10 +140,8 @@ public class SaveSystem : MonoBehaviour
 
         string jsonString = JsonUtility.ToJson(new saveMeta(GlobalValues.mapseed, dataPath));
 
-        using (StreamWriter streamWriter = File.CreateText(metaPath))
-        {
-            streamWriter.Write(jsonString);
-        }
+        using StreamWriter streamWriter = File.CreateText(metaPath);
+        streamWriter.Write(jsonString);
     }
 
     public  void LoadState()
@@ -164,25 +162,20 @@ public class SaveSystem : MonoBehaviour
 
     void WriteSaveFile(SaveData data, string path)
     {
-        BinaryFormatter binaryFormatter = new BinaryFormatter();
+        BinaryFormatter binaryFormatter = new();
 
-        using (FileStream fileStream = File.Open(path, FileMode.OpenOrCreate))
-        {
-            binaryFormatter.Serialize(fileStream, data);
-            Debug.Log("ArchivoGuardado en " + path);
-        }
+        using FileStream fileStream = File.Open(path, FileMode.OpenOrCreate);
+        binaryFormatter.Serialize(fileStream, data);
+        Debug.Log("ArchivoGuardado en " + path);
     }
 
     static SaveData LoadSaveFile(string path)
     {
-        BinaryFormatter binaryFormatter = new BinaryFormatter();
+        BinaryFormatter binaryFormatter = new();
 
-        using (FileStream fileStream = File.Open(path, FileMode.Open))
-        {
-            Debug.Log("Abriendo de " + path);
-            return (SaveData)binaryFormatter.Deserialize(fileStream);
-
-        }
+        using FileStream fileStream = File.Open(path, FileMode.Open);
+        Debug.Log("Abriendo de " + path);
+        return (SaveData)binaryFormatter.Deserialize(fileStream);
     }
 
     /*string[] GetFilePaths()

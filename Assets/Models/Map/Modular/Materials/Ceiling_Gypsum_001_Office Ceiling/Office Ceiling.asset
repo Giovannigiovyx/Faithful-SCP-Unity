@@ -201,8 +201,11 @@ MonoBehaviour:
   HasThumbnail: 0
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://Ceiling_Gypsum_001\" label=\"\"
     >\n  <presetinput identifier=\"$outputsize\" uid=\"1907078469\" type=\"8\" value=\"10,10\"
-    />\n  <presetinput identifier=\"Tiles_Color\" uid=\"77228645\" type=\"3\" value=\"0.830189,0.830189,0.830189,1\"
-    />\n  <presetinput identifier=\"Grid_Color\" uid=\"77228663\" type=\"3\" value=\"0.650943,0.650943,0.650943,1\"
+    />\n  <presetinput identifier=\"Tegular_Recess_ON_OFF\" uid=\"77561396\" type=\"0\"
+    value=\"1\" />\n  <presetinput identifier=\"Tiles_Color\" uid=\"77228645\" type=\"3\"
+    value=\"0.830189,0.830189,0.830189,1\" />\n  <presetinput identifier=\"Grid_Color\"
+    uid=\"77228663\" type=\"3\" value=\"0.490566,0.490566,0.490566,1\" />\n  <presetinput
+    identifier=\"Moisture_Damage_ON_OFF\" uid=\"77222017\" type=\"0\" value=\"0.6\"
     />\n  <presetinput identifier=\"Smoke_Detector_-_ON_OFF\" uid=\"77835903\" type=\"0\"
     value=\"0\" />\n  <presetinput identifier=\"Lights_Square_ON_OFF\" uid=\"77553130\"
     type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Lights_Square_1_Position\"
@@ -291,7 +294,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.48
+        Data: 1
         NumericalDescription:
           DefaultValue: 0.48
           MinValue: 0
@@ -354,7 +357,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 3
           WidgetType: 3
-        Data: {x: 0.6509434, y: 0.6509434, z: 0.6509434, w: 1}
+        Data: {x: 0.49056602, y: 0.49056602, z: 0.49056602, w: 1}
         NumericalDescription:
           DefaultValue: {x: 0.84, y: 0.84, z: 0.84, w: 1}
           MinValue: {x: 0, y: 0, z: 0, w: 0}
@@ -375,7 +378,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 1
+        Data: 0.6
         NumericalDescription:
           DefaultValue: 1
           MinValue: 0

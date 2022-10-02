@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class Player_MouseLook : MonoBehaviour
 {
-    public Vector3 rotation = new Vector3(0, 0, 0);
+    public Vector3 rotation = new(0, 0, 0);
     public Quaternion addedRota = Quaternion.identity;
     public float speed = 3;
     float inspeed=3;

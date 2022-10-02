@@ -972,7 +972,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5933296250878566952}
   - component: {fileID: 5933296250878566953}
-  - component: {fileID: 5933296250878566934}
   - component: {fileID: 7526300932561839839}
   m_Layer: 0
   m_Name: Reflection Probe (1)
@@ -1029,19 +1028,6 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
---- !u!114 &5933296250878566934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5933296250878566955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecff7081915771c499a1aebc0ba57a2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  angle: -2
 --- !u!114 &7526300932561839839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1067,7 +1053,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 10000
+      fadeDistance: 20
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -3088,7 +3074,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5933296251626888894}
   - component: {fileID: 5933296251626888895}
-  - component: {fileID: 5933296251626888892}
   - component: {fileID: 4002808146237985534}
   m_Layer: 0
   m_Name: Reflection Probe (2)
@@ -3145,19 +3130,6 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
---- !u!114 &5933296251626888892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5933296251626888881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecff7081915771c499a1aebc0ba57a2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  angle: -2
 --- !u!114 &4002808146237985534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3183,7 +3155,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 10000
+      fadeDistance: 20
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -4688,7 +4660,7 @@ Transform:
   - {fileID: 976899734682710426}
   - {fileID: 4799785730864331122}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5933296252126844069
 MonoBehaviour:
@@ -4973,7 +4945,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5933296252198060966}
   - component: {fileID: 5933296252198060967}
-  - component: {fileID: 5933296252198060964}
   - component: {fileID: 151006824661823787}
   m_Layer: 0
   m_Name: Reflection Probe
@@ -5030,19 +5001,6 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
---- !u!114 &5933296252198060964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5933296252198060985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecff7081915771c499a1aebc0ba57a2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  angle: -2
 --- !u!114 &151006824661823787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5068,7 +5026,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 10000
+      fadeDistance: 20
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -5455,7 +5413,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5933296252299123059}
   - component: {fileID: 5933296252299123056}
-  - component: {fileID: 5933296252299123057}
   - component: {fileID: 1455823166789252846}
   m_Layer: 0
   m_Name: Reflection Probe (4)
@@ -5512,19 +5469,6 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
---- !u!114 &5933296252299123057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5933296252299123058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecff7081915771c499a1aebc0ba57a2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  angle: -2
 --- !u!114 &1455823166789252846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5550,7 +5494,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 10000
+      fadeDistance: 20
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -6857,7 +6801,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5933296252668268443}
   - component: {fileID: 5933296252668268440}
-  - component: {fileID: 5933296252668268441}
   - component: {fileID: 7085411154999087532}
   m_Layer: 0
   m_Name: Reflection Probe (3)
@@ -6914,19 +6857,6 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
---- !u!114 &5933296252668268441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5933296252668268442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecff7081915771c499a1aebc0ba57a2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  angle: -2
 --- !u!114 &7085411154999087532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6952,7 +6882,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 10000
+      fadeDistance: 20
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0

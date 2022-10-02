@@ -14,7 +14,7 @@ public enum OffMeshLinkMoveMethod
 public class AgentLinkMover : MonoBehaviour
 {
     public OffMeshLinkMoveMethod m_Method = OffMeshLinkMoveMethod.Parabola;
-    public AnimationCurve m_Curve = new AnimationCurve();
+    public AnimationCurve m_Curve = new();
     [SerializeField]
     private bool stopAtDoors = true;
 
@@ -72,8 +72,7 @@ public class AgentLinkMover : MonoBehaviour
                 yield return null;
             }
 
-            agent.transform.position = Vector3.Lerp(startPos, endPos, normalizedTime);
-            agent.transform.rotation = Quaternion.Lerp(startRota, endRota, normalizedTime);
+            agent.transform.SetPositionAndRotation(Vector3.Lerp(startPos, endPos, normalizedTime), Quaternion.Lerp(startRota, endRota, normalizedTime));
             normalizedTime += Time.deltaTime / duration;
             yield return null;
         }

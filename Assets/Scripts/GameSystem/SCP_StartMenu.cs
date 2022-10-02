@@ -196,24 +196,4 @@ public class SCP_StartMenu : MonoBehaviour
         GlobalValues.playIntro = value;
 
     }
-
-
-
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        /*if (Input.GetKeyDown(KeyCode.F1))
-        {
-            Debug.Log("Exportando Strings");
-            Localization.ExportDefault();
-        }
-
-        if (Input.GetKeyDown(KeyCode.F2))
-        {
-            Debug.Log("Exportando Subtitulos");
-            Localization.BuildSubsDefault();
-        }*/
-    }
 }

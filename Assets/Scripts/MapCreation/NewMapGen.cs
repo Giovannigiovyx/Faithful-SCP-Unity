@@ -108,7 +108,7 @@ public class NewMapGen : MonoBehaviour
     public MapSize mapSize;
     public LayerMask ground;
 
-    public Dictionary<string, room_dat> roomTable = new Dictionary<string, room_dat>();
+    public Dictionary<string, room_dat> roomTable = new();
 
     RoomList[] RoomTable;
 
@@ -118,7 +118,7 @@ public class NewMapGen : MonoBehaviour
     public int minHall, maxHall;
     public int agreCarv, CarvHall;
 
-    List<walker_dat> walker_list = new List<walker_dat>();
+    List<walker_dat> walker_list = new();
 
     public int[,] mapgen;
     public int[,,] cull_lookup;
@@ -147,11 +147,11 @@ public class NewMapGen : MonoBehaviour
     public RoomList zHeavy;
     public RoomList zLight;
 
-    List<Roomlookup> cornerWay_Lookup = new List<Roomlookup>();
-    List<Roomlookup> twoWay_Lookup = new List<Roomlookup>();
-    List<Roomlookup> tWay_Lookup = new List<Roomlookup>();
-    List<Roomlookup> endWay_Lookup = new List<Roomlookup>();
-    List<Roomlookup> fourWay_Lookup = new List<Roomlookup>();
+    List<Roomlookup> cornerWay_Lookup = new();
+    List<Roomlookup> twoWay_Lookup = new();
+    List<Roomlookup> tWay_Lookup = new();
+    List<Roomlookup> endWay_Lookup = new();
+    List<Roomlookup> fourWay_Lookup = new();
 
     public GameObject zone3Check;
     public GameObject zone2Check;
@@ -196,7 +196,7 @@ public class NewMapGen : MonoBehaviour
                 speciallist.Add(roomlist[i]);
             }
         }
-        RoomCompare rc = new RoomCompare();
+        RoomCompare rc = new();
 
         roomlist.Sort(rc);
         AddToList(roomlist);
@@ -207,17 +207,19 @@ public class NewMapGen : MonoBehaviour
         int i;
         for (i = 0; i < (roomlist.Count); i++)
         {
-            room_dat temp = new room_dat();
-            temp.RoomHolder = roomlist[i].Room;
-            temp.music = roomlist[i].music;
-            temp.isSpecial = roomlist[i].isSpecial;
-            temp.hasSpecial = roomlist[i].hasSpecial;
-            temp.hasEvents = roomlist[i].hasEvent;
-            temp.hasItems = roomlist[i].hasItem;
-            temp.Zone = roomlist[i].Zone;
-            temp.type = roomlist[i].type;
-            temp.hasAmbiance = roomlist[i].hasAmbiance;
-            temp.customFog = roomlist[i].customFog;
+            room_dat temp = new()
+            {
+                RoomHolder = roomlist[i].Room,
+                music = roomlist[i].music,
+                isSpecial = roomlist[i].isSpecial,
+                hasSpecial = roomlist[i].hasSpecial,
+                hasEvents = roomlist[i].hasEvent,
+                hasItems = roomlist[i].hasItem,
+                Zone = roomlist[i].Zone,
+                type = roomlist[i].type,
+                hasAmbiance = roomlist[i].hasAmbiance,
+                customFog = roomlist[i].customFog
+            };
 
             roomTable.Add(temp.RoomHolder.name, temp);
         }
@@ -225,10 +227,14 @@ public class NewMapGen : MonoBehaviour
 
     private void MapStart()
     {
-        eventList = new List<string>();
-        eventList.Add("Porsiacaso");
-        mapParent = new GameObject();
-        mapParent.name = "Generated Map";
+        eventList = new List<string>
+        {
+            "Porsiacaso"
+        };
+        mapParent = new GameObject
+        {
+            name = "Generated Map"
+        };
 
 
         mapgen = new int[mapSize.xSize, mapSize.ySize];
@@ -295,15 +301,16 @@ public class NewMapGen : MonoBehaviour
 
         LlenarMundo();          //Al finalizar, llena el mapa con objetos
 
-        mapfil[0, mapSize.ySize / 2] = new room();
-
-        mapfil[0, mapSize.ySize /2].roomName = introRoom.name;
-        mapfil[0, mapSize.ySize /2].isSpecial = true;
-        mapfil[0, mapSize.ySize / 2].items = 1;
-        mapfil[0, mapSize.ySize /2].angle = 90;
-        mapfil[0, mapSize.ySize /2].Zone = 2;
-        mapfil[0, mapSize.ySize /2].type = RoomType.EndWay;
-        mapfil[0, mapSize.ySize / 2].customFog = -1;
+        mapfil[0, mapSize.ySize / 2] = new room
+        {
+            roomName = introRoom.name,
+            isSpecial = true,
+            items = 1,
+            angle = 90,
+            Zone = 2,
+            type = RoomType.EndWay,
+            customFog = -1
+        };
 
         if (spawnspecial)
         SpecialRoomSpawn();

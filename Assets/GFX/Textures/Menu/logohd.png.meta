@@ -3,7 +3,7 @@ guid: 03162a1c81957404e9a25fc709438e9d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,6 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -42,13 +43,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 50, y: 480, z: 50, w: 500}
+  spriteBorder: {x: 284, y: 29, z: 282, w: 25}
   spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -119,13 +122,13 @@ TextureImporter:
       name: logohd_0
       rect:
         serializedVersion: 2
-        x: 77
-        y: 506
-        width: 739
-        height: 98
+        x: 149
+        y: 1005
+        width: 1498
+        height: 211
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -137,10 +140,10 @@ TextureImporter:
       edges: []
       weights: []
     outline:
-    - - {x: -375, y: -68}
-      - {x: -375, y: 45}
-      - {x: 371, y: 45}
-      - {x: 371, y: -68}
+    - - {x: -746, y: -107}
+      - {x: -745, y: 100}
+      - {x: 762, y: 107}
+      - {x: 750, y: -107}
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -154,7 +157,6 @@ TextureImporter:
       logohd_0: -1969816925
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

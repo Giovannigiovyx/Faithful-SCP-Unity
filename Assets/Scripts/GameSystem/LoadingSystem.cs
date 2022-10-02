@@ -57,11 +57,6 @@ public class LoadingSystem : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
     }
 
-    void Start()
-    {
-        
-    }
-
     void DoHeavyLoading()
     {
         loading = Random.Range(0, screens.Length);

@@ -11,10 +11,6 @@ public class NotifSystem : MonoBehaviour
     public Image image;
     public Text Header;
     public Text body;
-    private void Awake()
-    {
-
-    }
     // Start is called before the first frame update
     void Start()
     {

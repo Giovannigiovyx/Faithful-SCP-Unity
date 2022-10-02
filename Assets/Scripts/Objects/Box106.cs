@@ -43,8 +43,6 @@ public class Box106 : MonoBehaviour
             rotaTarget = startRotation;
         }
         
-
-        transform.position = Vector3.MoveTowards(transform.position, target, maxMoveSpeed * Time.deltaTime);
-        transform.rotation = Quaternion.RotateTowards(transform.rotation, rotaTarget, maxMoveSpeed * Time.deltaTime);
+        transform.SetPositionAndRotation(Vector3.MoveTowards(transform.position, target, maxMoveSpeed * Time.deltaTime), Quaternion.RotateTowards(transform.rotation, rotaTarget, maxMoveSpeed * Time.deltaTime));
     }
 }

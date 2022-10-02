@@ -9,7 +9,7 @@ namespace Assets.Pixelation.Scripts
     public sealed class Pixelationv2 : PostProcessEffectSettings
     {
         [Range(64.0f, 512.0f)]
-        public FloatParameter BlockCount = new FloatParameter { value = 128 };
+        public FloatParameter BlockCount = new() { value = 128 };
     }
 
     public sealed class Pixelationv2Renderer : PostProcessEffectRenderer<Pixelationv2>

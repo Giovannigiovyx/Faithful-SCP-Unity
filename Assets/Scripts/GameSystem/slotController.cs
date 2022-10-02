@@ -84,19 +84,19 @@ public class slotController : MonoBehaviour, IDragHandler, IEndDragHandler
                 displayText.text = Localization.GetString("itemStrings", cont.items[cont.currentItem[id].itemFileName].getName());
             else
                 displayText.text = string.Format(Localization.GetString("playStrings", "play_equiped"), Localization.GetString("itemStrings", cont.items[cont.currentItem[id].itemFileName].getName()));
-            if (cont.items[cont.currentItem[id].itemFileName] is Item_Clipboard)
+            if (cont.items[cont.currentItem[id].itemFileName] is Item_Clipboard clipboard)
             {
                 if (cont.currentItem[id].valInt != -1)
                 {
                     if (cont.IsEmpty(cont.currentItem[id].valInt))
                     {
-                        Item_Clipboard clippy = (Item_Clipboard)cont.items[cont.currentItem[id].itemFileName];
+                        Item_Clipboard clippy = clipboard;
                         currIcon = clippy.nodoc;
                     }
                 }
                 else
                 {
-                    Item_Clipboard clippy = (Item_Clipboard)cont.items[cont.currentItem[id].itemFileName];
+                    Item_Clipboard clippy = clipboard;
                     currIcon = clippy.nodoc;
                 }
             }
