@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 785076607602804739}
   - component: {fileID: 4416620108377311142}
   - component: {fileID: 1922487145247650668}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Girder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &785076607602804739
@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4416620108377311142
 MeshFilter:

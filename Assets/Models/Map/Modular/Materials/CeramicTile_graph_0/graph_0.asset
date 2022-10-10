@@ -168,8 +168,10 @@ MonoBehaviour:
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://CeramicTile\" label=\"\" >\n  <presetinput
     identifier=\"$outputsize\" uid=\"4242698762\" type=\"8\" value=\"10,10\" />\n 
     <presetinput identifier=\"Color_Tiles_2\" uid=\"2414717125\" type=\"3\" value=\"0.754717,0.479209,0.160199,1\"
-    />\n  <presetinput identifier=\"Rage_Damaged_Tiles\" uid=\"2412989802\" type=\"0\"
-    value=\"0\" />\n  <presetinput identifier=\"Damag_Tiles\" uid=\"2412931950\"
+    />\n  <presetinput identifier=\"Color_blend\" uid=\"2414681380\" type=\"0\" value=\"0.024\"
+    />\n  <presetinput identifier=\"Density_Tiles\" uid=\"2413930149\" type=\"4\"
+    value=\"32\" />\n  <presetinput identifier=\"Rage_Damaged_Tiles\" uid=\"2412989802\"
+    type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Damag_Tiles\" uid=\"2412931950\"
     type=\"4\" value=\"0\" />\n  <presetinput identifier=\"Random_Damag_Mask\" uid=\"2414404075\"
     type=\"0\" value=\"0\" />\n  <presetinput identifier=\"Gloss_Contrast\" uid=\"2414518219\"
     type=\"0\" value=\"-0.15\" />\n </sbspreset>\n"
@@ -282,7 +284,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.26
+        Data: 0.024
         NumericalDescription:
           DefaultValue: 0.26
           MinValue: 0
@@ -366,7 +368,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 4
           WidgetType: 5
-        Data: 16
+        Data: 32
         NumericalDescription:
           DefaultValue: 16
           MinValue: 0

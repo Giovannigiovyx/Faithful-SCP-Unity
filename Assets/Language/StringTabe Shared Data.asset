@@ -47,6 +47,22 @@ MonoBehaviour:
     m_Key: MainMenu/MainMenuController/Menu/PlayMenu/Panel/LoadGame/Text
     m_Metadata:
       m_Items: []
+  - m_Id: 4063997823217664
+    m_Key: SampleScene/GameManager_Normal/UI/PauseMenu/pause_menu_panel/Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4064293886554112
+    m_Key: SampleScene/GameManager_Normal/UI/PauseMenu/pause_menu_panel/Volver/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4064689698828288
+    m_Key: SampleScene/GameManager_Normal/UI/PauseMenu/pause_menu_panel/Salvarysalir/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4065014002413568
+    m_Key: SampleScene/GameManager_Normal/UI/PauseMenu/pause_menu_panel/Salir/Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -773,7 +773,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 20
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -871,7 +871,7 @@ MonoBehaviour:
           e32: 0
           e33: 1
       culling:
-        useOcclusionCulling: 0
+        useOcclusionCulling: 1
         cullingMask:
           serializedVersion: 2
           m_Bits: 16495927
@@ -929,7 +929,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -1194,7 +1194,7 @@ Transform:
   - {fileID: 3232422023370120994}
   - {fileID: 511077360291859074}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4208623615329836808
 MonoBehaviour:
@@ -1472,7 +1472,7 @@ MonoBehaviour:
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
-      m_BoxSize: {x: 18, y: 13, z: 20}
+      m_BoxSize: {x: 18, y: 13, z: 21}
       m_BoxBlendDistancePositive: {x: 0.25, y: 0.25, z: 0.25}
       m_BoxBlendDistanceNegative: {x: 0.25, y: 0.25, z: 0.25}
       m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
@@ -1566,7 +1566,7 @@ MonoBehaviour:
           e32: 0
           e33: 1
       culling:
-        useOcclusionCulling: 0
+        useOcclusionCulling: 1
         cullingMask:
           serializedVersion: 2
           m_Bits: 16495927
@@ -1624,7 +1624,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -2595,9 +2595,9 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.11666667
+  m_VoxelSize: 0.07333333
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 0611d2cb9f3aea3459136f30a3a22dc2, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 465b054bd16411b439422dab7f2cba6a, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &7263721970715148713
 GameObject:

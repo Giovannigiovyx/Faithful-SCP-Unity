@@ -12,11 +12,11 @@ GameObject:
   - component: {fileID: 5214500810681262962}
   - component: {fileID: 8050562110653224888}
   - component: {fileID: 6939763512672820284}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wall_Window_Tiles
   m_TagString: Concrete
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &9219566942047415511
@@ -32,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5214500810681262962
 MeshFilter:
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae75782d5eb801a4195cb76625d7238a, type: 2}
+  - {fileID: 2100000, guid: 46bc25bc9244ee94794cdd325e47be2f, type: 2}
   - {fileID: 2100000, guid: 7d6390302bd777b47895a59ecf77a2ba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0

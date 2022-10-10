@@ -125,7 +125,7 @@ MonoBehaviour:
       m_ObsoleteSphereInfiniteProjection: 0
       m_ObsoleteBoxInfiniteProjection: 0
     proxySettings:
-      useInfluenceVolumeAsProxyVolume: 0
+      useInfluenceVolumeAsProxyVolume: 1
       capturePositionProxySpace: {x: 0, y: 0, z: 0}
       captureRotationProxySpace: {x: 0, y: 0, z: 0, w: 1}
       mirrorPositionProxySpace: {x: 0, y: 0, z: 0}
@@ -247,7 +247,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -559,7 +559,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 20
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -593,7 +593,7 @@ MonoBehaviour:
       m_ObsoleteSphereInfiniteProjection: 0
       m_ObsoleteBoxInfiniteProjection: 0
     proxySettings:
-      useInfluenceVolumeAsProxyVolume: 0
+      useInfluenceVolumeAsProxyVolume: 1
       capturePositionProxySpace: {x: 0, y: 0, z: 0}
       captureRotationProxySpace: {x: 0, y: 0, z: 0, w: 1}
       mirrorPositionProxySpace: {x: 0, y: 0, z: 0}
@@ -715,7 +715,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -1338,9 +1338,9 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.11666667
+  m_VoxelSize: 0.07333333
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 557c2eb5f7efbc443bdf68db8b539602, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 2a2ddada33d55814e8aca57a7c50f4c8, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &5082301982336328331
 GameObject:
@@ -1822,7 +1822,7 @@ Transform:
   - {fileID: 5082301983063826462}
   - {fileID: 562792645852162520}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5323550097476397274
 MonoBehaviour:

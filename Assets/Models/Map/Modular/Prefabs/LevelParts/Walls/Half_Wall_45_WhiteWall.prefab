@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6011247169978651541}
   - component: {fileID: 8397183857127237471}
   - component: {fileID: 5476181712531430848}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Half_Wall_45_WhiteWall
   m_TagString: Concrete
   m_Icon: {fileID: 0}
@@ -32,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
 --- !u!33 &6011247169978651541
 MeshFilter:
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fba46f410c8265c46a2d56e309805355, type: 2}
+  - {fileID: 2100000, guid: e49da996082f7e44cab44c4c0dedcebe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

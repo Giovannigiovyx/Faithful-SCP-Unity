@@ -32,7 +32,7 @@ Transform:
   - {fileID: 6768394161307755297}
   - {fileID: 6935074982498374883}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8431967954715470539
 MonoBehaviour:
@@ -296,6 +296,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: DistanceShut
       objectReference: {fileID: 0}
+    - target: {fileID: 1617216274933699070, guid: f03c9da0555287f42b4a99a37d66d188,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1617216274933699070, guid: f03c9da0555287f42b4a99a37d66d188,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1617216274933699070, guid: f03c9da0555287f42b4a99a37d66d188,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1617216274933699070, guid: f03c9da0555287f42b4a99a37d66d188,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1827033982661758177, guid: f03c9da0555287f42b4a99a37d66d188,
         type: 3}
       propertyPath: m_RootOrder
@@ -480,6 +500,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DistanceShut
+      objectReference: {fileID: 0}
+    - target: {fileID: 1617216274933699070, guid: f03c9da0555287f42b4a99a37d66d188,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1617216274933699070, guid: f03c9da0555287f42b4a99a37d66d188,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1617216274933699070, guid: f03c9da0555287f42b4a99a37d66d188,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1617216274933699070, guid: f03c9da0555287f42b4a99a37d66d188,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1827033982661758177, guid: f03c9da0555287f42b4a99a37d66d188,
         type: 3}

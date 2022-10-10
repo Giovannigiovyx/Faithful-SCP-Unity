@@ -506,7 +506,7 @@ Transform:
   - {fileID: 6517110317629825913}
   - {fileID: 4551197186865747895}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1686448342489736025
 MonoBehaviour:
@@ -2722,9 +2722,9 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.11666667
+  m_VoxelSize: 0.07333333
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: b3a993dc0e7bbb24b858ee7c28eb51da, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 0ece5ee9f48521d4e9f4a1f401425b4a, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &1686448344135330931
 GameObject:
@@ -5874,6 +5874,11 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1773933478848277828}
     m_Modifications:
+    - target: {fileID: 4682911728084227430, guid: c92f0d55a950f1240a143dd8489f5db5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ae75782d5eb801a4195cb76625d7238a, type: 2}
     - target: {fileID: 5815879655037038089, guid: c92f0d55a950f1240a143dd8489f5db5,
         type: 3}
       propertyPath: m_RootOrder
@@ -8496,6 +8501,11 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1773933478848277828}
     m_Modifications:
+    - target: {fileID: 3014711857000412759, guid: 781c626eae80a80488f2d71c26500a6e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ae75782d5eb801a4195cb76625d7238a, type: 2}
     - target: {fileID: 3663278101175293826, guid: 781c626eae80a80488f2d71c26500a6e,
         type: 3}
       propertyPath: m_Name

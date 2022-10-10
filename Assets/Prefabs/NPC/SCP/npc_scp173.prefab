@@ -30,10 +30,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4188069710852911925}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4188069710543728413
 MonoBehaviour:
@@ -92,7 +93,7 @@ MonoBehaviour:
   statueLevels:
   - maxStep: 4
     stepWait: 0.1
-    doorTime: 10
+    doorTime: 8
     doorCoolDown: 2
     teleCool: 16
     minTele: 2
@@ -100,7 +101,7 @@ MonoBehaviour:
     canPatrol: 0
   - maxStep: 7
     stepWait: 0.05
-    doorTime: 8
+    doorTime: 6
     doorCoolDown: 2
     teleCool: 6
     minTele: 2
@@ -117,13 +118,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2.25
-  m_Radius: 0.25
+  m_Height: 2.2
+  m_Radius: 0.3
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1.125, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!82 &4188069710543728410
 AudioSource:
   m_ObjectHideFlags: 0
@@ -258,17 +259,18 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 0
-  m_Extents: {x: 0.29, y: 1, z: 0.29}
+  m_Extents: {x: 0.3, y: 1.1, z: 0.3}
   m_MoveThreshold: 0.1
   m_Carve: 0
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0.91, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}
   m_TimeToStationary: 0.5
 --- !u!1001 &4188069710852778421
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 4188069710543728412}
     m_Modifications:
     - target: {fileID: 100000, guid: 5e4c85f1f6970d245bbfb326f8de4550, type: 3}
@@ -319,7 +321,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 5e4c85f1f6970d245bbfb326f8de4550, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e4c85f1f6970d245bbfb326f8de4550, type: 3}
 --- !u!4 &4188069710852911925 stripped
 Transform:

@@ -83,7 +83,7 @@ Transform:
   - {fileID: 3124870161205357120}
   - {fileID: 3124870160627854738}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1821862221663521062
 MonoBehaviour:
@@ -279,9 +279,9 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.11666667
+  m_VoxelSize: 0.07333333
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: b90019a9a56437247acc160c86a420a5, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: d33d9476d671778478e5796b07f186cf, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &3124870159603479936
 GameObject:
@@ -1013,7 +1013,7 @@ ReflectionProbe:
   m_TimeSlicingMode: 1
   m_Resolution: 32
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 20, y: 10, z: 20}
+  m_BoxSize: {x: 21, y: 10, z: 21}
   m_BoxOffset: {x: 0, y: 0, z: 0}
   m_NearClip: 0.3
   m_FarClip: 100
@@ -1060,7 +1060,7 @@ MonoBehaviour:
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
-      m_BoxSize: {x: 20, y: 10, z: 20}
+      m_BoxSize: {x: 21, y: 10, z: 21}
       m_BoxBlendDistancePositive: {x: 0, y: 0, z: 0}
       m_BoxBlendDistanceNegative: {x: 0, y: 0, z: 0}
       m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
@@ -1212,7 +1212,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -3661,6 +3661,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6566108148793890770, guid: df1b903e428bc394e952e682036daff9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e3fad1922e9d92d4a97ffd5be6747a9d, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: df1b903e428bc394e952e682036daff9, type: 3}

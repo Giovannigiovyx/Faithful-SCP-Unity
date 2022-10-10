@@ -64,9 +64,9 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.11666667
+  m_VoxelSize: 0.07333333
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 36f755060c07a644885f66901ce8b8c1, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: ed571c387f76dbe48838f5477d621712, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &707833847884851173
 GameObject:
@@ -318,7 +318,7 @@ Transform:
   - {fileID: 6063197175454436319}
   - {fileID: 423023879878114028}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8833770405615278462
 MonoBehaviour:
@@ -1467,7 +1467,7 @@ MonoBehaviour:
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
-      m_BoxSize: {x: 20, y: 9, z: 20}
+      m_BoxSize: {x: 21, y: 9, z: 21}
       m_BoxBlendDistancePositive: {x: 0, y: 0, z: 0}
       m_BoxBlendDistanceNegative: {x: 0, y: 0, z: 0}
       m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
@@ -1619,7 +1619,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:

@@ -16,7 +16,7 @@ PrefabInstance:
     - target: {fileID: 307848426957246414, guid: fb4ee3a142e84134ebe764f942613a17,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 307848426957246414, guid: fb4ee3a142e84134ebe764f942613a17,
         type: 3}
@@ -85,14 +85,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 796242923389054694, guid: fb4ee3a142e84134ebe764f942613a17,
         type: 3}
+      propertyPath: m_VoxelSize
+      value: 0.07333333
+      objectReference: {fileID: 0}
+    - target: {fileID: 796242923389054694, guid: fb4ee3a142e84134ebe764f942613a17,
+        type: 3}
       propertyPath: m_NavMeshData
       value: 
-      objectReference: {fileID: 23800000, guid: 1d45d3e0d01f1c44999f6a24b82f5eb3,
+      objectReference: {fileID: 23800000, guid: 19d7fedbfb2885545b2826e5a9af7ba9,
         type: 2}
     - target: {fileID: 948229745307671944, guid: fb4ee3a142e84134ebe764f942613a17,
         type: 3}
       propertyPath: m_BoxSize.x
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 948229745307671944, guid: fb4ee3a142e84134ebe764f942613a17,
+        type: 3}
+      propertyPath: m_BoxSize.z
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 978283397501030551, guid: fb4ee3a142e84134ebe764f942613a17,
         type: 3}
@@ -237,7 +247,7 @@ PrefabInstance:
     - target: {fileID: 1455807930184755302, guid: fb4ee3a142e84134ebe764f942613a17,
         type: 3}
       propertyPath: m_ProbeSettings.influence.m_BoxSize.z
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 1455807930184755302, guid: fb4ee3a142e84134ebe764f942613a17,
         type: 3}
@@ -248,6 +258,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ObsoleteCaptureSettings.farClipPlane
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455807930184755302, guid: fb4ee3a142e84134ebe764f942613a17,
+        type: 3}
+      propertyPath: m_ProbeSettings.distanceBasedRoughness
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1455807930184755302, guid: fb4ee3a142e84134ebe764f942613a17,
         type: 3}
@@ -367,7 +382,7 @@ PrefabInstance:
     - target: {fileID: 4792958804489911388, guid: fb4ee3a142e84134ebe764f942613a17,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4792958804489911388, guid: fb4ee3a142e84134ebe764f942613a17,
         type: 3}

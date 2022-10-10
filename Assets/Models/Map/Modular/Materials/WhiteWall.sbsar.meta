@@ -9,8 +9,9 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
   _instancesCopy:
-  - {fileID: 11400000, guid: f7a7353042e203f4ca94fd521cc0f822, type: 2}
-  - {fileID: 11400000, guid: c30fdb1e2f9ea9a45bacdfd0bcbd355b, type: 2}
-  _fileAsset: {fileID: 6013892654665635331, guid: 3aa3bb5dd204fb94180db0724272a1ae,
+  - {fileID: 11400000, guid: 63b979d08a088164a949e4192f10018a, type: 2}
+  - {fileID: 11400000, guid: 300af3c785fe2f549b6d5bf2804087f6, type: 2}
+  - {fileID: 11400000, guid: 7dbd3ee529d6c3b46918f5ec236134d5, type: 2}
+  _fileAsset: {fileID: 349431513902975818, guid: 3aa3bb5dd204fb94180db0724272a1ae,
     type: 3}
   _assetPath: Assets/Models/Map/Modular/Materials/WhiteWall.sbsar

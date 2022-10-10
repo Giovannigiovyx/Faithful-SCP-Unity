@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Size: {x: 2.74449, y: 3, z: 5.5949607}
   m_Center: {x: 0.62775505, y: 1, z: 0.015108347}
-  m_Area: 0
+  m_Area: 1
   m_AffectedAgents: ffffffff
 --- !u!1 &3163801111580503891
 GameObject:
@@ -356,9 +356,9 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.11666667
+  m_VoxelSize: 0.07333333
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 637c454d3387b0e4eba770daf94a431c, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 249c73672e0a14347afb51112bfad15a, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &4244221648240878803
 GameObject:
@@ -1534,7 +1534,7 @@ ReflectionProbe:
   m_TimeSlicingMode: 1
   m_Resolution: 64
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 20, y: 5, z: 13}
+  m_BoxSize: {x: 21, y: 5, z: 14}
   m_BoxOffset: {x: 0, y: 0, z: 0}
   m_NearClip: 0.3
   m_FarClip: 100
@@ -1581,7 +1581,7 @@ MonoBehaviour:
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
-      m_BoxSize: {x: 20, y: 5, z: 13}
+      m_BoxSize: {x: 21, y: 5, z: 14}
       m_BoxBlendDistancePositive: {x: 0, y: 0, z: 0}
       m_BoxBlendDistanceNegative: {x: 0, y: 0, z: 0}
       m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
@@ -1733,7 +1733,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:

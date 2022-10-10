@@ -109,7 +109,7 @@ Transform:
   - {fileID: 3262506159843434052}
   - {fileID: 2815530696715346712}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6736899133372572221
 GameObject:
@@ -212,16 +212,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightDoor_Alone (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 1540140830266050131, guid: c620c6aa7f7e88c4b9402e7661d1d279,
-        type: 3}
-      propertyPath: m_EndPoint.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1540140830266050131, guid: c620c6aa7f7e88c4b9402e7661d1d279,
-        type: 3}
-      propertyPath: m_StartPoint.z
-      value: -0.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c620c6aa7f7e88c4b9402e7661d1d279, type: 3}
@@ -304,16 +294,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LightDoor_Alone
-      objectReference: {fileID: 0}
-    - target: {fileID: 1540140830266050131, guid: c620c6aa7f7e88c4b9402e7661d1d279,
-        type: 3}
-      propertyPath: m_EndPoint.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1540140830266050131, guid: c620c6aa7f7e88c4b9402e7661d1d279,
-        type: 3}
-      propertyPath: m_StartPoint.z
-      value: -0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -417,6 +397,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398250279716389959, guid: d332d9230e7418340a8055bb5239e165,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 5202819318507689766, guid: d332d9230e7418340a8055bb5239e165,
         type: 3}
@@ -557,6 +542,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398250279716389959, guid: d332d9230e7418340a8055bb5239e165,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 5202819318507689766, guid: d332d9230e7418340a8055bb5239e165,
         type: 3}

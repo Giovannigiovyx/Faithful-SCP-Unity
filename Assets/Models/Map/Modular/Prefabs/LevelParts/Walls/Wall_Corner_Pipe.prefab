@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1672633897885137940}
   - component: {fileID: 3518037961082439902}
   - component: {fileID: 6136824050273193392}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wall_Corner_Pipe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3157701268605446411}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 1
@@ -65,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fba46f410c8265c46a2d56e309805355, type: 2}
+  - {fileID: 2100000, guid: e49da996082f7e44cab44c4c0dedcebe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -118,6 +118,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pipe_Straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829054493291966878, guid: 289ccbf8afe36a14ca7a5c344690c976,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5829054493291966878, guid: 289ccbf8afe36a14ca7a5c344690c976,
         type: 3}
@@ -228,6 +233,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5829054493291966878, guid: 289ccbf8afe36a14ca7a5c344690c976,
         type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829054493291966878, guid: 289ccbf8afe36a14ca7a5c344690c976,
+        type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
@@ -327,6 +337,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pipe_Bend
+      objectReference: {fileID: 0}
+    - target: {fileID: 324824113392768825, guid: 64089cee54825974ab7399278346dd8a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 324824113392768825, guid: 64089cee54825974ab7399278346dd8a,
         type: 3}

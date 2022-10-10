@@ -18,14 +18,17 @@ MonoBehaviour:
   Name: graph_0
   IsRoot: 1
   FlagedForDelete: 0
-  GUID: 5866fea8-f784-470a-8756-d6dc0294b9ed
+  GUID: 32358ede-c96e-4aa6-af47-68777da90c74
   Index: 0
   Input:
-  - rid: 7409753454498283534
-  - rid: 7409753454498283535
-  - rid: 7409753454498283536
-  - rid: 7409753454498283537
-  - rid: 7409753454498283538
+  - rid: 1000
+  - rid: 1001
+  - rid: 1002
+  - rid: 1003
+  - rid: 1004
+  - rid: 1005
+  - rid: 1006
+  - rid: 1007
   Output:
   - Index: 0
     VirtualOutputIndex: 0
@@ -257,7 +260,7 @@ MonoBehaviour:
       Index: 13
       Type: 8
       Channel: baseColor
-    OutputTexture: {fileID: 2800000, guid: cbf63c4983183674a807398d11230602, type: 3}
+    OutputTexture: {fileID: 2800000, guid: f6af5d991404d5b41981fd407244f598, type: 3}
     sRGB: 1
     IsVirtual: 0
     IsStandardOutput: 1
@@ -274,7 +277,7 @@ MonoBehaviour:
       Index: 14
       Type: 8
       Channel: normal
-    OutputTexture: {fileID: 2800000, guid: eb72330fc7b49b0438a010f19e1e1d5f, type: 3}
+    OutputTexture: {fileID: 2800000, guid: c64988d518bc12240997a60812f7515d, type: 3}
     sRGB: 0
     IsVirtual: 0
     IsStandardOutput: 1
@@ -325,7 +328,7 @@ MonoBehaviour:
       Index: 17
       Type: 8
       Channel: height
-    OutputTexture: {fileID: 2800000, guid: 9169ee7231ea64840946cd14bd605b59, type: 3}
+    OutputTexture: {fileID: 2800000, guid: 691bcfbb0f89139449ffbc4b84f4d6cc, type: 3}
     sRGB: 1
     IsVirtual: 0
     IsStandardOutput: 1
@@ -376,7 +379,7 @@ MonoBehaviour:
       Index: 20
       Type: 8
       Channel: mask
-    OutputTexture: {fileID: 2800000, guid: ed2f138f6b686a9468c7a91f92cebfd6, type: 3}
+    OutputTexture: {fileID: 2800000, guid: 230378c175b964046ba400e797a66f17, type: 3}
     sRGB: 0
     IsVirtual: 1
     IsStandardOutput: 1
@@ -391,13 +394,15 @@ MonoBehaviour:
   HasThumbnail: 0
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://WhiteWall\" label=\"\" >\n  <presetinput
     identifier=\"$outputsize\" uid=\"1457538008\" type=\"8\" value=\"10,10\" />\n 
-    <presetinput identifier=\"rust_1\" uid=\"982291609\" type=\"0\" value=\"0.229\"
-    />\n  <presetinput identifier=\"dirtiness_3\" uid=\"982291613\" type=\"0\" value=\"1\"
-    />\n </sbspreset>\n"
+    <presetinput identifier=\"dirtiness_3\" uid=\"987834808\" type=\"0\" value=\"1\"
+    />\n  <presetinput identifier=\"Bottom_Moisture_Damage_ON_OFF_4\" uid=\"987834810\"
+    type=\"4\" value=\"0\" />\n  <presetinput identifier=\"peeling_level_5\" uid=\"987834812\"
+    type=\"0\" value=\"1\" />\n  <presetinput identifier=\"paint_roughness_6\" uid=\"987834814\"
+    type=\"0\" value=\"0.4\" />\n </sbspreset>\n"
   IsRuntimeOnly: 0
   GenerateAllOutputs: 0
   GenerateAllMipmaps: 1
-  OutputMaterial: {fileID: 2100000, guid: fba46f410c8265c46a2d56e309805355, type: 2}
+  OutputMaterial: {fileID: 2100000, guid: e49da996082f7e44cab44c4c0dedcebe, type: 2}
   DefaultPreset: " <sbspreset pkgurl=\"pkg://WhiteWall\" label=\"\" >\n  <presetinput
     identifier=\"$outputsize\" uid=\"1457538008\" type=\"8\" value=\"10,10\" />\n</sbspreset>\n"
   MaterialShader: HDRP/Lit
@@ -406,7 +411,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 7409753454498283534
+    - rid: 1000
       type: {class: SubstanceInputInt2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 0
@@ -426,7 +431,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 7409753454498283535
+    - rid: 1001
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 1
@@ -438,7 +443,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.229
+        Data: 0.46
         NumericalDescription:
           DefaultValue: 0.46
           MinValue: 0
@@ -447,7 +452,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 7409753454498283536
+    - rid: 1002
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 2
@@ -468,7 +473,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 7409753454498283537
+    - rid: 1003
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 3
@@ -489,7 +494,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 7409753454498283538
+    - rid: 1004
       type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 4
@@ -501,7 +506,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 4
           WidgetType: 4
-        Data: 1
+        Data: 0
         NumericalDescription:
           DefaultValue: 1
           MinValue: 0
@@ -510,5 +515,68 @@ MonoBehaviour:
           SliderClamp: 0
           LabelFalse: 
           LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1005
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 5
+        GraphID: 0
+        Description:
+          Identifier: peeling_level_5
+          Label: Paint - Peel
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1006
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 6
+        GraphID: 0
+        Description:
+          Identifier: paint_roughness_6
+          Label: Paint - Roughness
+          GuiGroup: 
+          GuiDescription: 
+          Type: 0
+          WidgetType: 1
+        Data: 0.4
+        NumericalDescription:
+          DefaultValue: 0.33
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1007
+      type: {class: SubstanceInputFloat3, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 7
+        GraphID: 0
+        Description:
+          Identifier: paint_color_7
+          Label: Paint - Color
+          GuiGroup: 
+          GuiDescription: 
+          Type: 2
+          WidgetType: 3
+        Data: {x: 0.814435, y: 0.501869, z: 0.218296}
+        NumericalDescription:
+          DefaultValue: {x: 0.814435, y: 0.501869, z: 0.218296}
+          MinValue: {x: 0, y: 0, z: 0}
+          MaxValue: {x: 0, y: 0, z: 0}
+          SliderStep: 0
+          SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []

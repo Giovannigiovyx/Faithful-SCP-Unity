@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 619785100063594058}
   - component: {fileID: 4433499076371586911}
   - component: {fileID: 1494412712614198716}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Grate_Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2551761978215054820}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Grate_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 634650723984714398}
   - component: {fileID: 4577241866714032320}
   - component: {fileID: 5485416903534711534}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GrateWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}

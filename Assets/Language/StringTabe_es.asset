@@ -55,6 +55,22 @@ MonoBehaviour:
     m_Localized: Cargar juego
     m_Metadata:
       m_Items: []
+  - m_Id: 4063997823217664
+    m_Localized: Pausa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4064293886554112
+    m_Localized: Reanudar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4064689698828288
+    m_Localized: Opciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4065014002413568
+    m_Localized: Abandonar
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

@@ -51,7 +51,7 @@ Light:
   m_InnerSpotAngle: 44.8881
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 0.264
@@ -268,7 +268,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -717,7 +717,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -934,7 +934,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1191,7 +1191,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 15
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -1347,7 +1347,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -1619,7 +1619,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1836,7 +1836,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2053,7 +2053,7 @@ Light:
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 0.236
@@ -2270,7 +2270,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2527,7 +2527,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 15
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -2683,7 +2683,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -2995,7 +2995,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 15
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -3151,7 +3151,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -3464,7 +3464,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3681,7 +3681,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3898,7 +3898,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4155,7 +4155,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 15
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -4189,7 +4189,7 @@ MonoBehaviour:
       m_ObsoleteSphereInfiniteProjection: 0
       m_ObsoleteBoxInfiniteProjection: 0
     proxySettings:
-      useInfluenceVolumeAsProxyVolume: 0
+      useInfluenceVolumeAsProxyVolume: 1
       capturePositionProxySpace: {x: 1.536396, y: -0.4013481, z: 0.9498129}
       captureRotationProxySpace: {x: 0, y: 0, z: 0, w: 1}
       mirrorPositionProxySpace: {x: 0, y: 0, z: 0}
@@ -4311,7 +4311,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -4591,9 +4591,9 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.11666667
+  m_VoxelSize: 0.07333333
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 29fe525299b583644a5db06db93e1b3e, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: dbdb8b7aa9f689843bd1c932e898f84c, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &7496093490134124970
 GameObject:
@@ -4747,7 +4747,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 2
       lightLayer: 1
-      fadeDistance: 15
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -4781,7 +4781,7 @@ MonoBehaviour:
       m_ObsoleteSphereInfiniteProjection: 0
       m_ObsoleteBoxInfiniteProjection: 0
     proxySettings:
-      useInfluenceVolumeAsProxyVolume: 0
+      useInfluenceVolumeAsProxyVolume: 1
       capturePositionProxySpace: {x: 0.0270679, y: -0.4013481, z: 21.661259}
       captureRotationProxySpace: {x: 0, y: 0, z: 0, w: 1}
       mirrorPositionProxySpace: {x: 0, y: 0, z: 0}
@@ -4903,7 +4903,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -5175,7 +5175,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5432,7 +5432,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 15
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -5588,7 +5588,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -5900,7 +5900,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 15
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -5934,7 +5934,7 @@ MonoBehaviour:
       m_ObsoleteSphereInfiniteProjection: 0
       m_ObsoleteBoxInfiniteProjection: 0
     proxySettings:
-      useInfluenceVolumeAsProxyVolume: 0
+      useInfluenceVolumeAsProxyVolume: 1
       capturePositionProxySpace: {x: -2.6502962, y: -0.4013481, z: 1.2109146}
       captureRotationProxySpace: {x: 0, y: 0, z: 0, w: 1}
       mirrorPositionProxySpace: {x: 0, y: 0, z: 0}
@@ -6056,7 +6056,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -6328,7 +6328,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6545,7 +6545,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6802,7 +6802,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 15
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -6958,7 +6958,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -7230,7 +7230,7 @@ Light:
   m_InnerSpotAngle: 105.79922
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7447,7 +7447,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7664,7 +7664,7 @@ Light:
   m_InnerSpotAngle: 105.79922
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7921,7 +7921,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 15
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -8077,7 +8077,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -8389,7 +8389,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 15
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -8423,7 +8423,7 @@ MonoBehaviour:
       m_ObsoleteSphereInfiniteProjection: 0
       m_ObsoleteBoxInfiniteProjection: 0
     proxySettings:
-      useInfluenceVolumeAsProxyVolume: 0
+      useInfluenceVolumeAsProxyVolume: 1
       capturePositionProxySpace: {x: 1.2758713, y: -0.4013481, z: 0.5058117}
       captureRotationProxySpace: {x: 0, y: 0, z: 0, w: 1}
       mirrorPositionProxySpace: {x: 0, y: 0, z: 0}
@@ -8545,7 +8545,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -8817,7 +8817,7 @@ Light:
   m_InnerSpotAngle: 44.8881
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 0.264
@@ -9034,7 +9034,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9251,7 +9251,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9468,7 +9468,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9685,7 +9685,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9902,7 +9902,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10119,7 +10119,7 @@ Light:
   m_InnerSpotAngle: 105.79922
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10336,7 +10336,7 @@ Light:
   m_InnerSpotAngle: 105.79922
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10553,7 +10553,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10770,7 +10770,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10987,7 +10987,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11204,7 +11204,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11421,7 +11421,7 @@ Light:
   m_InnerSpotAngle: 44.8881
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 0.264
@@ -17527,30 +17527,30 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 4580080912582807735}
     m_Modifications:
-    - target: {fileID: 2107385899832762921, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.1000001
-      objectReference: {fileID: 0}
     - target: {fileID: 2224703823196629214, guid: ad306b3ba405bb2418fd85734260d6fe,
         type: 3}
       propertyPath: m_Name
       value: Elevator1
       objectReference: {fileID: 0}
-    - target: {fileID: 2940744977136448964, guid: ad306b3ba405bb2418fd85734260d6fe,
+    - target: {fileID: 3189484250011536859, guid: ad306b3ba405bb2418fd85734260d6fe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.2185001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3189484250011536859, guid: ad306b3ba405bb2418fd85734260d6fe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.018749952
-      objectReference: {fileID: 0}
-    - target: {fileID: 3162158000532124410, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_Width
-      value: 1.4
+      value: 0.87300014
       objectReference: {fileID: 0}
     - target: {fileID: 3189484250011536859, guid: ad306b3ba405bb2418fd85734260d6fe,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.7882
+      value: 1.797
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425055455358230709, guid: ad306b3ba405bb2418fd85734260d6fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3896343595005662062, guid: ad306b3ba405bb2418fd85734260d6fe,
         type: 3}
@@ -17607,10 +17607,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5119574682429265864, guid: ad306b3ba405bb2418fd85734260d6fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9208468642897077053, guid: ad306b3ba405bb2418fd85734260d6fe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.9814999
+      objectReference: {fileID: 0}
+    - target: {fileID: 9208468642897077053, guid: ad306b3ba405bb2418fd85734260d6fe,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.87300014
+      objectReference: {fileID: 0}
     - target: {fileID: 9208468642897077053, guid: ad306b3ba405bb2418fd85734260d6fe,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.7766
+      value: 2.774
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -17629,100 +17644,15 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 4580080912582807735}
     m_Modifications:
-    - target: {fileID: 2107385899832762921, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.07599199
-      objectReference: {fileID: 0}
-    - target: {fileID: 2107385899832762921, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.12699994
-      objectReference: {fileID: 0}
-    - target: {fileID: 2107385899832762921, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.04277253
-      objectReference: {fileID: 0}
     - target: {fileID: 2224703823196629214, guid: ad306b3ba405bb2418fd85734260d6fe,
         type: 3}
       propertyPath: m_Name
       value: Elevator2
       objectReference: {fileID: 0}
-    - target: {fileID: 2573800939533012987, guid: ad306b3ba405bb2418fd85734260d6fe,
+    - target: {fileID: 3425055455358230709, guid: ad306b3ba405bb2418fd85734260d6fe,
         type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.07599199
-      objectReference: {fileID: 0}
-    - target: {fileID: 2573800939533012987, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.02699995
-      objectReference: {fileID: 0}
-    - target: {fileID: 2573800939533012987, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.1427722
-      objectReference: {fileID: 0}
-    - target: {fileID: 2940744977136448964, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.075992465
-      objectReference: {fileID: 0}
-    - target: {fileID: 2940744977136448964, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.045749903
-      objectReference: {fileID: 0}
-    - target: {fileID: 2940744977136448964, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.042772293
-      objectReference: {fileID: 0}
-    - target: {fileID: 3125309714467274762, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.07599199
-      objectReference: {fileID: 0}
-    - target: {fileID: 3125309714467274762, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.12699986
-      objectReference: {fileID: 0}
-    - target: {fileID: 3125309714467274762, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.04277253
-      objectReference: {fileID: 0}
-    - target: {fileID: 3162158000532124410, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_Width
-      value: 1.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3189484250011536859, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.2210002
-      objectReference: {fileID: 0}
-    - target: {fileID: 3189484250011536859, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8000002
-      objectReference: {fileID: 0}
-    - target: {fileID: 3189484250011536859, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.7462
-      objectReference: {fileID: 0}
-    - target: {fileID: 3698679939194592814, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.078999996
-      objectReference: {fileID: 0}
-    - target: {fileID: 3698679939194592814, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.4679995
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3896343595005662062, guid: ad306b3ba405bb2418fd85734260d6fe,
         type: 3}
@@ -17782,67 +17712,12 @@ PrefabInstance:
     - target: {fileID: 6768394161307755297, guid: ad306b3ba405bb2418fd85734260d6fe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.562
+      value: -4.479992
       objectReference: {fileID: 0}
     - target: {fileID: 6768394161307755297, guid: ad306b3ba405bb2418fd85734260d6fe,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.368
-      objectReference: {fileID: 0}
-    - target: {fileID: 6768394161307755297, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6768394161307755297, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6768394161307755297, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 6935074982498374883, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -43.804
-      objectReference: {fileID: 0}
-    - target: {fileID: 6935074982498374883, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.528
-      objectReference: {fileID: 0}
-    - target: {fileID: 6935074982498374883, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6935074982498374883, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6935074982498374883, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9208468642897077053, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.97899985
-      objectReference: {fileID: 0}
-    - target: {fileID: 9208468642897077053, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8000002
-      objectReference: {fileID: 0}
-    - target: {fileID: 9208468642897077053, guid: ad306b3ba405bb2418fd85734260d6fe,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.7286
+      value: 5.6541142
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1609645812787805392}
   - component: {fileID: 4333022126242778682}
   - component: {fileID: 6552139380451162168}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Step
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6215617692074334205}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Door_Small_OneSide
   m_TagString: Concrete
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ Transform:
   - {fileID: 5188264211821189549}
   - {fileID: 6630144743408369990}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7465144868365472166
 GameObject:
@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 728213107610879483}
   - component: {fileID: 353141838055178250}
   - component: {fileID: 1879347024779433249}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Door_Small_Simple_OneSide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -180,7 +180,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7465144868365472166}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 1
@@ -192,7 +192,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fba46f410c8265c46a2d56e309805355, type: 2}
+  - {fileID: 2100000, guid: e49da996082f7e44cab44c4c0dedcebe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

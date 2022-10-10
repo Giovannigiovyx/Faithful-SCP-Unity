@@ -223,7 +223,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 2
       lightLayer: 1
-      fadeDistance: 20
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -257,7 +257,7 @@ MonoBehaviour:
       m_ObsoleteSphereInfiniteProjection: 0
       m_ObsoleteBoxInfiniteProjection: 0
     proxySettings:
-      useInfluenceVolumeAsProxyVolume: 0
+      useInfluenceVolumeAsProxyVolume: 1
       capturePositionProxySpace: {x: -0.8698125, y: 0.039669037, z: 0.27856922}
       captureRotationProxySpace: {x: 0, y: 0, z: 0, w: 1}
       mirrorPositionProxySpace: {x: 0, y: 0, z: 0}
@@ -379,7 +379,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -691,7 +691,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 20
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -725,7 +725,7 @@ MonoBehaviour:
       m_ObsoleteSphereInfiniteProjection: 0
       m_ObsoleteBoxInfiniteProjection: 0
     proxySettings:
-      useInfluenceVolumeAsProxyVolume: 0
+      useInfluenceVolumeAsProxyVolume: 1
       capturePositionProxySpace: {x: -2.389821, y: 0.06568575, z: -1.5455389}
       captureRotationProxySpace: {x: 0, y: 0, z: 0, w: 1}
       mirrorPositionProxySpace: {x: 0, y: 0, z: 0}
@@ -847,7 +847,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -1159,7 +1159,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 20
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -1315,7 +1315,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -1587,7 +1587,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: 0
     m_CustomResolution: -1
     m_Strength: 1
@@ -1804,7 +1804,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: 0
     m_CustomResolution: -1
     m_Strength: 1
@@ -2021,7 +2021,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 0.371
@@ -2488,7 +2488,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: 0
     m_CustomResolution: -1
     m_Strength: 1
@@ -2691,7 +2691,7 @@ Transform:
   - {fileID: 7814064476769410361}
   - {fileID: 3258816579950983340}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7814064477652998842
 MonoBehaviour:
@@ -2946,9 +2946,9 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.11666667
+  m_VoxelSize: 0.07333333
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 0d7d23e2944dc5541a410fa2ca09921f, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: a59bf6ee83a631344b57229e465bfa43, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &7814064478023773682
 GameObject:
@@ -3218,7 +3218,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 0.371

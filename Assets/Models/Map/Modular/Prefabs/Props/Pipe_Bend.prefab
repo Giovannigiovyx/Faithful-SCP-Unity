@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 1137670608313748867}
   - component: {fileID: 4063947768547148326}
   - component: {fileID: 2270656160336869100}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pipe_Bend
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1137670608313748867
@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4063947768547148326
 MeshFilter:

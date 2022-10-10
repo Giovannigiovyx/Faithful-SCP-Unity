@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using JetBrains.Annotations;
+using System.Collections;
 using System.Collections.Generic;
+using Unity.AI.Navigation;
 using UnityEngine;
 
 
@@ -110,7 +112,7 @@ public class NewMapGen : MonoBehaviour
 
     public Dictionary<string, room_dat> roomTable = new();
 
-    RoomList[] RoomTable;
+    public RoomList[] RoomTable;
 
     GameObject mapParent;
 

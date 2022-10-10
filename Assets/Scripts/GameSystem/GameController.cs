@@ -9,6 +9,9 @@ using Pixelplacement.TweenSystem;
 using UnityEngine.Tilemaps;
 using UnityEngine.Events;
 using Volume = UnityEngine.Rendering.Volume;
+using Unity.AI.Navigation;
+using System.Linq;
+using UnityEngine.AI;
 
 public enum DeathEvent {none, pocketDimension, zombie008 };
 
@@ -1510,6 +1513,7 @@ public class GameController : MonoBehaviour
                     player = Instantiate(origplayer, here, Quaternion.identity);
                 Debug.Log("Spawning here at " + here);
             }
+            RuntimeNavmesh();
         }
 
         playercache = player.GetComponent<Player_Control>();
@@ -1536,7 +1540,12 @@ public class GameController : MonoBehaviour
         Camera.main.enabled = true;
         playercache.isGameplay = true;
     }
-
+    
+    void RuntimeNavmesh()
+    {
+        //update navmesh data for runtime navmesh
+    }
+    
     void GL_Spawning()
     {
         Vector3 here = playerSpawn.position;

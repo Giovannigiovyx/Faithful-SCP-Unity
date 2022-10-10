@@ -164,7 +164,7 @@ MonoBehaviour:
       ChromaticAberrationMaxSamples: 030000000600000008000000
     lightSettings:
       useContactShadow:
-        m_Values: 010000
+        m_Values: 000000
         m_SchemaId:
           m_Id: With3Levels
     maximumLODLevel:

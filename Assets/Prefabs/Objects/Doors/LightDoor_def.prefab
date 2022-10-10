@@ -26,6 +26,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 575005292292672094}
   - {fileID: 575005292613307448}
@@ -61,6 +62,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5866356131641617024}
   m_RootOrder: 2
@@ -86,10 +88,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4447879565711545387}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 2, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &568539599745844523
 Rigidbody:
@@ -133,18 +135,20 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4398250280754143596}
   - {fileID: 4961952597623434889}
   - {fileID: 730652557511668938}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3993394042852414584
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 5866356131641617024}
     m_Modifications:
     - target: {fileID: 748402288547984660, guid: c620c6aa7f7e88c4b9402e7661d1d279,
@@ -208,16 +212,17 @@ PrefabInstance:
       value: LightDoor_Alone
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c620c6aa7f7e88c4b9402e7661d1d279, type: 3}
---- !u!1 &4398250280754143598 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 748402288547984662, guid: c620c6aa7f7e88c4b9402e7661d1d279,
-    type: 3}
-  m_PrefabInstance: {fileID: 3993394042852414584}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4398250280754143596 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 748402288547984660, guid: c620c6aa7f7e88c4b9402e7661d1d279,
+    type: 3}
+  m_PrefabInstance: {fileID: 3993394042852414584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4398250280754143598 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 748402288547984662, guid: c620c6aa7f7e88c4b9402e7661d1d279,
     type: 3}
   m_PrefabInstance: {fileID: 3993394042852414584}
   m_PrefabAsset: {fileID: 0}
@@ -226,6 +231,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 4961952597623434889}
     m_Modifications:
     - target: {fileID: 3181818087543733026, guid: d332d9230e7418340a8055bb5239e165,
@@ -288,6 +294,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4398250279716389959, guid: d332d9230e7418340a8055bb5239e165,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 5202819318507689766, guid: d332d9230e7418340a8055bb5239e165,
         type: 3}
       propertyPath: Door01
@@ -299,6 +310,7 @@ PrefabInstance:
       value: 0.01232
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d332d9230e7418340a8055bb5239e165, type: 3}
 --- !u!4 &575005292292672094 stripped
 Transform:
@@ -311,6 +323,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 4961952597623434889}
     m_Modifications:
     - target: {fileID: 3181818087543733026, guid: d332d9230e7418340a8055bb5239e165,
@@ -373,12 +386,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4398250279716389959, guid: d332d9230e7418340a8055bb5239e165,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 5202819318507689766, guid: d332d9230e7418340a8055bb5239e165,
         type: 3}
       propertyPath: Door01
       value: 
       objectReference: {fileID: 4398250280754143598}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d332d9230e7418340a8055bb5239e165, type: 3}
 --- !u!4 &575005292613307448 stripped
 Transform:

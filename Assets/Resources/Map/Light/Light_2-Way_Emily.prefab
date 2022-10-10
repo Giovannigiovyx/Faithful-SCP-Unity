@@ -78,7 +78,7 @@ Transform:
   - {fileID: 8967197375731811748}
   - {fileID: 2408206743659708108}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7419885230495513238
 MonoBehaviour:
@@ -349,7 +349,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 15
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -1282,7 +1282,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 15
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -1932,7 +1932,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8967197376105815471}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -4.5, y: 0, z: -2.9}
+  m_LocalPosition: {x: -4.3, y: 0.1, z: -4.7000003}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2270,7 +2270,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 15
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -2923,9 +2923,9 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.11666667
+  m_VoxelSize: 0.07333333
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: cfe61da861f5b334183621066e355fa1, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 7ca69037ac51d294ca6a4af9e85978e0, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &8967197376485497753
 GameObject:
@@ -2952,7 +2952,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8967197376485497753}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -4.5, y: 0, z: -2.8}
+  m_LocalPosition: {x: -4.3, y: 0.1, z: -4.7000003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2967,7 +2967,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8967197376485497753}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.5, y: 2.5, z: 0.05}
@@ -3105,7 +3105,7 @@ MonoBehaviour:
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
-      m_BoxSize: {x: 4.8, y: 5, z: 20}
+      m_BoxSize: {x: 4.8, y: 5, z: 21}
       m_BoxBlendDistancePositive: {x: 0.25, y: 0.25, z: 0.25}
       m_BoxBlendDistanceNegative: {x: 0.25, y: 0.25, z: 0.25}
       m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
@@ -8031,6 +8031,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.495
+      objectReference: {fileID: 0}
+    - target: {fileID: 4321894189022098867, guid: 8b117d26e8560c2458ce6465ec63e1cf,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4416237426726756766, guid: 8b117d26e8560c2458ce6465ec63e1cf,
         type: 3}

@@ -35,7 +35,7 @@ MonoBehaviour:
     customBufferFormat: 12
     supportedLitShaderMode: 2
     planarReflectionResolution:
-      m_Values: 000100000004000000040000
+      m_Values: 800000000002000000040000
       m_SchemaId:
         m_Id: With3Levels
     supportDecals: 1
@@ -68,9 +68,9 @@ MonoBehaviour:
         serializedVersion: 2
         m_Bits: 0
       supportFabricConvolution: 0
-      maxDirectionalLightsOnScreen: 32
-      maxPunctualLightsOnScreen: 256
-      maxAreaLightsOnScreen: 32
+      maxDirectionalLightsOnScreen: 24
+      maxPunctualLightsOnScreen: 128
+      maxAreaLightsOnScreen: 24
       maxEnvLightsOnScreen: 16
       maxDecalsOnScreen: 512
       maxPlanarReflectionOnScreen: 16
@@ -78,20 +78,20 @@ MonoBehaviour:
       maxLocalVolumetricFogSize: 64
       maxLocalVolumetricFogOnScreen: 64
     hdShadowInitParams:
-      maxShadowRequests: 128
+      maxShadowRequests: 100
       directionalShadowsDepthBits: 32
       shadowFilteringQuality: 2
       punctualLightShadowAtlas:
-        shadowAtlasResolution: 4096
+        shadowAtlasResolution: 2048
         shadowAtlasDepthBits: 32
         useDynamicViewportRescale: 1
       areaLightShadowAtlas:
-        shadowAtlasResolution: 4096
+        shadowAtlasResolution: 2048
         shadowAtlasDepthBits: 32
         useDynamicViewportRescale: 1
       cachedPunctualLightShadowAtlas: 4096
       cachedAreaLightShadowAtlas: 4096
-      allowDirectionalMixedCachedShadows: 0
+      allowDirectionalMixedCachedShadows: 1
       shadowResolutionDirectional:
         m_Values: 00010000000200000004000000080000
         m_SchemaId:
@@ -123,7 +123,7 @@ MonoBehaviour:
       enabled: 1
       useMipBias: 1
       enableDLSS: 1
-      DLSSPerfQualitySetting: 1
+      DLSSPerfQualitySetting: 2
       DLSSUseOptimalSettings: 1
       DLSSSharpness: 0.5
       maxPercentage: 100
@@ -179,13 +179,13 @@ MonoBehaviour:
       m_SchemaId:
         m_Id: With3Levels
     lightingQualitySettings:
-      AOStepCount: 040000000400000010000000
-      AOFullRes: 000000
+      AOStepCount: 020000000300000008000000
+      AOFullRes: 000001
       AOMaximumRadiusPixels: 200000002800000050000000
       AOBilateralUpsample: 000101
-      AODirectionCount: 010000000200000004000000
+      AODirectionCount: 010000000200000003000000
       ContactShadowSampleCount: 060000000400000008000000
-      SSRMaxRaySteps: 080000001000000008000000
+      SSRMaxRaySteps: 040000000600000008000000
       SSGIRaySteps: 200000004000000080000000
       SSGIDenoise: 010101
       SSGIHalfResDenoise: 010000
@@ -197,7 +197,7 @@ MonoBehaviour:
       RTAORayLength:
       - 0.5
       - 3
-      - 20
+      - 10
       RTAOSampleCount: 010000000200000008000000
       RTAODenoise: 010101
       RTAODenoiserRadius:
@@ -244,12 +244,12 @@ MonoBehaviour:
       RTRSmoothDenoising: 010000
       Fog_ControlMode: 000000000000000000000000
       Fog_Budget:
-      - 0.166
-      - 0.33
-      - 0.666
+      - 0.2
+      - 0.3
+      - 0.6
       Fog_DepthRatio:
-      - 0.666
-      - 0.666
+      - 0.5
+      - 0.5
       - 0.5
     m_ObsoleteLightLayerName0: 
     m_ObsoleteLightLayerName1: 

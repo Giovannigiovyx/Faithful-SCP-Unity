@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7963026680875886782}
   - component: {fileID: 1958433846392378712}
   - component: {fileID: 1281884163379052881}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Door_Small_Curved_STEP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3cdeeee340aa51f47abebfab8e33b132, type: 2}
+  - {fileID: 2100000, guid: ffb74f40f0f329c49ae9d04be2420121, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,11 +109,11 @@ GameObject:
   - component: {fileID: 7556174643510431042}
   - component: {fileID: 1899404588277561597}
   - component: {fileID: 645918997054558783}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Door_Small_Curved
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6310725080120594189
@@ -150,7 +150,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -159,7 +159,8 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae75782d5eb801a4195cb76625d7238a, type: 2}
+  - {fileID: 2100000, guid: e49da996082f7e44cab44c4c0dedcebe, type: 2}
+  - {fileID: 2100000, guid: e49da996082f7e44cab44c4c0dedcebe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -204,7 +205,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7069820967777918032}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Door_Small_Curved_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -226,5 +227,5 @@ Transform:
   - {fileID: 6310725080120594189}
   - {fileID: 6004328261124068473}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

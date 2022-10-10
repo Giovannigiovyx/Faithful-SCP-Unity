@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6410350607627173175}
   - component: {fileID: 6410350607627174592}
   - component: {fileID: 6410350607627168028}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Door_Small_Simple_OneSide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50,7 +50,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6410350607627182604}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 1
@@ -107,7 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6410350607627179095}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Door_Small_OneSide_ConcreteBlocks
   m_TagString: Concrete
   m_Icon: {fileID: 0}
@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 6410350607627173356}
   - component: {fileID: 6410350607627175168}
   - component: {fileID: 6410350607627168939}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Step
   m_TagString: Untagged
   m_Icon: {fileID: 0}

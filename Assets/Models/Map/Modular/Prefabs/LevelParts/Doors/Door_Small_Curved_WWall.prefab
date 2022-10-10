@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7266968839490007415}
   - component: {fileID: 1258454893138742417}
   - component: {fileID: 1986375375048579224}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Door_Small_Curved_STEP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,11 +109,11 @@ GameObject:
   - component: {fileID: 7099858799077495947}
   - component: {fileID: 1154932868329578804}
   - component: {fileID: 193070788955327478}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Door_Small_Curved
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6759652616550897348
@@ -159,7 +159,8 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fba46f410c8265c46a2d56e309805355, type: 2}
+  - {fileID: 2100000, guid: e49da996082f7e44cab44c4c0dedcebe, type: 2}
+  - {fileID: 2100000, guid: e49da996082f7e44cab44c4c0dedcebe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -204,7 +205,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7513732119884989849}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Door_Small_Curved_WWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}

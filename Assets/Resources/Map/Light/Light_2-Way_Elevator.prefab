@@ -91,7 +91,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 15
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -924,11 +924,11 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 15
+      fadeDistance: 20
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
-      m_BoxSize: {x: 7.3759665, y: 8.632686, z: 20}
+      m_BoxSize: {x: 7.3759665, y: 8.632686, z: 21}
       m_BoxBlendDistancePositive: {x: 0.125, y: 0.125, z: 0.125}
       m_BoxBlendDistanceNegative: {x: 0.125, y: 0.125, z: 0.125}
       m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
@@ -1687,7 +1687,7 @@ MonoBehaviour:
   m_ShadowResolution:
     m_Override: 512
     m_UseOverride: 0
-    m_Level: 3
+    m_Level: 2
   m_ShadowDimmer: 1
   m_VolumetricShadowDimmer: 1
   m_ShadowFadeDistance: 30
@@ -1827,9 +1827,9 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.11666667
+  m_VoxelSize: 0.07333333
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: a7d258f898e5310499cec75042949112, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 27de6b0e26679654cb5df35dc6fe12a4, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &8921227585706766081
 GameObject:
@@ -5768,40 +5768,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 2133431959603252931}
     m_Modifications:
+    - target: {fileID: 2351938766331378393, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2351938766331378393, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2351938766331378393, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2573640454366300296, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
         type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2661849929538559481, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 2661849929538559481, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2837269078720538676, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
-        type: 3}
-      propertyPath: scp173
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2837269078720538676, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
-        type: 3}
-      propertyPath: ignoreSave
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2837269078720538676, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
-        type: 3}
-      propertyPath: switchOpen
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2872566912411261639, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
-        type: 3}
-      propertyPath: m_Width
-      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 5404534713671246811, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
         type: 3}
