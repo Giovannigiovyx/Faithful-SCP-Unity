@@ -1,38 +1,41 @@
 fileFormatVersion: 2
-guid: 21e84748ba0d4e3428c6d033519cfd88
+guid: d3733ae0654aa75499c29cc285ebf838
 ModelImporter:
   serializedVersion: 22103
   internalIDToNameTable:
   - first:
       1: 100000
-    second: //RootNode
+    second: Body
   - first:
       1: 100002
-    second: Group
-  - first:
-      4: 400000
     second: //RootNode
   - first:
+      4: 400000
+    second: Body
+  - first:
       4: 400002
-    second: Group
+    second: //RootNode
   - first:
       21: 2100000
-    second: Material03
+    second: def_surf_mat
   - first:
       23: 2300000
-    second: Group
+    second: Body
   - first:
       33: 3300000
-    second: Group
+    second: Body
   - first:
       43: 4300000
-    second: Group
+    second: Body
+  - first:
+      64: 6400000
+    second: Body
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material03
-    second: {fileID: 2100000, guid: ed1cc66a89190ee4ea28a2a86f4ff9ea, type: 2}
+      name: def_surf_mat
+    second: {fileID: 2100000, guid: a85156fd804a2494e9c202476e5254e6, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -64,7 +67,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 2.25
+    globalScale: 3
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -118,7 +121,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 2.25
+    globalScale: 3
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

@@ -108,7 +108,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.824766, b: 0.740566, a: 1}
   m_Intensity: 79.57747
-  m_Range: 6
+  m_Range: 5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -325,7 +325,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 79.57747
-  m_Range: 6
+  m_Range: 5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -587,7 +587,7 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 20
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
@@ -743,7 +743,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -1010,7 +1010,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 79.57747
-  m_Range: 6
+  m_Range: 5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -1227,7 +1227,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 79.57747
-  m_Range: 6
+  m_Range: 5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -1444,7 +1444,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 79.57747
-  m_Range: 6
+  m_Range: 5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -1724,7 +1724,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 79.57747
-  m_Range: 6
+  m_Range: 5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -1941,7 +1941,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.824766, b: 0.740566, a: 1}
   m_Intensity: 79.57747
-  m_Range: 6
+  m_Range: 5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -2203,13 +2203,13 @@ MonoBehaviour:
       multiplier: 1
       weight: 1
       lightLayer: 1
-      fadeDistance: 20
+      fadeDistance: 10
       rangeCompressionFactor: 1
     influence:
       m_Shape: 0
       m_BoxSize: {x: 15.130354, y: 6.173933, z: 10.275829}
-      m_BoxBlendDistancePositive: {x: 0.25, y: 0.25, z: 0.25}
-      m_BoxBlendDistanceNegative: {x: 0.25, y: 0.25, z: 0.25}
+      m_BoxBlendDistancePositive: {x: 0.125, y: 0.125, z: 0.125}
+      m_BoxBlendDistanceNegative: {x: 0.125, y: 0.125, z: 0.125}
       m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
       m_BoxBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
       m_BoxSideFadePositive: {x: 1, y: 1, z: 1}
@@ -2359,7 +2359,7 @@ MonoBehaviour:
           enableBigTilePrepass: 0
           isFptlEnabled: 0
     roughReflections: 1
-    distanceBasedRoughness: 0
+    distanceBasedRoughness: 1
   m_ProbeSettingsOverride:
     probe: 0
     camera:
@@ -2626,7 +2626,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1767.6278
-  m_Range: 6
+  m_Range: 5
   m_SpotAngle: 49
   m_InnerSpotAngle: 23.540472
   m_CookieSize: 10
@@ -3278,7 +3278,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8308941031193576875
 Transform:
   m_ObjectHideFlags: 0
@@ -3463,7 +3463,7 @@ Transform:
   - {fileID: 5455322555168116489}
   - {fileID: 4012287408358733348}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1539422271760762372
 MonoBehaviour:
@@ -3587,7 +3587,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1698.6992
-  m_Range: 6
+  m_Range: 5
   m_SpotAngle: 50
   m_InnerSpotAngle: 30.39977
   m_CookieSize: 10
@@ -3804,7 +3804,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5440564770750290375
 Transform:
   m_ObjectHideFlags: 0
@@ -3844,11 +3844,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 683df47c0e23a7845b941da0e957b917, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.7500003
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 683df47c0e23a7845b941da0e957b917, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.7500003
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 683df47c0e23a7845b941da0e957b917, type: 3}
       propertyPath: m_LocalScale.z
@@ -3868,19 +3868,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 683df47c0e23a7845b941da0e957b917, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 0.5000007
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 683df47c0e23a7845b941da0e957b917, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.7065204
+      value: 0.4999993
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 683df47c0e23a7845b941da0e957b917, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7076927
+      value: 0.4999993
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 683df47c0e23a7845b941da0e957b917, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.5000007
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 683df47c0e23a7845b941da0e957b917, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3888,11 +3888,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 683df47c0e23a7845b941da0e957b917, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 683df47c0e23a7845b941da0e957b917, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 89.90501
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 683df47c0e23a7845b941da0e957b917, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
