@@ -700,7 +700,7 @@ public class GameController : MonoBehaviour
         Debug.Log("Horror Update " + value);
         if (worldName!=Worlds.pocket)
         {
-            HorrorFov.fieldOfView = 65 + (7 * value);
+            HorrorFov.fieldOfView = 75 + (7 * value);
         }
 
         HorrorVol.weight = value;
@@ -1231,7 +1231,7 @@ public class GameController : MonoBehaviour
                 }
             default:
                 {
-                    shadowQuality = ShadowResolution.High;
+                    shadowQuality = ShadowResolution.VeryHigh;
                     break;
                 }
         }

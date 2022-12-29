@@ -128,7 +128,7 @@ Transform:
   - {fileID: 131763995672319079}
   - {fileID: 7599642834684661303}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2451240332045027425
 MonoBehaviour:
@@ -155,7 +155,7 @@ MonoBehaviour:
   lerpTime: 0.6
   doorDis: 1.2
   animDampSpeed: 3
-  _controller: {fileID: 0}
+  _controller: {fileID: 4327362704260651162}
   Puppet_Mesh: {fileID: 4003497204603610740}
   DoorLay:
     serializedVersion: 2

@@ -106,7 +106,7 @@ MonoBehaviour:
           m_Id: With4Levels
       maxDirectionalShadowMapResolution: 2048
       maxPunctualShadowMapResolution: 2048
-      maxAreaShadowMapResolution: 1024
+      maxAreaShadowMapResolution: 2048
       supportScreenSpaceShadows: 1
       maxScreenSpaceShadowSlots: 4
       screenSpaceShadowBufferFormat: 48
@@ -129,7 +129,7 @@ MonoBehaviour:
       maxPercentage: 100
       minPercentage: 50
       dynResType: 1
-      upsampleFilter: 1
+      upsampleFilter: 4
       forceResolution: 0
       forcedPercentage: 100
       lowResTransparencyMinimumThreshold: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
       ChromaticAberrationMaxSamples: 030000000400000006000000
     lightSettings:
       useContactShadow:
-        m_Values: 000000
+        m_Values: 010101
         m_SchemaId:
           m_Id: With3Levels
     maximumLODLevel:
@@ -184,7 +184,7 @@ MonoBehaviour:
       AOMaximumRadiusPixels: 200000002800000050000000
       AOBilateralUpsample: 000101
       AODirectionCount: 010000000200000003000000
-      ContactShadowSampleCount: 060000000400000008000000
+      ContactShadowSampleCount: 040000000600000008000000
       SSRMaxRaySteps: 040000000600000008000000
       SSGIRaySteps: 200000004000000080000000
       SSGIDenoise: 010101

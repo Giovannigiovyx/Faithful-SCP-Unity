@@ -299,12 +299,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: scp-939_licker_diffusetest01.bmp
-    second: {fileID: 2100000, guid: 4b260b3dd8e8af14cb07b9990e285e2f, type: 2}
+    second: {fileID: 2100000, guid: 96db2e9ee1f7ab449a1344bb09d3c7de, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: scp-939_licker_extremities2.bmp
-    second: {fileID: 2100000, guid: 245f72ab885282546889b3f2e90779b4, type: 2}
+    second: {fileID: 2100000, guid: 159529d759c86a14b8b0d96835509cda, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

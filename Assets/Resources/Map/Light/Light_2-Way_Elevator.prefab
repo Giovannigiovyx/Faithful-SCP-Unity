@@ -5771,21 +5771,36 @@ PrefabInstance:
     - target: {fileID: 2351938766331378393, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.5
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2351938766331378393, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.5
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2351938766331378393, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
         type: 3}
       propertyPath: m_Size.z
-      value: 0.5
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2351938766331378393, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2573640454366300296, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2837269078720538676, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
+        type: 3}
+      propertyPath: scp173
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2837269078720538676, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
+        type: 3}
+      propertyPath: ignoreSave
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5404534713671246811, guid: a9d5b6c75c132ef4e9e2aafd2dbca369,
