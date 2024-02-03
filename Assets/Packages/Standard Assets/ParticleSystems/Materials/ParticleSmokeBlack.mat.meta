@@ -3,3 +3,10 @@ guid: fc626cffedc907848a7b47b87aa5e34f
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 
+  assetPath: Assets/Packages/Standard Assets/ParticleSystems/Materials/ParticleSmokeBlack.mat
+  uploadId: 0

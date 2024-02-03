@@ -3,3 +3,10 @@ guid: 7911795df27dd464190eed77dda90191
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 
+  assetPath: Assets/Packages/Standard Assets/ParticleSystems/Materials/ParticleDuststorm.mat
+  uploadId: 0

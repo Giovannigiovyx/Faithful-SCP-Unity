@@ -3,3 +3,10 @@ guid: c50d77affeb31e14c9c062c282f13fc8
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 
+  assetPath: Assets/Packages/Standard Assets/ParticleSystems/Materials/ParticleSmokeWhite.mat
+  uploadId: 0

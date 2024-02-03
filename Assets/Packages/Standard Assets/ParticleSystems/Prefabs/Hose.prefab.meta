@@ -3,3 +3,10 @@ guid: fae5d333f43a55744ab0c44fecefdcae
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 
+  assetPath: Assets/Packages/Standard Assets/ParticleSystems/Prefabs/Hose.prefab
+  uploadId: 0

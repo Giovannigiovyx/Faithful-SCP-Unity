@@ -3,3 +3,10 @@ guid: 999388b68bb99b44099461bfbed94358
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 
+  assetPath: Assets/Packages/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab
+  uploadId: 0

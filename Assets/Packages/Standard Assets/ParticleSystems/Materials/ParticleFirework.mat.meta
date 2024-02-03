@@ -3,3 +3,10 @@ guid: 9f3080141f1f64197825663e067f94f8
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 
+  assetPath: Assets/Packages/Standard Assets/ParticleSystems/Materials/ParticleFirework.mat
+  uploadId: 0

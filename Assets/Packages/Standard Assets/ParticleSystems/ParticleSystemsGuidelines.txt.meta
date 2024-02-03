@@ -3,3 +3,10 @@ guid: 2909cb28371e6664b88130f37d454605
 TextScriptImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 
+  assetPath: Assets/Packages/Standard Assets/ParticleSystems/ParticleSystemsGuidelines.txt
+  uploadId: 0

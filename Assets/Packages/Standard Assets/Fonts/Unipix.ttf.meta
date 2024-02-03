@@ -17,3 +17,10 @@ TrueTypeFontImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 1.1.6
+  assetPath: Assets/Packages/Standard Assets/Fonts/Unipix.ttf
+  uploadId: 361648

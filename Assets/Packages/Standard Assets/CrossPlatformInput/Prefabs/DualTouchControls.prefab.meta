@@ -3,3 +3,10 @@ guid: 2169821f0567671499a5c10104c69c24
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 
+  assetPath: Assets/Packages/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab
+  uploadId: 0

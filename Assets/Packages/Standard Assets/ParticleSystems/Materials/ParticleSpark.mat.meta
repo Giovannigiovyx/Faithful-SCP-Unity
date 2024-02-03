@@ -3,3 +3,10 @@ guid: f63c576739a709747a1a571260d4fabd
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 
+  assetPath: Assets/Packages/Standard Assets/ParticleSystems/Materials/ParticleSpark.mat
+  uploadId: 0

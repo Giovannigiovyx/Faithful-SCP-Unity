@@ -3,3 +3,10 @@ guid: 21543d2b66928224f8a9536ff3811682
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 
+  assetPath: Assets/Packages/Standard Assets/Effects/Projectors/Prefabs/BlobLightProjector.prefab
+  uploadId: 0

@@ -3,3 +3,10 @@ guid: ed1c797ec3736704db03a0d64d010e33
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 
+  assetPath: Assets/Packages/Standard Assets/ParticleSystems/Prefabs/DustStormMobile.prefab
+  uploadId: 0

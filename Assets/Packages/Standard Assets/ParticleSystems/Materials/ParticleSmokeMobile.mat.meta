@@ -3,3 +3,10 @@ guid: 473d6d3ec0d161b4a85e466c8c6da3fb
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 
+  assetPath: Assets/Packages/Standard Assets/ParticleSystems/Materials/ParticleSmokeMobile.mat
+  uploadId: 0

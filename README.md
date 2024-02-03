@@ -1,4 +1,4 @@
-SCP - Remake Unity 2022.1.16f1
+SCP - Remake Unity 2023.2.7f1
 
 ---------------------------------------
 Built on Unity HDRP

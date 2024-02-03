@@ -3,3 +3,10 @@ guid: c8c80c5b03f5c7e40b07eb2170e667e5
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 
+  assetPath: Assets/Packages/Standard Assets/Effects/Projectors/Materials/LightProjector.mat
+  uploadId: 0

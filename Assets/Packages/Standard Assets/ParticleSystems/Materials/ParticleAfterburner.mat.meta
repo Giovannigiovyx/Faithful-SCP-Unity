@@ -3,3 +3,10 @@ guid: 89ff19d667a6a5d4bb76df1fcb718402
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 
+  assetPath: Assets/Packages/Standard Assets/ParticleSystems/Materials/ParticleAfterburner.mat
+  uploadId: 0

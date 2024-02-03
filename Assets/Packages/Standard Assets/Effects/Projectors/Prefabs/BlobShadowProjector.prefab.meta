@@ -3,3 +3,10 @@ guid: 28a5e79925e3ce04a82856c16a572cbe
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32351
+  packageName: Standard Assets (for Unity 2018.4)
+  packageVersion: 
+  assetPath: Assets/Packages/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab
+  uploadId: 0
